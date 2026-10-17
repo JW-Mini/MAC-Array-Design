@@ -1,0 +1,94 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2016 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v16.20-p002_1, built Tue Nov 8 11:31:23 PST 2016
+Options:	
+Date:		Wed Jun 10 11:00:09 2026
+Host:		alfred.ece.northwestern.edu (x86_64 w/Linux 4.18.0-553.125.1.el8_10.x86_64) (8cores*8cpus*Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz 12288KB)
+OS:		Red Hat Enterprise Linux release 8.10 (Ootpa)
+
+License:
+		invs	Innovus Implementation System	16.2	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getDrawView
+<CMD> loadWorkspace -name Physical
+<CMD> win
+<CMD> set init_gnd_net VSS
+<CMD> set init_lef_file /vol/ece303/genus_tutorial/NangateOpenCellLibrary.lef
+<CMD> set init_design_settop 0
+<CMD> set init_verilog ../Genus/MAC_Lab3_syn.v
+<CMD> set init_mmmc_file float16_multiplier.view
+<CMD> set init_pwr_net VDD
+<CMD> init_design
+#- Begin Load MMMC data ... (date=06/10 11:03:51, mem=504.8M)
+**ERROR: (TCLCMD-989):	cannot open SDC file '../Genus/MAC_Lab3.sdc' for mode 'sdc'
+<CMD> set init_gnd_net VSS
+<CMD> set init_lef_file /vol/ece303/genus_tutorial/NangateOpenCellLibrary.lef
+<CMD> set init_design_settop 0
+<CMD> set init_verilog ../Genus/MAC_Lab3_syn.v
+<CMD> set init_mmmc_file float16_multiplier.view
+<CMD> set init_pwr_net VDD
+<CMD> init_design
+- Begin Load MMMC data ... (date=06/10 11:04:55, mem=506.2M)
+- End Load MMMC data ... (date=06/10 11:04:55, total cpu=0:00:00.0, real=0:00:00.0, peak res=53.2M, current mem=506.2M)
+rc
+**WARN: (GLOBAL-100):	Global 'timing_disable_backward_compatible_mmmc_mode' has become obsolete. It will be removed in the next release.
+
+Loading LEF file /vol/ece303/genus_tutorial/NangateOpenCellLibrary.lef ...
+Set DBUPerIGU to M2 pitch 380.
+
+viaInitial starts at Wed Jun 10 11:04:55 2026
+viaInitial ends at Wed Jun 10 11:04:55 2026
+Loading view definition file from float16_multiplier.view
+Reading lib timing library '/vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib' ...
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+Message <TECHLIB-436> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Read 134 cells in library 'NangateOpenCellLibrary' 
+*** End library_loading (cpu=0.00min, mem=0.0M, fe_cpu=0.26min, fe_real=4.77min, fe_mem=525.4M) ***
+- Begin Load netlist data ... (date=06/10 11:04:55, mem=525.4M)
+*** Begin netlist parsing (mem=525.4M) ***
+Created 134 new cells from 1 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+**ERROR: (IMPVL-305):	port VDD of module systolic_array not declared input/output/inout.
+**ERROR: (IMPVL-305):	port VSS of module systolic_array not declared input/output/inout.
+**ERROR: (IMPVL-209):	In Verilog file '../Genus/MAC_Lab3_syn.v', check line 8737 near the text endmodule for the issue: 'undeclared ports'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+Verilog file '../Genus/MAC_Lab3_syn.v' has errors!  See above.
+
+*** Memory Usage v#1 (Current mem = 525.418M, initial mem = 175.422M) ***
+- End Load netlist data ... (date=06/10 11:04:55, total cpu=0:00:00.0, real=0:00:00.0, peak res=69.8M, current mem=525.4M)
+**ERROR: **ERROR: (IMPVL-902):	Failed to read netlist ../Genus/MAC_Lab3_syn.v. See previous error messages for details.  Resolve the issues and reload the design.
+
+invalid command name "QUIT"
+invalid command name "quit"
+
+*** Memory Usage v#1 (Current mem = 525.418M, initial mem = 175.422M) ***
+*** Message Summary: 0 warning(s), 5 error(s)
+
+--- Ending "Innovus" (totcpu=0:00:16.8, real=0:05:11, mem=525.4M) ---

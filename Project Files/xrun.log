@@ -1,0 +1,642 @@
+xrun(64): 18.09-s011: (c) Copyright 1995-2019 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	18.09-s011: Started on Jun 10, 2026 at 15:57:34 CDT
+xrun
+	-64bit
+	-gui
+	-access r
+	-xmelab_args "-warnmax 0 -delay_mode zero -maxdelays"
+	./Synthesis/Genus/MAC_Lab3_syn.v
+	MAC_Lab3_test.v
+	/vol/ece303/genus_tutorial/NangateOpenCellLibrary.v
+file: ./Synthesis/Genus/MAC_Lab3_syn.v
+	module worklib.systolic_array:v
+		errors: 0, warnings: 0
+file: MAC_Lab3_test.v
+	module worklib.MAC_Lab3_test:v
+		errors: 0, warnings: 0
+file: /vol/ece303/genus_tutorial/NangateOpenCellLibrary.v
+	module worklib.AND2_X1:v
+		errors: 0, warnings: 0
+	module worklib.AND2_X2:v
+		errors: 0, warnings: 0
+	module worklib.AND2_X4:v
+		errors: 0, warnings: 0
+	module worklib.AND3_X1:v
+		errors: 0, warnings: 0
+	module worklib.AND3_X2:v
+		errors: 0, warnings: 0
+	module worklib.AND3_X4:v
+		errors: 0, warnings: 0
+	module worklib.AND4_X1:v
+		errors: 0, warnings: 0
+	module worklib.AND4_X2:v
+		errors: 0, warnings: 0
+	module worklib.AND4_X4:v
+		errors: 0, warnings: 0
+	module worklib.ANTENNA_X1:v
+		errors: 0, warnings: 0
+	module worklib.AOI211_X1:v
+		errors: 0, warnings: 0
+	module worklib.AOI211_X2:v
+		errors: 0, warnings: 0
+	module worklib.AOI211_X4:v
+		errors: 0, warnings: 0
+	module worklib.AOI21_X1:v
+		errors: 0, warnings: 0
+	module worklib.AOI21_X2:v
+		errors: 0, warnings: 0
+	module worklib.AOI21_X4:v
+		errors: 0, warnings: 0
+	module worklib.AOI221_X1:v
+		errors: 0, warnings: 0
+	module worklib.AOI221_X2:v
+		errors: 0, warnings: 0
+	module worklib.AOI221_X4:v
+		errors: 0, warnings: 0
+	module worklib.AOI222_X1:v
+		errors: 0, warnings: 0
+	module worklib.AOI222_X2:v
+		errors: 0, warnings: 0
+	module worklib.AOI222_X4:v
+		errors: 0, warnings: 0
+	module worklib.AOI22_X1:v
+		errors: 0, warnings: 0
+	module worklib.AOI22_X2:v
+		errors: 0, warnings: 0
+	module worklib.AOI22_X4:v
+		errors: 0, warnings: 0
+	module worklib.BUF_X1:v
+		errors: 0, warnings: 0
+	module worklib.BUF_X16:v
+		errors: 0, warnings: 0
+	module worklib.BUF_X2:v
+		errors: 0, warnings: 0
+	module worklib.BUF_X32:v
+		errors: 0, warnings: 0
+	module worklib.BUF_X4:v
+		errors: 0, warnings: 0
+	module worklib.BUF_X8:v
+		errors: 0, warnings: 0
+	module worklib.CLKBUF_X1:v
+		errors: 0, warnings: 0
+	module worklib.CLKBUF_X2:v
+		errors: 0, warnings: 0
+	module worklib.CLKBUF_X3:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_CLKGATETST_X1:v
+		errors: 0, warnings: 0
+	module worklib.CLKGATETST_X1:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_CLKGATETST_X2:v
+		errors: 0, warnings: 0
+	module worklib.CLKGATETST_X2:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_CLKGATETST_X4:v
+		errors: 0, warnings: 0
+	module worklib.CLKGATETST_X4:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_CLKGATETST_X8:v
+		errors: 0, warnings: 0
+	module worklib.CLKGATETST_X8:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_CLKGATE_X1:v
+		errors: 0, warnings: 0
+	module worklib.CLKGATE_X1:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_CLKGATE_X2:v
+		errors: 0, warnings: 0
+	module worklib.CLKGATE_X2:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_CLKGATE_X4:v
+		errors: 0, warnings: 0
+	module worklib.CLKGATE_X4:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_CLKGATE_X8:v
+		errors: 0, warnings: 0
+	module worklib.CLKGATE_X8:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_DFFRS_X1:v
+		errors: 0, warnings: 0
+	module worklib.DFFRS_X1:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_DFFRS_X2:v
+		errors: 0, warnings: 0
+	module worklib.DFFRS_X2:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_DFFR_X1:v
+		errors: 0, warnings: 0
+	module worklib.DFFR_X1:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_DFFR_X2:v
+		errors: 0, warnings: 0
+	module worklib.DFFR_X2:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_DFFS_X1:v
+		errors: 0, warnings: 0
+	module worklib.DFFS_X1:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_DFFS_X2:v
+		errors: 0, warnings: 0
+	module worklib.DFFS_X2:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_DFF_X1:v
+		errors: 0, warnings: 0
+	module worklib.DFF_X1:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_DFF_X2:v
+		errors: 0, warnings: 0
+	module worklib.DFF_X2:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_DLH_X1:v
+		errors: 0, warnings: 0
+	module worklib.DLH_X1:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_DLH_X2:v
+		errors: 0, warnings: 0
+	module worklib.DLH_X2:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_DLL_X1:v
+		errors: 0, warnings: 0
+	module worklib.DLL_X1:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_DLL_X2:v
+		errors: 0, warnings: 0
+	module worklib.DLL_X2:v
+		errors: 0, warnings: 0
+	module worklib.FA_X1:v
+		errors: 0, warnings: 0
+	module worklib.FILLCELL_X1:v
+		errors: 0, warnings: 0
+	module worklib.FILLCELL_X2:v
+		errors: 0, warnings: 0
+	module worklib.FILLCELL_X4:v
+		errors: 0, warnings: 0
+	module worklib.FILLCELL_X8:v
+		errors: 0, warnings: 0
+	module worklib.FILLCELL_X16:v
+		errors: 0, warnings: 0
+	module worklib.FILLCELL_X32:v
+		errors: 0, warnings: 0
+	module worklib.HA_X1:v
+		errors: 0, warnings: 0
+	module worklib.INV_X1:v
+		errors: 0, warnings: 0
+	module worklib.INV_X16:v
+		errors: 0, warnings: 0
+	module worklib.INV_X2:v
+		errors: 0, warnings: 0
+	module worklib.INV_X32:v
+		errors: 0, warnings: 0
+	module worklib.INV_X4:v
+		errors: 0, warnings: 0
+	module worklib.INV_X8:v
+		errors: 0, warnings: 0
+	module worklib.LOGIC0_X1:v
+		errors: 0, warnings: 0
+	module worklib.LOGIC1_X1:v
+		errors: 0, warnings: 0
+	module worklib.MUX2_X1:v
+		errors: 0, warnings: 0
+	module worklib.MUX2_X2:v
+		errors: 0, warnings: 0
+	module worklib.NAND2_X1:v
+		errors: 0, warnings: 0
+	module worklib.NAND2_X2:v
+		errors: 0, warnings: 0
+	module worklib.NAND2_X4:v
+		errors: 0, warnings: 0
+	module worklib.NAND3_X1:v
+		errors: 0, warnings: 0
+	module worklib.NAND3_X2:v
+		errors: 0, warnings: 0
+	module worklib.NAND3_X4:v
+		errors: 0, warnings: 0
+	module worklib.NAND4_X1:v
+		errors: 0, warnings: 0
+	module worklib.NAND4_X2:v
+		errors: 0, warnings: 0
+	module worklib.NAND4_X4:v
+		errors: 0, warnings: 0
+	module worklib.NOR2_X1:v
+		errors: 0, warnings: 0
+	module worklib.NOR2_X2:v
+		errors: 0, warnings: 0
+	module worklib.NOR2_X4:v
+		errors: 0, warnings: 0
+	module worklib.NOR3_X1:v
+		errors: 0, warnings: 0
+	module worklib.NOR3_X2:v
+		errors: 0, warnings: 0
+	module worklib.NOR3_X4:v
+		errors: 0, warnings: 0
+	module worklib.NOR4_X1:v
+		errors: 0, warnings: 0
+	module worklib.NOR4_X2:v
+		errors: 0, warnings: 0
+	module worklib.NOR4_X4:v
+		errors: 0, warnings: 0
+	module worklib.OAI211_X1:v
+		errors: 0, warnings: 0
+	module worklib.OAI211_X2:v
+		errors: 0, warnings: 0
+	module worklib.OAI211_X4:v
+		errors: 0, warnings: 0
+	module worklib.OAI21_X1:v
+		errors: 0, warnings: 0
+	module worklib.OAI21_X2:v
+		errors: 0, warnings: 0
+	module worklib.OAI21_X4:v
+		errors: 0, warnings: 0
+	module worklib.OAI221_X1:v
+		errors: 0, warnings: 0
+	module worklib.OAI221_X2:v
+		errors: 0, warnings: 0
+	module worklib.OAI221_X4:v
+		errors: 0, warnings: 0
+	module worklib.OAI222_X1:v
+		errors: 0, warnings: 0
+	module worklib.OAI222_X2:v
+		errors: 0, warnings: 0
+	module worklib.OAI222_X4:v
+		errors: 0, warnings: 0
+	module worklib.OAI22_X1:v
+		errors: 0, warnings: 0
+	module worklib.OAI22_X2:v
+		errors: 0, warnings: 0
+	module worklib.OAI22_X4:v
+		errors: 0, warnings: 0
+	module worklib.OAI33_X1:v
+		errors: 0, warnings: 0
+	module worklib.OR2_X1:v
+		errors: 0, warnings: 0
+	module worklib.OR2_X2:v
+		errors: 0, warnings: 0
+	module worklib.OR2_X4:v
+		errors: 0, warnings: 0
+	module worklib.OR3_X1:v
+		errors: 0, warnings: 0
+	module worklib.OR3_X2:v
+		errors: 0, warnings: 0
+	module worklib.OR3_X4:v
+		errors: 0, warnings: 0
+	module worklib.OR4_X1:v
+		errors: 0, warnings: 0
+	module worklib.OR4_X2:v
+		errors: 0, warnings: 0
+	module worklib.OR4_X4:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_SDFFRS_X1:v
+		errors: 0, warnings: 0
+	module worklib.SDFFRS_X1:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_SDFFRS_X2:v
+		errors: 0, warnings: 0
+	module worklib.SDFFRS_X2:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_SDFFR_X1:v
+		errors: 0, warnings: 0
+	module worklib.SDFFR_X1:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_SDFFR_X2:v
+		errors: 0, warnings: 0
+	module worklib.SDFFR_X2:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_SDFFS_X1:v
+		errors: 0, warnings: 0
+	module worklib.SDFFS_X1:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_SDFFS_X2:v
+		errors: 0, warnings: 0
+	module worklib.SDFFS_X2:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_SDFF_X1:v
+		errors: 0, warnings: 0
+	module worklib.SDFF_X1:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_SDFF_X2:v
+		errors: 0, warnings: 0
+	module worklib.SDFF_X2:v
+		errors: 0, warnings: 0
+	module worklib.TBUF_X1:v
+		errors: 0, warnings: 0
+	module worklib.TBUF_X16:v
+		errors: 0, warnings: 0
+	module worklib.TBUF_X2:v
+		errors: 0, warnings: 0
+	module worklib.TBUF_X4:v
+		errors: 0, warnings: 0
+	module worklib.TBUF_X8:v
+		errors: 0, warnings: 0
+	module worklib.TINV_X1:v
+		errors: 0, warnings: 0
+	primitive worklib.seq_TLAT_X1:v
+		errors: 0, warnings: 0
+	module worklib.TLAT_X1:v
+		errors: 0, warnings: 0
+	module worklib.XNOR2_X1:v
+		errors: 0, warnings: 0
+	module worklib.XNOR2_X2:v
+		errors: 0, warnings: 0
+	module worklib.XOR2_X1:v
+		errors: 0, warnings: 0
+	module worklib.XOR2_X2:v
+		errors: 0, warnings: 0
+	primitive worklib.ng_xbuf:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+    systolic_array testArray (
+                           |
+xmelab: *W,CUVWSB (./MAC_Lab3_test.v,9|27): 2 inout ports were not connected:
+xmelab: (./Synthesis/Genus/MAC_Lab3_syn.v,8): VDD
+xmelab: (./Synthesis/Genus/MAC_Lab3_syn.v,8): VSS
+
+	Top level design units:
+		MAC_Lab3_test
+		AND2_X2
+		AND2_X4
+		AND3_X1
+		AND3_X2
+		AND3_X4
+		AND4_X1
+		AND4_X2
+		AND4_X4
+		ANTENNA_X1
+		AOI211_X1
+		AOI211_X2
+		AOI211_X4
+		AOI21_X2
+		AOI21_X4
+		AOI221_X1
+		AOI221_X2
+		AOI221_X4
+		AOI222_X1
+		AOI222_X2
+		AOI222_X4
+		AOI22_X2
+		AOI22_X4
+		BUF_X1
+		BUF_X16
+		BUF_X2
+		BUF_X32
+		BUF_X4
+		BUF_X8
+		CLKBUF_X2
+		CLKBUF_X3
+		CLKGATETST_X1
+		CLKGATETST_X2
+		CLKGATETST_X4
+		CLKGATETST_X8
+		CLKGATE_X1
+		CLKGATE_X2
+		CLKGATE_X4
+		CLKGATE_X8
+		DFFRS_X1
+		DFFRS_X2
+		DFFR_X2
+		DFFS_X1
+		DFFS_X2
+		DFF_X1
+		DFF_X2
+		DLH_X1
+		DLH_X2
+		DLL_X1
+		DLL_X2
+		FILLCELL_X1
+		FILLCELL_X2
+		FILLCELL_X4
+		FILLCELL_X8
+		FILLCELL_X16
+		FILLCELL_X32
+		INV_X16
+		INV_X2
+		INV_X32
+		INV_X8
+		LOGIC0_X1
+		LOGIC1_X1
+		MUX2_X1
+		MUX2_X2
+		NAND2_X2
+		NAND2_X4
+		NAND3_X1
+		NAND3_X2
+		NAND3_X4
+		NAND4_X1
+		NAND4_X2
+		NAND4_X4
+		NOR2_X2
+		NOR2_X4
+		NOR3_X1
+		NOR3_X2
+		NOR3_X4
+		NOR4_X1
+		NOR4_X2
+		NOR4_X4
+		OAI211_X1
+		OAI211_X2
+		OAI211_X4
+		OAI21_X2
+		OAI21_X4
+		OAI221_X1
+		OAI221_X2
+		OAI221_X4
+		OAI222_X1
+		OAI222_X2
+		OAI222_X4
+		OAI22_X2
+		OAI22_X4
+		OAI33_X1
+		OR2_X1
+		OR2_X2
+		OR3_X1
+		OR3_X2
+		OR3_X4
+		OR4_X1
+		OR4_X2
+		OR4_X4
+		SDFFRS_X1
+		SDFFRS_X2
+		SDFFR_X2
+		SDFFS_X1
+		SDFFS_X2
+		SDFF_X1
+		SDFF_X2
+		TBUF_X1
+		TBUF_X16
+		TBUF_X2
+		TBUF_X4
+		TBUF_X8
+		TINV_X1
+		TLAT_X1
+		XNOR2_X2
+		XOR2_X2
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.XOR2_X2:v <0x59197c49>
+			streams:   0, words:     0
+		worklib.XNOR2_X2:v <0x4e63dfad>
+			streams:   0, words:     0
+		worklib.TLAT_X1:v <0x560567fb>
+			streams:   0, words:     0
+		worklib.SDFF_X2:v <0x1ea67da5>
+			streams:   0, words:     0
+		worklib.SDFF_X1:v <0x5a6ba599>
+			streams:   0, words:     0
+		worklib.SDFFS_X2:v <0x4ee552fc>
+			streams:   0, words:     0
+		worklib.SDFFS_X1:v <0x09c1498e>
+			streams:   0, words:     0
+		worklib.SDFFR_X2:v <0x67410a16>
+			streams:   0, words:     0
+		worklib.SDFFRS_X2:v <0x40703257>
+			streams:   0, words:     0
+		worklib.SDFFRS_X1:v <0x02b43877>
+			streams:   0, words:     0
+		worklib.OAI33_X1:v <0x25047510>
+			streams:   0, words:     0
+		worklib.OAI22_X4:v <0x7e9c0fda>
+			streams:   0, words:     0
+		worklib.OAI22_X2:v <0x224b3235>
+			streams:   0, words:     0
+		worklib.OAI222_X4:v <0x4285ab0e>
+			streams:   0, words:     0
+		worklib.OAI222_X2:v <0x1a73166a>
+			streams:   0, words:     0
+		worklib.OAI222_X1:v <0x0bac79ad>
+			streams:   0, words:     0
+		worklib.OAI221_X4:v <0x7d3d3790>
+			streams:   0, words:     0
+		worklib.OAI221_X2:v <0x6c01d213>
+			streams:   0, words:     0
+		worklib.OAI221_X1:v <0x02788203>
+			streams:   0, words:     0
+		worklib.OAI21_X4:v <0x53e09895>
+			streams:   0, words:     0
+		worklib.OAI21_X2:v <0x5937849a>
+			streams:   0, words:     0
+		worklib.OAI211_X4:v <0x48f9804f>
+			streams:   0, words:     0
+		worklib.OAI211_X2:v <0x11abfec5>
+			streams:   0, words:     0
+		worklib.OAI211_X1:v <0x65f199c9>
+			streams:   0, words:     0
+		worklib.MUX2_X2:v <0x54cb5e99>
+			streams:   0, words:     0
+		worklib.MUX2_X1:v <0x28d2edbd>
+			streams:   0, words:     0
+		worklib.DLL_X2:v <0x73961866>
+			streams:   0, words:     0
+		worklib.DLL_X1:v <0x1b451541>
+			streams:   0, words:     0
+		worklib.DLH_X2:v <0x63ae8c4f>
+			streams:   0, words:     0
+		worklib.DLH_X1:v <0x0b7d8168>
+			streams:   0, words:     0
+		worklib.DFF_X2:v <0x277fedab>
+			streams:   0, words:     0
+		worklib.DFF_X1:v <0x1d34312f>
+			streams:   0, words:     0
+		worklib.DFFS_X2:v <0x4a15381c>
+			streams:   0, words:     0
+		worklib.DFFS_X1:v <0x2b6f548e>
+			streams:   0, words:     0
+		worklib.DFFR_X2:v <0x01c08a71>
+			streams:   0, words:     0
+		worklib.DFFRS_X2:v <0x652c15bd>
+			streams:   0, words:     0
+		worklib.DFFRS_X1:v <0x2d15e809>
+			streams:   0, words:     0
+		worklib.CLKGATE_X8:v <0x5e23f41a>
+			streams:   0, words:     0
+		worklib.CLKGATE_X4:v <0x370c860a>
+			streams:   0, words:     0
+		worklib.CLKGATE_X2:v <0x439b3f02>
+			streams:   0, words:     0
+		worklib.CLKGATE_X1:v <0x79d0e386>
+			streams:   0, words:     0
+		worklib.CLKGATETST_X8:v <0x64eabc65>
+			streams:   0, words:     0
+		worklib.CLKGATETST_X4:v <0x7e1bc626>
+			streams:   0, words:     0
+		worklib.CLKGATETST_X2:v <0x0628a06e>
+			streams:   0, words:     0
+		worklib.CLKGATETST_X1:v <0x7a31134a>
+			streams:   0, words:     0
+		worklib.AOI22_X4:v <0x557dec44>
+			streams:   0, words:     0
+		worklib.AOI22_X2:v <0x09aad1ab>
+			streams:   0, words:     0
+		worklib.AOI222_X4:v <0x3c338196>
+			streams:   0, words:     0
+		worklib.AOI222_X2:v <0x75090eed>
+			streams:   0, words:     0
+		worklib.AOI222_X1:v <0x64d6612a>
+			streams:   0, words:     0
+		worklib.AOI221_X4:v <0x6240284e>
+			streams:   0, words:     0
+		worklib.AOI221_X2:v <0x72b92f62>
+			streams:   0, words:     0
+		worklib.AOI221_X1:v <0x1cc07f72>
+			streams:   0, words:     0
+		worklib.AOI21_X4:v <0x28f108e1>
+			streams:   0, words:     0
+		worklib.AOI21_X2:v <0x222614ee>
+			streams:   0, words:     0
+		worklib.AOI211_X4:v <0x2c7e2bd7>
+			streams:   0, words:     0
+		worklib.AOI211_X2:v <0x48a724ba>
+			streams:   0, words:     0
+		worklib.AOI211_X1:v <0x3cfd43b6>
+			streams:   0, words:     0
+		worklib.AOI21_X1:v <0x1f89158c>
+			streams:   0, words:     0
+		worklib.OAI22_X1:v <0x02ba5674>
+			streams:   0, words:     0
+		worklib.OAI21_X1:v <0x649885f8>
+			streams:   0, words:     0
+		worklib.AOI22_X1:v <0x295bb5ea>
+			streams:   0, words:     0
+		worklib.FA_X1:v <0x4ead1e5c>
+			streams:   0, words:     0
+		worklib.XNOR2_X1:v <0x2aa498c2>
+			streams:   0, words:     0
+		worklib.HA_X1:v <0x27ff8519>
+			streams:   0, words:     0
+		worklib.XOR2_X1:v <0x053124f3>
+			streams:   0, words:     0
+		worklib.SDFFR_X1:v <0x3c168345>
+			streams:   0, words:     0
+		worklib.DFFR_X1:v <0x1dea50dc>
+			streams:   0, words:     0
+		worklib.MAC_Lab3_test:v <0x4899c5b7>
+			streams:   3, words:  5224
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:               1916     136
+		UDPs:                  1659      30
+		Primitives:            8751       6
+		Registers:              316      67
+		Scalar wires:           607       -
+		Expanded wires:          48       6
+		Always blocks:            1       1
+		Initial blocks:           1       1
+		Pseudo assignments:       1       1
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.MAC_Lab3_test:v
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /vol/cadence2018/XCELIUM1809/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm MAC_Lab3_test.IN1 MAC_Lab3_test.IN2 MAC_Lab3_test.IN3 MAC_Lab3_test.OUT1 MAC_Lab3_test.OUT2 MAC_Lab3_test.OUT3 MAC_Lab3_test.OUT4 MAC_Lab3_test.OUT5 MAC_Lab3_test.OUT6 MAC_Lab3_test.OUT7 MAC_Lab3_test.OUT8 MAC_Lab3_test.OUT9 MAC_Lab3_test.W1 MAC_Lab3_test.W2 MAC_Lab3_test.W3 MAC_Lab3_test.clk MAC_Lab3_test.i MAC_Lab3_test.rstb
+Created probe 1
+xcelium> run
+Simulation complete via $finish(1) at time 37100 PS + 0
+./MAC_Lab3_test.v:47         $finish;
+xcelium> ^C
+xcelium> exit
+TOOL:	xrun(64)	18.09-s011: Exiting on Jun 10, 2026 at 16:03:13 CDT  (total: 00:05:39)

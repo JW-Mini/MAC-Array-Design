@@ -1,0 +1,476 @@
+[06/10 14:04:21      0s] 
+[06/10 14:04:21      0s] Cadence Innovus(TM) Implementation System.
+[06/10 14:04:21      0s] Copyright 2016 Cadence Design Systems, Inc. All rights reserved worldwide.
+[06/10 14:04:21      0s] 
+[06/10 14:04:21      0s] Version:	v16.20-p002_1, built Tue Nov 8 11:31:23 PST 2016
+[06/10 14:04:21      0s] Options:	
+[06/10 14:04:21      0s] Date:		Wed Jun 10 14:04:21 2026
+[06/10 14:04:21      0s] Host:		alfred.ece.northwestern.edu (x86_64 w/Linux 4.18.0-553.125.1.el8_10.x86_64) (8cores*8cpus*Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz 12288KB)
+[06/10 14:04:21      0s] OS:		Red Hat Enterprise Linux release 8.10 (Ootpa)
+[06/10 14:04:21      0s] 
+[06/10 14:04:21      0s] License:
+[06/10 14:04:21      0s] 		invs	Innovus Implementation System	16.2	checkout succeeded
+[06/10 14:04:21      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[06/10 14:04:27      4s] @(#)CDS: Innovus v16.20-p002_1 (64bit) 11/08/2016 11:31 (Linux 2.6.18-194.el5)
+[06/10 14:04:27      4s] @(#)CDS: NanoRoute 16.20-p002_1 NR161103-1425/16_20-UB (database version 2.30, 354.6.1) {superthreading v1.34}
+[06/10 14:04:27      4s] @(#)CDS: AAE 16.20-p004 (64bit) 11/08/2016 (Linux 2.6.18-194.el5)
+[06/10 14:04:27      4s] @(#)CDS: CTE 16.20-p008_1 () Oct 29 2016 08:26:57 ( )
+[06/10 14:04:27      4s] @(#)CDS: SYNTECH 16.20-p001_1 () Oct 27 2016 11:33:00 ( )
+[06/10 14:04:27      4s] @(#)CDS: CPE v16.20-p011
+[06/10 14:04:27      4s] @(#)CDS: IQRC/TQRC 15.2.5-s803 (64bit) Tue Sep 13 18:23:58 PDT 2016 (Linux 2.6.18-194.el5)
+[06/10 14:04:27      4s] @(#)CDS: OA 22.50-p051 Thu Aug  4 00:05:16 2016
+[06/10 14:04:27      4s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[06/10 14:04:27      4s] @(#)CDS: RCDB 11.8
+[06/10 14:04:27      4s] --- Running on alfred.ece.northwestern.edu (x86_64 w/Linux 4.18.0-553.125.1.el8_10.x86_64) (8cores*8cpus*Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz 12288KB) ---
+[06/10 14:04:27      4s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_1080254_alfred.ece.northwestern.edu_qcj9450_Djbg07.
+
+[06/10 14:04:27      4s] 
+[06/10 14:04:27      4s] **INFO:  MMMC transition support version v31-84 
+[06/10 14:04:27      4s] 
+[06/10 14:04:27      4s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[06/10 14:04:27      4s] <CMD> suppressMessage ENCEXT-2799
+[06/10 14:04:27      5s] <CMD> getDrawView
+[06/10 14:04:27      5s] <CMD> loadWorkspace -name Physical
+[06/10 14:04:27      5s] <CMD> win
+[06/10 14:06:45      9s] <CMD> report_area
+[06/10 14:06:45      9s] **ERROR: (IMPSYC-517):	No top cell was found. Design must be loaded in memory before running 'report_area'.
+[06/10 14:12:11     75s] <CMD> encMessage warning 0
+[06/10 14:12:11     75s] Suppress "**WARN ..." messages.
+[06/10 14:12:11     75s] <CMD> encMessage debug 0
+[06/10 14:12:11     75s] <CMD> encMessage info 0
+[06/10 14:12:11     75s] **WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+[06/10 14:12:11     75s] **WARN: (GLOBAL-100):	Global 'timing_disable_backward_compatible_mmmc_mode' has become obsolete. It will be removed in the next release.
+[06/10 14:12:11     75s] Loading view definition file from /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_final_layout.enc.dat/viewDefinition.tcl
+[06/10 14:12:11     75s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:12:11     75s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:12:11     75s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:12:11     75s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:12:11     75s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:12:11     75s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:12:11     75s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:12:11     75s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:12:11     75s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:12:11     75s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:12:11     75s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:12:11     75s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:12:11     75s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:12:11     75s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:12:11     75s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:12:11     75s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:12:11     75s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:12:11     75s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:12:11     75s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:12:11     75s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:12:11     75s] *** End library_loading (cpu=0.00min, mem=0.0M, fe_cpu=1.26min, fe_real=7.83min, fe_mem=536.5M) ***
+[06/10 14:12:12     75s] *** Netlist is unique.
+[06/10 14:12:12     75s] Loading preference file /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_final_layout.enc.dat/gui.pref.tcl ...
+[06/10 14:12:12     75s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[06/10 14:12:12     75s] **WARN: (IMPEXT-2773):	The via resistance between layers M0 and M1 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[06/10 14:12:12     75s] **WARN: (IMPEXT-2773):	The via resistance between layers M1 and M2 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[06/10 14:12:12     75s] **WARN: (IMPEXT-2773):	The via resistance between layers M2 and M3 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[06/10 14:12:12     75s] **WARN: (IMPEXT-2773):	The via resistance between layers M3 and M4 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[06/10 14:12:12     75s] **WARN: (IMPEXT-2773):	The via resistance between layers M4 and M5 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[06/10 14:12:12     75s] **WARN: (IMPEXT-2773):	The via resistance between layers M5 and M6 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[06/10 14:12:12     75s] **WARN: (IMPEXT-2773):	The via resistance between layers M6 and M7 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[06/10 14:12:12     75s] **WARN: (IMPEXT-2773):	The via resistance between layers M7 and M8 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[06/10 14:12:12     75s] **WARN: (IMPEXT-2773):	The via resistance between layers M8 and M9 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[06/10 14:12:12     75s] **WARN: (IMPEXT-2773):	The via resistance between layers M9 and M10 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[06/10 14:12:12     75s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M1 is not defined in the cap table. Therefore, the LEF value 0.38 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[06/10 14:12:12     75s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M2 is not defined in the cap table. Therefore, the LEF value 0.25 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[06/10 14:12:12     75s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M3 is not defined in the cap table. Therefore, the LEF value 0.25 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[06/10 14:12:12     75s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M4 is not defined in the cap table. Therefore, the LEF value 0.21 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[06/10 14:12:12     75s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M5 is not defined in the cap table. Therefore, the LEF value 0.21 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[06/10 14:12:12     75s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M6 is not defined in the cap table. Therefore, the LEF value 0.21 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[06/10 14:12:12     75s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M7 is not defined in the cap table. Therefore, the LEF value 0.075 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[06/10 14:12:12     75s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M8 is not defined in the cap table. Therefore, the LEF value 0.075 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[06/10 14:12:12     75s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M9 is not defined in the cap table. Therefore, the LEF value 0.03 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[06/10 14:12:12     75s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M10 is not defined in the cap table. Therefore, the LEF value 0.03 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[06/10 14:12:12     76s] **WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+[06/10 14:12:58     77s] <CMD> report_area
+[06/10 14:13:05     78s] <CMD> setEdit -layer_horizontal metal1
+[06/10 14:13:05     78s] <CMD> setEdit -layer_vertical metal1
+[06/10 14:13:08     78s] <CMD> editDuplicate
+[06/10 14:13:09     78s] <CMD> editDuplicate
+[06/10 14:13:24     78s] <CMD> uiSetTool ruler
+[06/10 14:14:01     80s] <CMD> uiSetTool moveWire
+[06/10 14:14:04     80s] <CMD> set layerNameNoAbbreviation 0
+[06/10 14:14:04     80s] <CMD> set layerNameNoAbbreviation 1
+[06/10 14:14:05     80s] <CMD> uiSetTool moveWire
+[06/10 14:15:38     83s] <CMD> set layerNameNoAbbreviation 0
+[06/10 14:15:38     83s] <CMD> set layerNameNoAbbreviation 1
+[06/10 14:15:39     83s] **ERROR: (IMPSYT-6000):	No Object Selected.
+[06/10 14:16:06     85s] <CMD> uiSetTool ruler
+[06/10 14:16:09     85s] <CMD> uiSetTool ruler
+[06/10 14:16:11     85s] <CMD> uiSetTool ruler
+[06/10 14:16:16     85s] <CMD> uiSetTool ruler
+[06/10 14:16:26     86s] <CMD> pan 7.841 30.103
+[06/10 14:16:43     87s] <CMD> pan -2.708 -14.366
+[06/10 14:16:44     87s] <CMD> pan 0.028 -15.223
+[06/10 14:16:45     87s] <CMD> pan -0.277 -17.018
+[06/10 14:16:46     87s] <CMD> pan 0.000 -21.688
+[06/10 14:16:47     87s] <CMD> pan -1.823 -17.681
+[06/10 14:16:54     87s] <CMD> uiSetTool ruler
+[06/10 14:17:02     88s] <CMD> pan -15.484 2.858
+[06/10 14:17:04     88s] <CMD> pan -51.327 15.989
+[06/10 14:17:09     88s] <CMD> uiSetTool ruler
+[06/10 14:17:16     88s] <CMD> pan 29.349 2.287
+[06/10 14:17:17     88s] <CMD> pan 49.704 -2.139
+[06/10 14:17:37     89s] <CMD> pan 1.937 30.378
+[06/10 14:17:40     90s] <CMD> pan -3.906 9.419
+[06/10 14:17:44     90s] <CMD> pan -9.764 -0.391
+[06/10 14:19:46     94s] <CMD> report_timing -late
+[06/10 14:19:46     94s] AAE DB initialization (MEM=961.355 CPU=0:00:00.0 REAL=0:00:00.0) 
+[06/10 14:19:46     94s] Starting SI iteration 1 using Infinite Timing Windows
+[06/10 14:19:46     94s] #################################################################################
+[06/10 14:19:46     94s] # Design Stage: PostRoute
+[06/10 14:19:46     94s] # Design Name: systolic_array
+[06/10 14:19:46     94s] # Design Mode: 45nm
+[06/10 14:19:46     94s] # Analysis Mode: MMMC OCV 
+[06/10 14:19:46     94s] # Parasitics Mode: No SPEF/RCDB
+[06/10 14:19:46     94s] # Signoff Settings: SI On 
+[06/10 14:19:46     94s] #################################################################################
+[06/10 14:19:46     94s] **WARN: (IMPEXT-3518):	The lower process node is set (using command 'setDesignMode') but the technology file for tQuantus extraction not specified. Therefore, going for postRoute (effortLevel low) extraction instead of recommended extractor 'tQuantus' for lower nodes. Use command 'set_analysis_view/update_rc_corner' to specify the technology file for tQuantus extraction to take place.
+[06/10 14:19:46     94s] Extraction called for design 'systolic_array' of instances=5831 and nets=2857 using extraction engine 'postRoute' at effort level 'low' .
+[06/10 14:19:46     94s] PostRoute (effortLevel low) RC Extraction called for design systolic_array.
+[06/10 14:19:46     94s] RC Extraction called in multi-corner(1) mode.
+[06/10 14:19:46     94s] **WARN: (IMPEXT-6197):	The Cap table file is not specified. This will result in lower parasitic accuracy when using preRoute extraction or postRoute extraction with effort level 'low'. It is recommended to generate the Cap table file using the 'generateCapTbl' command and specify it before extraction using 'create_rc_corner/update_rc_corner -cap_table'.
+[06/10 14:19:46     94s] Type 'man IMPEXT-6197' for more detail.
+[06/10 14:19:46     94s] **WARN: (IMPEXT-3032):	Because the cap table file was not provided, it will be created internally with the following process info:
+[06/10 14:19:46     94s] * Layer Id             : 1 - M1
+[06/10 14:19:46     94s]       Thickness        : 0.13
+[06/10 14:19:46     94s]       Min Width        : 0.07
+[06/10 14:19:46     94s]       Layer Dielectric : 4.1
+[06/10 14:19:46     94s] * Layer Id             : 2 - M2
+[06/10 14:19:46     94s]       Thickness        : 0.14
+[06/10 14:19:46     94s]       Min Width        : 0.07
+[06/10 14:19:46     94s]       Layer Dielectric : 4.1
+[06/10 14:19:46     94s] * Layer Id             : 3 - M3
+[06/10 14:19:46     94s]       Thickness        : 0.14
+[06/10 14:19:46     94s]       Min Width        : 0.07
+[06/10 14:19:46     94s]       Layer Dielectric : 4.1
+[06/10 14:19:46     94s] * Layer Id             : 4 - M4
+[06/10 14:19:46     94s]       Thickness        : 0.28
+[06/10 14:19:46     94s]       Min Width        : 0.14
+[06/10 14:19:46     94s]       Layer Dielectric : 4.1
+[06/10 14:19:46     94s] * Layer Id             : 5 - M5
+[06/10 14:19:46     94s]       Thickness        : 0.28
+[06/10 14:19:46     94s]       Min Width        : 0.14
+[06/10 14:19:46     94s]       Layer Dielectric : 4.1
+[06/10 14:19:46     94s] * Layer Id             : 6 - M6
+[06/10 14:19:46     94s]       Thickness        : 0.28
+[06/10 14:19:46     94s]       Min Width        : 0.14
+[06/10 14:19:46     94s]       Layer Dielectric : 4.1
+[06/10 14:19:46     94s] * Layer Id             : 7 - M7
+[06/10 14:19:46     94s]       Thickness        : 0.8
+[06/10 14:19:46     94s]       Min Width        : 0.4
+[06/10 14:19:46     94s]       Layer Dielectric : 4.1
+[06/10 14:19:46     94s] * Layer Id             : 8 - M8
+[06/10 14:19:46     94s]       Thickness        : 0.8
+[06/10 14:19:46     94s]       Min Width        : 0.4
+[06/10 14:19:46     94s]       Layer Dielectric : 4.1
+[06/10 14:19:46     94s] * Layer Id             : 9 - M9
+[06/10 14:19:46     94s]       Thickness        : 2
+[06/10 14:19:46     94s]       Min Width        : 0.8
+[06/10 14:19:46     94s]       Layer Dielectric : 4.1
+[06/10 14:19:46     94s] * Layer Id             : 10 - M10
+[06/10 14:19:46     94s]       Thickness        : 2
+[06/10 14:19:46     94s]       Min Width        : 0.8
+[06/10 14:19:46     94s]       Layer Dielectric : 4.1
+[06/10 14:19:46     94s] extractDetailRC Option : -outfile /tmp/innovus_temp_1080254_alfred.ece.northwestern.edu_qcj9450_Djbg07/systolic_array_1080254_QBBONn.rcdb.d  -basic
+[06/10 14:19:46     94s] RC Mode: PostRoute -effortLevel low [Basic CapTable, LEF Resistances]
+[06/10 14:19:46     94s]       RC Corner Indexes            0   
+[06/10 14:19:46     94s] Capacitance Scaling Factor   : 1.00000 
+[06/10 14:19:46     94s] Coupling Cap. Scaling Factor : 1.00000 
+[06/10 14:19:46     94s] Resistance Scaling Factor    : 1.00000 
+[06/10 14:19:46     94s] Clock Cap. Scaling Factor    : 1.00000 
+[06/10 14:19:46     94s] Clock Res. Scaling Factor    : 1.00000 
+[06/10 14:19:46     94s] Shrink Factor                : 1.00000
+[06/10 14:19:46     94s] Initializing multi-corner resistance tables ...
+[06/10 14:19:46     94s] Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 961.4M)
+[06/10 14:19:46     94s] Creating parasitic data file '/tmp/innovus_temp_1080254_alfred.ece.northwestern.edu_qcj9450_Djbg07/systolic_array_1080254_QBBONn.rcdb.d' for storing RC.
+[06/10 14:19:46     94s] Extracted 10.0066% (CPU Time= 0:00:00.0  MEM= 985.4M)
+[06/10 14:19:46     94s] **WARN: (IMPEXT-2882):	Unable to find the resistance for via 'via1_7' in Cap table or LEF or OA files. The default value of 4.0 ohms is being assigned. To avoid this, check the Cap table and LEF and OA files, provide the resistance and read the files again.
+[06/10 14:19:46     94s] Extracted 20.0063% (CPU Time= 0:00:00.0  MEM= 985.4M)
+[06/10 14:19:46     94s] Extracted 30.0059% (CPU Time= 0:00:00.0  MEM= 985.4M)
+[06/10 14:19:46     94s] Extracted 40.0056% (CPU Time= 0:00:00.0  MEM= 985.4M)
+[06/10 14:19:46     94s] Extracted 50.0052% (CPU Time= 0:00:00.0  MEM= 985.4M)
+[06/10 14:19:46     94s] Extracted 60.0049% (CPU Time= 0:00:00.0  MEM= 985.4M)
+[06/10 14:19:46     94s] **WARN: (IMPEXT-2882):	Unable to find the resistance for via 'via2_5' in Cap table or LEF or OA files. The default value of 4.0 ohms is being assigned. To avoid this, check the Cap table and LEF and OA files, provide the resistance and read the files again.
+[06/10 14:19:46     94s] Extracted 70.0045% (CPU Time= 0:00:00.0  MEM= 985.4M)
+[06/10 14:19:46     94s] Extracted 80.0042% (CPU Time= 0:00:00.1  MEM= 985.4M)
+[06/10 14:19:46     94s] Extracted 90.0038% (CPU Time= 0:00:00.1  MEM= 985.4M)
+[06/10 14:19:46     94s] **WARN: (IMPEXT-2882):	Unable to find the resistance for via 'via3_2' in Cap table or LEF or OA files. The default value of 4.0 ohms is being assigned. To avoid this, check the Cap table and LEF and OA files, provide the resistance and read the files again.
+[06/10 14:19:46     94s] **WARN: (IMPEXT-2882):	Unable to find the resistance for via 'via4_0' in Cap table or LEF or OA files. The default value of 4.0 ohms is being assigned. To avoid this, check the Cap table and LEF and OA files, provide the resistance and read the files again.
+[06/10 14:19:46     94s] Extracted 100% (CPU Time= 0:00:00.1  MEM= 985.4M)
+[06/10 14:19:46     94s] Number of Extracted Resistors     : 45267
+[06/10 14:19:46     94s] Number of Extracted Ground Cap.   : 47918
+[06/10 14:19:46     94s] Number of Extracted Coupling Cap. : 92956
+[06/10 14:19:46     94s] Opening parasitic data file '/tmp/innovus_temp_1080254_alfred.ece.northwestern.edu_qcj9450_Djbg07/systolic_array_1080254_QBBONn.rcdb.d' for reading.
+[06/10 14:19:46     94s] Filtering XCap in 'relativeAndCoupling' mode using values coupling_c_threshold=0.1fF, relative_c_threshold=1, and total_c_threshold=0fF.
+[06/10 14:19:46     94s] Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 961.4M)
+[06/10 14:19:46     94s] Creating parasitic data file '/tmp/innovus_temp_1080254_alfred.ece.northwestern.edu_qcj9450_Djbg07/systolic_array_1080254_QBBONn.rcdb_Filter.rcdb.d' for storing RC.
+[06/10 14:19:46     94s] Closing parasitic data file '/tmp/innovus_temp_1080254_alfred.ece.northwestern.edu_qcj9450_Djbg07/systolic_array_1080254_QBBONn.rcdb.d'. 2663 times net's RC data read were performed.
+[06/10 14:19:46     94s] Lumped Parasitic Loading Started (total cpu=0:00:00.0, real=0:00:00.0, current mem=961.355M)
+[06/10 14:19:46     94s] Opening parasitic data file '/tmp/innovus_temp_1080254_alfred.ece.northwestern.edu_qcj9450_Djbg07/systolic_array_1080254_QBBONn.rcdb.d' for reading.
+[06/10 14:19:46     94s] Lumped Parasitic Loading Completed (total cpu=0:00:00.0, real=0:00:00.0, current mem=961.355M)
+[06/10 14:19:46     94s] PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:00.1  Real Time: 0:00:00.0  MEM: 961.355M)
+[06/10 14:19:46     94s] Setting infinite Tws ...
+[06/10 14:19:46     94s] First Iteration Infinite Tw... 
+[06/10 14:19:46     94s] Calculate early delays in OCV mode...
+[06/10 14:19:46     94s] Calculate late delays in OCV mode...
+[06/10 14:19:46     94s] Topological Sorting (REAL = 0:00:00.0, MEM = 961.4M, InitMEM = 961.4M)
+[06/10 14:19:46     94s] Initializing multi-corner resistance tables ...
+[06/10 14:19:47     94s] Start AAE Lib Loading. (MEM=977.512)
+[06/10 14:19:47     94s] End AAE Lib Loading. (MEM=1168.25 CPU=0:00:00.0 Real=0:00:00.0)
+[06/10 14:19:47     94s] End AAE Lib Interpolated Model. (MEM=1168.25 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[06/10 14:19:47     94s] Opening parasitic data file '/tmp/innovus_temp_1080254_alfred.ece.northwestern.edu_qcj9450_Djbg07/systolic_array_1080254_QBBONn.rcdb.d' for reading.
+[06/10 14:19:47     94s] RC Database In Completed (CPU Time= 0:00:00.0  Real Time=0:00:00.0  MEM= 1177.8M)
+[06/10 14:19:47     95s] Total number of fetched objects 2855
+[06/10 14:19:47     95s] AAE_INFO-618: Total number of nets in the design is 2857,  100.0 percent of the nets selected for SI analysis
+[06/10 14:19:47     95s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[06/10 14:19:47     95s] End delay calculation. (MEM=1215.95 CPU=0:00:00.6 REAL=0:00:00.0)
+[06/10 14:19:47     95s] *** CDM Built up (cpu=0:00:00.9  real=0:00:01.0  mem= 1215.9M) ***
+[06/10 14:19:47     95s] Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1215.9M)
+[06/10 14:19:47     95s] Add other clocks and setupCteToAAEClockMapping during iter 1
+[06/10 14:19:47     95s] Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1215.9M)
+[06/10 14:19:47     95s] Starting SI iteration 2
+[06/10 14:19:47     95s] Calculate early delays in OCV mode...
+[06/10 14:19:47     95s] Calculate late delays in OCV mode...
+[06/10 14:19:47     95s] End AAE Lib Interpolated Model. (MEM=1224 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[06/10 14:19:47     95s] Glitch Analysis: View an -- Total Number of Nets Skipped = 0. 
+[06/10 14:19:47     95s] Glitch Analysis: View an -- Total Number of Nets Analyzed = 2855. 
+[06/10 14:19:47     95s] Total number of fetched objects 2855
+[06/10 14:19:47     95s] AAE_INFO-618: Total number of nets in the design is 2857,  1.2 percent of the nets selected for SI analysis
+[06/10 14:19:47     95s] End delay calculation. (MEM=1192 CPU=0:00:00.0 REAL=0:00:00.0)
+[06/10 14:19:47     95s] *** CDM Built up (cpu=0:00:00.0  real=0:00:00.0  mem= 1192.0M) ***
+[06/10 14:22:28    100s] <CMD> report_timing -late > timing_setup.rpt
+[06/10 14:23:04    102s] <CMD> report_timing -early > timing_setup.rpt
+[06/10 14:23:04    102s] Starting SI iteration 1 using Infinite Timing Windows
+[06/10 14:23:04    102s] #################################################################################
+[06/10 14:23:04    102s] # Design Stage: PostRoute
+[06/10 14:23:04    102s] # Design Name: systolic_array
+[06/10 14:23:04    102s] # Design Mode: 45nm
+[06/10 14:23:04    102s] # Analysis Mode: MMMC OCV 
+[06/10 14:23:04    102s] # Parasitics Mode: SPEF/RCDB
+[06/10 14:23:04    102s] # Signoff Settings: SI On 
+[06/10 14:23:04    102s] #################################################################################
+[06/10 14:23:04    102s] Setting infinite Tws ...
+[06/10 14:23:04    102s] First Iteration Infinite Tw... 
+[06/10 14:23:04    102s] Calculate late delays in OCV mode...
+[06/10 14:23:04    102s] Calculate early delays in OCV mode...
+[06/10 14:23:04    102s] Topological Sorting (REAL = 0:00:00.0, MEM = 1167.8M, InitMEM = 1167.8M)
+[06/10 14:23:04    102s] End AAE Lib Interpolated Model. (MEM=1183.95 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[06/10 14:23:04    102s] Total number of fetched objects 2855
+[06/10 14:23:04    102s] AAE_INFO-618: Total number of nets in the design is 2857,  100.0 percent of the nets selected for SI analysis
+[06/10 14:23:04    102s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[06/10 14:23:04    102s] End delay calculation. (MEM=1215.95 CPU=0:00:00.5 REAL=0:00:00.0)
+[06/10 14:23:04    102s] *** CDM Built up (cpu=0:00:00.7  real=0:00:00.0  mem= 1215.9M) ***
+[06/10 14:23:04    102s] Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1215.9M)
+[06/10 14:23:04    102s] Add other clocks and setupCteToAAEClockMapping during iter 1
+[06/10 14:23:04    102s] Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1215.9M)
+[06/10 14:23:04    102s] Starting SI iteration 2
+[06/10 14:23:04    102s] Calculate late delays in OCV mode...
+[06/10 14:23:04    102s] Calculate early delays in OCV mode...
+[06/10 14:23:04    102s] End AAE Lib Interpolated Model. (MEM=1224 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[06/10 14:23:04    102s] Glitch Analysis: View an -- Total Number of Nets Skipped = 0. 
+[06/10 14:23:04    102s] Glitch Analysis: View an -- Total Number of Nets Analyzed = 180. 
+[06/10 14:23:04    102s] Total number of fetched objects 2855
+[06/10 14:23:04    102s] AAE_INFO-618: Total number of nets in the design is 2857,  3.6 percent of the nets selected for SI analysis
+[06/10 14:23:04    102s] End delay calculation. (MEM=1192 CPU=0:00:00.0 REAL=0:00:00.0)
+[06/10 14:23:04    102s] *** CDM Built up (cpu=0:00:00.1  real=0:00:00.0  mem= 1192.0M) ***
+[06/10 14:23:27    103s] <CMD> report_timing -late > timing_setup.rpt
+[06/10 14:23:27    103s] Starting SI iteration 1 using Infinite Timing Windows
+[06/10 14:23:27    103s] #################################################################################
+[06/10 14:23:27    103s] # Design Stage: PostRoute
+[06/10 14:23:27    103s] # Design Name: systolic_array
+[06/10 14:23:27    103s] # Design Mode: 45nm
+[06/10 14:23:27    103s] # Analysis Mode: MMMC OCV 
+[06/10 14:23:27    103s] # Parasitics Mode: SPEF/RCDB
+[06/10 14:23:27    103s] # Signoff Settings: SI On 
+[06/10 14:23:27    103s] #################################################################################
+[06/10 14:23:27    103s] Setting infinite Tws ...
+[06/10 14:23:27    103s] First Iteration Infinite Tw... 
+[06/10 14:23:27    103s] Calculate early delays in OCV mode...
+[06/10 14:23:27    103s] Calculate late delays in OCV mode...
+[06/10 14:23:27    103s] Topological Sorting (REAL = 0:00:00.0, MEM = 1167.8M, InitMEM = 1167.8M)
+[06/10 14:23:27    103s] End AAE Lib Interpolated Model. (MEM=1183.95 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[06/10 14:23:28    104s] Total number of fetched objects 2855
+[06/10 14:23:28    104s] AAE_INFO-618: Total number of nets in the design is 2857,  100.0 percent of the nets selected for SI analysis
+[06/10 14:23:28    104s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[06/10 14:23:28    104s] End delay calculation. (MEM=1215.95 CPU=0:00:00.6 REAL=0:00:01.0)
+[06/10 14:23:28    104s] *** CDM Built up (cpu=0:00:00.7  real=0:00:01.0  mem= 1215.9M) ***
+[06/10 14:23:28    104s] Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1215.9M)
+[06/10 14:23:28    104s] Add other clocks and setupCteToAAEClockMapping during iter 1
+[06/10 14:23:28    104s] Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1215.9M)
+[06/10 14:23:28    104s] Starting SI iteration 2
+[06/10 14:23:28    104s] Calculate early delays in OCV mode...
+[06/10 14:23:28    104s] Calculate late delays in OCV mode...
+[06/10 14:23:28    104s] End AAE Lib Interpolated Model. (MEM=1224 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[06/10 14:23:28    104s] Glitch Analysis: View an -- Total Number of Nets Skipped = 0. 
+[06/10 14:23:28    104s] Glitch Analysis: View an -- Total Number of Nets Analyzed = 2855. 
+[06/10 14:23:28    104s] Total number of fetched objects 2855
+[06/10 14:23:28    104s] AAE_INFO-618: Total number of nets in the design is 2857,  1.2 percent of the nets selected for SI analysis
+[06/10 14:23:28    104s] End delay calculation. (MEM=1192 CPU=0:00:00.0 REAL=0:00:00.0)
+[06/10 14:23:28    104s] *** CDM Built up (cpu=0:00:00.0  real=0:00:00.0  mem= 1192.0M) ***
+[06/10 14:23:42    105s] <CMD> report_timing -early > timing_hold.rpt
+[06/10 14:23:42    105s] Starting SI iteration 1 using Infinite Timing Windows
+[06/10 14:23:42    105s] #################################################################################
+[06/10 14:23:42    105s] # Design Stage: PostRoute
+[06/10 14:23:42    105s] # Design Name: systolic_array
+[06/10 14:23:42    105s] # Design Mode: 45nm
+[06/10 14:23:42    105s] # Analysis Mode: MMMC OCV 
+[06/10 14:23:42    105s] # Parasitics Mode: SPEF/RCDB
+[06/10 14:23:42    105s] # Signoff Settings: SI On 
+[06/10 14:23:42    105s] #################################################################################
+[06/10 14:23:42    105s] Setting infinite Tws ...
+[06/10 14:23:42    105s] First Iteration Infinite Tw... 
+[06/10 14:23:42    105s] Calculate late delays in OCV mode...
+[06/10 14:23:42    105s] Calculate early delays in OCV mode...
+[06/10 14:23:42    105s] Topological Sorting (REAL = 0:00:00.0, MEM = 1167.8M, InitMEM = 1167.8M)
+[06/10 14:23:42    105s] End AAE Lib Interpolated Model. (MEM=1183.95 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[06/10 14:23:43    105s] Total number of fetched objects 2855
+[06/10 14:23:43    105s] AAE_INFO-618: Total number of nets in the design is 2857,  100.0 percent of the nets selected for SI analysis
+[06/10 14:23:43    105s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[06/10 14:23:43    105s] End delay calculation. (MEM=1215.95 CPU=0:00:00.6 REAL=0:00:01.0)
+[06/10 14:23:43    105s] *** CDM Built up (cpu=0:00:00.7  real=0:00:01.0  mem= 1215.9M) ***
+[06/10 14:23:43    105s] Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1215.9M)
+[06/10 14:23:43    105s] Add other clocks and setupCteToAAEClockMapping during iter 1
+[06/10 14:23:43    105s] Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1215.9M)
+[06/10 14:23:43    105s] Starting SI iteration 2
+[06/10 14:23:43    105s] Calculate late delays in OCV mode...
+[06/10 14:23:43    105s] Calculate early delays in OCV mode...
+[06/10 14:23:43    105s] End AAE Lib Interpolated Model. (MEM=1224 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[06/10 14:23:43    105s] Glitch Analysis: View an -- Total Number of Nets Skipped = 0. 
+[06/10 14:23:43    105s] Glitch Analysis: View an -- Total Number of Nets Analyzed = 180. 
+[06/10 14:23:43    105s] Total number of fetched objects 2855
+[06/10 14:23:43    105s] AAE_INFO-618: Total number of nets in the design is 2857,  3.6 percent of the nets selected for SI analysis
+[06/10 14:23:43    105s] End delay calculation. (MEM=1192 CPU=0:00:00.0 REAL=0:00:00.0)
+[06/10 14:23:43    105s] *** CDM Built up (cpu=0:00:00.1  real=0:00:00.0  mem= 1192.0M) ***
+[06/10 14:24:26    107s] <CMD> report_area > backend_area.rpt
+[06/10 14:28:43    117s] <CMD> set_default_switching_activity -reset
+[06/10 14:28:43    117s] <CMD> set_default_switching_activity -input_activity 0.2 -period 2.0
+[06/10 14:28:43    117s] <CMD> read_activity_file -reset
+[06/10 14:28:43    117s] <CMD> set_power -reset
+[06/10 14:28:43    117s] <CMD> set_powerup_analysis -reset
+[06/10 14:28:43    117s] <CMD> set_dynamic_power_simulation -reset
+[06/10 14:28:43    117s] <CMD> report_power -rail_analysis_format VS -outfile /systolic_array.rpt
+[06/10 14:28:43    117s] **ERROR: (VOLTUS-1007):	.
+[06/10 14:29:17    121s] <CMD> set_default_switching_activity -reset
+[06/10 14:29:17    121s] <CMD> set_default_switching_activity -input_activity 0.2 -period 2.0
+[06/10 14:29:17    121s] <CMD> read_activity_file -reset
+[06/10 14:29:17    121s] <CMD> set_power -reset
+[06/10 14:29:17    121s] <CMD> set_powerup_analysis -reset
+[06/10 14:29:17    121s] <CMD> set_dynamic_power_simulation -reset
+[06/10 14:29:17    121s] <CMD> report_power -rail_analysis_format VS -outfile /systolic_array.rpt
+[06/10 14:29:17    121s] **ERROR: (VOLTUS-1007):	.
+[06/10 14:33:05    165s] <CMD> set_power_output_dir -reset
+[06/10 14:33:05    165s] <CMD> set_power_output_dir backend_power
+[06/10 14:33:05    165s] <CMD> set_default_switching_activity -reset
+[06/10 14:33:05    165s] <CMD> set_default_switching_activity -input_activity 0.2 -period 2.0
+[06/10 14:33:05    165s] <CMD> read_activity_file -reset
+[06/10 14:33:05    165s] <CMD> set_power -reset
+[06/10 14:33:05    165s] <CMD> set_powerup_analysis -reset
+[06/10 14:33:05    165s] <CMD> set_dynamic_power_simulation -reset
+[06/10 14:33:05    165s] <CMD> report_power -rail_analysis_format VS -outfile backend_power/systolic_array.rpt
+[06/10 14:33:05    165s] 
+[06/10 14:33:05    165s] Power Net Detected:
+[06/10 14:33:05    165s]     Voltage	    Name
+[06/10 14:33:05    165s]     0.00V	    VSS
+[06/10 14:33:05    165s]     1.10V	    VDD
+[06/10 14:33:05    165s] Starting SI iteration 1 using Infinite Timing Windows
+[06/10 14:33:05    165s] #################################################################################
+[06/10 14:33:05    165s] # Design Stage: PostRoute
+[06/10 14:33:05    165s] # Design Name: systolic_array
+[06/10 14:33:05    165s] # Design Mode: 45nm
+[06/10 14:33:05    165s] # Analysis Mode: MMMC OCV 
+[06/10 14:33:05    165s] # Parasitics Mode: SPEF/RCDB
+[06/10 14:33:05    165s] # Signoff Settings: SI On 
+[06/10 14:33:05    165s] #################################################################################
+[06/10 14:33:05    165s] Setting infinite Tws ...
+[06/10 14:33:05    165s] First Iteration Infinite Tw... 
+[06/10 14:33:05    165s] Calculate early delays in OCV mode...
+[06/10 14:33:05    165s] Calculate late delays in OCV mode...
+[06/10 14:33:05    165s] Topological Sorting (REAL = 0:00:00.0, MEM = 1183.8M, InitMEM = 1183.8M)
+[06/10 14:33:05    165s] End AAE Lib Interpolated Model. (MEM=1199.95 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[06/10 14:33:05    166s] Total number of fetched objects 2855
+[06/10 14:33:05    166s] AAE_INFO-618: Total number of nets in the design is 2857,  100.0 percent of the nets selected for SI analysis
+[06/10 14:33:05    166s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[06/10 14:33:05    166s] End delay calculation. (MEM=1215.95 CPU=0:00:00.6 REAL=0:00:00.0)
+[06/10 14:33:05    166s] *** CDM Built up (cpu=0:00:00.7  real=0:00:00.0  mem= 1215.9M) ***
+[06/10 14:33:05    166s] Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1215.9M)
+[06/10 14:33:05    166s] Add other clocks and setupCteToAAEClockMapping during iter 1
+[06/10 14:33:05    166s] Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1215.9M)
+[06/10 14:33:05    166s] Starting SI iteration 2
+[06/10 14:33:05    166s] Calculate early delays in OCV mode...
+[06/10 14:33:05    166s] Calculate late delays in OCV mode...
+[06/10 14:33:05    166s] End AAE Lib Interpolated Model. (MEM=1224 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[06/10 14:33:05    166s] Glitch Analysis: View an -- Total Number of Nets Skipped = 0. 
+[06/10 14:33:05    166s] Glitch Analysis: View an -- Total Number of Nets Analyzed = 2855. 
+[06/10 14:33:05    166s] Total number of fetched objects 2855
+[06/10 14:33:05    166s] AAE_INFO-618: Total number of nets in the design is 2857,  1.2 percent of the nets selected for SI analysis
+[06/10 14:33:05    166s] End delay calculation. (MEM=1192 CPU=0:00:00.0 REAL=0:00:00.0)
+[06/10 14:33:05    166s] *** CDM Built up (cpu=0:00:00.0  real=0:00:00.0  mem= 1192.0M) ***
+[06/10 14:33:06    166s] 
+[06/10 14:33:06    166s] Begin Power Analysis
+[06/10 14:33:06    166s] 
+[06/10 14:33:06    166s]     0.00V	    VSS
+[06/10 14:33:06    166s]     1.10V	    VDD
+[06/10 14:33:06    166s] Begin Processing Timing Library for Power Calculation
+[06/10 14:33:06    166s] 
+[06/10 14:33:06    166s] Begin Processing Timing Library for Power Calculation
+[06/10 14:33:06    166s] 
+[06/10 14:33:06    166s] 
+[06/10 14:33:06    166s] 
+[06/10 14:33:06    166s] Begin Processing Power Net/Grid for Power Calculation
+[06/10 14:33:06    166s] 
+[06/10 14:33:06    166s] Ended Processing Power Net/Grid for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total)=923.09MB/923.09MB)
+[06/10 14:33:06    166s] 
+[06/10 14:33:06    166s] Begin Processing Timing Window Data for Power Calculation
+[06/10 14:33:06    166s] 
+[06/10 14:33:06    166s] clk(500MHz) Ended Processing Timing Window Data for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total)=923.52MB/923.52MB)
+[06/10 14:33:06    166s] 
+[06/10 14:33:06    166s] Begin Processing User Attributes
+[06/10 14:33:06    166s] 
+[06/10 14:33:06    166s] Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=923.52MB/923.52MB)
+[06/10 14:33:06    166s] 
+[06/10 14:33:06    166s] Begin Processing Signal Activity
+[06/10 14:33:06    166s] 
+[06/10 14:33:06    166s] Ended Processing Signal Activity: (cpu=0:00:00, real=0:00:00, mem(process/total)=924.09MB/924.09MB)
+[06/10 14:33:06    166s] 
+[06/10 14:33:06    166s] Begin Power Computation
+[06/10 14:33:06    166s] 
+[06/10 14:33:06    166s]       ----------------------------------------------------------
+[06/10 14:33:06    166s]       # of cell(s) missing both power/leakage table: 0
+[06/10 14:33:06    166s]       # of cell(s) missing power table: 0
+[06/10 14:33:06    166s]       # of cell(s) missing leakage table: 0
+[06/10 14:33:06    166s]       # of MSMV cell(s) missing power_level: 0
+[06/10 14:33:06    166s]       ----------------------------------------------------------
+[06/10 14:33:06    166s] 
+[06/10 14:33:06    166s] 
+[06/10 14:33:06    166s] Ended Power Computation: (cpu=0:00:00, real=0:00:00, mem(process/total)=924.84MB/924.84MB)
+[06/10 14:33:06    166s] 
+[06/10 14:33:06    166s] Begin Processing User Attributes
+[06/10 14:33:06    166s] 
+[06/10 14:33:06    166s] Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=924.84MB/924.84MB)
+[06/10 14:33:06    166s] 
+[06/10 14:33:06    166s] Ended Power Analysis: (cpu=0:00:00, real=0:00:00, mem(process/total)=924.84MB/924.84MB)
+[06/10 14:33:06    166s] 
+[06/10 14:34:29    169s] 
+[06/10 14:34:29    169s] *** Memory Usage v#1 (Current mem = 1093.879M, initial mem = 175.422M) ***
+[06/10 14:34:29    169s] 
+[06/10 14:34:29    169s] *** Summary of all messages that are not suppressed in this session:
+[06/10 14:34:29    169s] Severity  ID               Count  Summary                                  
+[06/10 14:34:29    169s] WARNING   IMPEXT-6197          1  The Cap table file is not specified. Thi...
+[06/10 14:34:29    169s] WARNING   IMPEXT-2766         10  The sheet resistance for layer %s is not...
+[06/10 14:34:29    169s] WARNING   IMPEXT-2773         10  The via resistance between layers %s and...
+[06/10 14:34:29    169s] WARNING   IMPEXT-2882          4  Unable to find the resistance for via '%...
+[06/10 14:34:29    169s] WARNING   IMPEXT-3518          1  The lower process node is set (using com...
+[06/10 14:34:29    169s] WARNING   IMPEXT-3032          1  Because the cap table file was not provi...
+[06/10 14:34:29    169s] ERROR     IMPSYT-6000          2  No Object Selected.                      
+[06/10 14:34:29    169s] ERROR     VOLTUS-1007          8  %s.                                      
+[06/10 14:34:29    169s] ERROR     IMPSYC-517           1  No top cell was found. Design must be lo...
+[06/10 14:34:29    169s] WARNING   IMPTCM-77            1  Option "%s" for command %s is obsolete a...
+[06/10 14:34:29    169s] ERROR     VOLTUS-1007          8  %s.                                      
+[06/10 14:34:29    169s] *** Message Summary: 28 warning(s), 11 error(s)
+[06/10 14:34:29    169s] 
+[06/10 14:34:29    169s] --- Ending "Innovus" (totcpu=0:02:50, real=0:30:08, mem=1093.9M) ---

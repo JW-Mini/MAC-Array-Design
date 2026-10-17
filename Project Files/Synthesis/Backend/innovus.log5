@@ -1,0 +1,468 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2016 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v16.20-p002_1, built Tue Nov 8 11:31:23 PST 2016
+Options:	
+Date:		Wed Jun 10 12:47:23 2026
+Host:		alfred.ece.northwestern.edu (x86_64 w/Linux 4.18.0-553.125.1.el8_10.x86_64) (8cores*8cpus*Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz 12288KB)
+OS:		Red Hat Enterprise Linux release 8.10 (Ootpa)
+
+License:
+		invs	Innovus Implementation System	16.2	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getDrawView
+<CMD> loadWorkspace -name Physical
+<CMD> win
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+rc
+**WARN: (GLOBAL-100):	Global 'timing_disable_backward_compatible_mmmc_mode' has become obsolete. It will be removed in the next release.
+Loading view definition file from /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_pwr.enc.dat/viewDefinition.tcl
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+*** End library_loading (cpu=0.00min, mem=0.0M, fe_cpu=0.10min, fe_real=0.35min, fe_mem=525.5M) ***
+*** Netlist is unique.
+Loading preference file /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_pwr.enc.dat/gui.pref.tcl ...
+**WARN: (IMPEXT-2773):	The via resistance between layers M0 and M1 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+**WARN: (IMPEXT-2773):	The via resistance between layers M1 and M2 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+**WARN: (IMPEXT-2773):	The via resistance between layers M2 and M3 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+**WARN: (IMPEXT-2773):	The via resistance between layers M3 and M4 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+**WARN: (IMPEXT-2773):	The via resistance between layers M4 and M5 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+**WARN: (IMPEXT-2773):	The via resistance between layers M5 and M6 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+**WARN: (IMPEXT-2773):	The via resistance between layers M6 and M7 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+**WARN: (IMPEXT-2773):	The via resistance between layers M7 and M8 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+**WARN: (IMPEXT-2773):	The via resistance between layers M8 and M9 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+**WARN: (IMPEXT-2773):	The via resistance between layers M9 and M10 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M1 is not defined in the cap table. Therefore, the LEF value 0.38 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M2 is not defined in the cap table. Therefore, the LEF value 0.25 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M3 is not defined in the cap table. Therefore, the LEF value 0.25 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M4 is not defined in the cap table. Therefore, the LEF value 0.21 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M5 is not defined in the cap table. Therefore, the LEF value 0.21 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M6 is not defined in the cap table. Therefore, the LEF value 0.21 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M7 is not defined in the cap table. Therefore, the LEF value 0.075 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M8 is not defined in the cap table. Therefore, the LEF value 0.075 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M9 is not defined in the cap table. Therefore, the LEF value 0.03 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M10 is not defined in the cap table. Therefore, the LEF value 0.03 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'IN1,' (File /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_pwr.enc.dat/libs/mmmc/MAC_Lab3.sdc, Line 7).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'IN2,' (File /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_pwr.enc.dat/libs/mmmc/MAC_Lab3.sdc, Line 7).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'IN3,' (File /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_pwr.enc.dat/libs/mmmc/MAC_Lab3.sdc, Line 7).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'W1,' (File /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_pwr.enc.dat/libs/mmmc/MAC_Lab3.sdc, Line 7).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'W2,' (File /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_pwr.enc.dat/libs/mmmc/MAC_Lab3.sdc, Line 7).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'W3,' (File /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_pwr.enc.dat/libs/mmmc/MAC_Lab3.sdc, Line 7).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'IN1,' (File /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_pwr.enc.dat/libs/mmmc/MAC_Lab3.sdc, Line 8).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'IN2,' (File /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_pwr.enc.dat/libs/mmmc/MAC_Lab3.sdc, Line 8).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'IN3,' (File /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_pwr.enc.dat/libs/mmmc/MAC_Lab3.sdc, Line 8).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'W1,' (File /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_pwr.enc.dat/libs/mmmc/MAC_Lab3.sdc, Line 8).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'W2,' (File /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_pwr.enc.dat/libs/mmmc/MAC_Lab3.sdc, Line 8).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'W3,' (File /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_pwr.enc.dat/libs/mmmc/MAC_Lab3.sdc, Line 8).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'OUT1,' (File /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_pwr.enc.dat/libs/mmmc/MAC_Lab3.sdc, Line 12).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'OUT2,' (File /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_pwr.enc.dat/libs/mmmc/MAC_Lab3.sdc, Line 12).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'OUT3,' (File /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_pwr.enc.dat/libs/mmmc/MAC_Lab3.sdc, Line 12).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'OUT4,' (File /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_pwr.enc.dat/libs/mmmc/MAC_Lab3.sdc, Line 12).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'OUT5,' (File /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_pwr.enc.dat/libs/mmmc/MAC_Lab3.sdc, Line 12).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'OUT6,' (File /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_pwr.enc.dat/libs/mmmc/MAC_Lab3.sdc, Line 12).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'OUT7,' (File /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_pwr.enc.dat/libs/mmmc/MAC_Lab3.sdc, Line 12).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'OUT8,' (File /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_pwr.enc.dat/libs/mmmc/MAC_Lab3.sdc, Line 12).
+
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+<CMD> setEndCapMode -reset
+<CMD> setEndCapMode -boundary_tap false
+<CMD> setPlaceMode -reset
+<CMD> setPlaceMode -congEffort auto -timingDriven 1 -modulePlan 1 -clkGateAware 1 -powerDriven 0 -ignoreScan 1 -reorderScan 1 -ignoreSpare 0 -placeIOPins 0 -moduleAwareSpare 0 -preserveRouting 0 -rmAffectedROuting 0 -checkRoute 0 -swapEEQ 0
+<CMD> setPlaceMode -fp false
+<CMD> placeDesign
+*** Starting placeDesign default flow ***
+*** Start deleteBufferTree ***
+Info: Detect buffers to remove automatically.
+Analyzing netlist ...
+Updating netlist
+AAE DB initialization (MEM=950.629 CPU=0:00:00.0 REAL=0:00:00.0) 
+siFlow : Timing analysis mode is single, using late cdB files
+
+*summary: 49 instances (buffers/inverters) removed
+*** Finish deleteBufferTree (0:00:00.2) ***
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.1052671 path_group
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: systolic_array
+# Design Mode: 45nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in Single mode...
+Total number of fetched objects 2538
+End delay calculation. (MEM=1186.12 CPU=0:00:00.2 REAL=0:00:00.0)
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+**INFO: Pre-place timing setting for timing analysis already disabled
+Deleted 0 physical inst  (cell - / prefix -).
+*** Starting "NanoPlace(TM) placement v#3 (mem=1172.0M)" ...
+*** Build Buffered Sizing Timing Model
+(cpu=0:00:00.2 mem=1172.0M) ***
+*** Build Virtual Sizing Timing Model
+(cpu=0:00:00.3 mem=1172.0M) ***
+Options: timingDriven clkGateAware ignoreScan pinGuide congEffort=auto gpeffort=medium 
+**WARN: (IMPSP-9042):	Scan chains were not defined, -place_global_ignore_scan option will be ignored.
+Define the scan chains before using this option.
+Type 'man IMPSP-9042' for more detail.
+#std cell=1748 (0 fixed + 1748 movable) #block=0 (0 floating + 0 preplaced)
+#ioInst=0 #net=2346 #term=7468 #term/net=3.18, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=230
+stdCell: 1748 single + 0 double + 0 multi
+Total standard cell length = 3.4257 (mm), area = 0.0048 (mm^2)
+Estimated cell power/ground rail width = 0.197 um
+Average module density = 0.662.
+Density for the design = 0.662.
+       = stdcell_area 18030 sites (4796 um^2) / alloc_area 27222 sites (7241 um^2).
+Pin Density = 0.2585.
+            = total # of pins 7468 / total area 28892.
+=== lastAutoLevel = 7 
+=== macro end level: 6 ===
+Clock gating cells determined by native netlist tracing.
+Iteration  1: Total net bbox = 2.334e+04 (7.26e+03 1.61e+04)
+              Est.  stn bbox = 2.448e+04 (7.84e+03 1.66e+04)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1186.1M
+Iteration  2: Total net bbox = 2.334e+04 (7.26e+03 1.61e+04)
+              Est.  stn bbox = 2.448e+04 (7.84e+03 1.66e+04)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1186.1M
+Iteration  3: Total net bbox = 1.905e+04 (5.32e+03 1.37e+04)
+              Est.  stn bbox = 2.091e+04 (6.24e+03 1.47e+04)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 1202.1M
+Active setup views:
+    an
+Iteration  4: Total net bbox = 2.066e+04 (6.65e+03 1.40e+04)
+              Est.  stn bbox = 2.297e+04 (7.87e+03 1.51e+04)
+              cpu = 0:00:00.2 real = 0:00:00.0 mem = 1202.1M
+Iteration  5: Total net bbox = 2.250e+04 (7.68e+03 1.48e+04)
+              Est.  stn bbox = 2.500e+04 (9.02e+03 1.60e+04)
+              cpu = 0:00:00.2 real = 0:00:00.0 mem = 1202.1M
+Iteration  6: Total net bbox = 2.423e+04 (9.10e+03 1.51e+04)
+              Est.  stn bbox = 2.690e+04 (1.06e+04 1.63e+04)
+              cpu = 0:00:00.2 real = 0:00:00.0 mem = 1226.1M
+Iteration  7: Total net bbox = 2.470e+04 (9.83e+03 1.49e+04)
+              Est.  stn bbox = 2.777e+04 (1.14e+04 1.63e+04)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1218.1M
+Iteration  8: Total net bbox = 2.470e+04 (9.83e+03 1.49e+04)
+              Est.  stn bbox = 2.777e+04 (1.14e+04 1.63e+04)
+              cpu = 0:00:00.4 real = 0:00:01.0 mem = 1218.1M
+Iteration  9: Total net bbox = 2.508e+04 (9.40e+03 1.57e+04)
+              Est.  stn bbox = 2.778e+04 (1.09e+04 1.69e+04)
+              cpu = 0:00:00.2 real = 0:00:00.0 mem = 1218.1M
+Iteration 10: Total net bbox = 2.553e+04 (1.01e+04 1.54e+04)
+              Est.  stn bbox = 2.864e+04 (1.17e+04 1.69e+04)
+              cpu = 0:00:00.6 real = 0:00:00.0 mem = 1218.1M
+Iteration 11: Total net bbox = 2.553e+04 (1.01e+04 1.54e+04)
+              Est.  stn bbox = 2.864e+04 (1.17e+04 1.69e+04)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1218.1M
+*** cost = 2.553e+04 (1.01e+04 1.54e+04) (cpu for global=0:00:01.8) real=0:00:02.0***
+Info: 0 clock gating cells identified, 0 (on average) moved
+Solver runtime cpu: 0:00:01.3 real: 0:00:01.4
+Core Placement runtime cpu: 0:00:01.3 real: 0:00:01.0
+**WARN: (IMPSP-9025):	No scan chain specified/traced.
+Type 'man IMPSP-9025' for more detail.
+*** Starting refinePlace (0:00:09.9 mem=1138.8M) ***
+Total net bbox length = 2.553e+04 (1.010e+04 1.543e+04) (ext = 7.584e+03)
+Density distribution unevenness ratio = 8.648%
+Move report: Detail placement moves 1748 insts, mean move: 0.70 um, max move: 8.53 um
+	Max move on inst (PE7_INPUT_out_reg[4]): (12.81, 39.63) --> (8.74, 44.10)
+	Runtime: CPU: 0:00:00.1 REAL: 0:00:00.0 MEM: 1138.8MB
+Summary Report:
+Instances move: 1748 (out of 1748 movable)
+Instances flipped: 0
+Mean displacement: 0.70 um
+Max displacement: 8.53 um (Instance: PE7_INPUT_out_reg[4]) (12.808, 39.6345) -> (8.74, 44.1)
+	Length: 20 sites, height: 1 rows, site name: FreePDK45_38x28_10R_NP_162NW_34O, cell type: DFFR_X1
+Total net bbox length = 2.503e+04 (9.234e+03 1.580e+04) (ext = 7.606e+03)
+Runtime: CPU: 0:00:00.2 REAL: 0:00:00.0 MEM: 1138.8MB
+*** Finished refinePlace (0:00:10.0 mem=1138.8M) ***
+*** End of Placement (cpu=0:00:02.5, real=0:00:04.0, mem=1138.8M) ***
+default core: bins with density >  0.75 = 14.3 % ( 7 / 49 )
+Density distribution unevenness ratio = 8.621%
+*** Free Virtual Timing Model ...(mem=1138.8M)
+Starting congestion repair ...
+[NR-eGR] honorMsvRouteConstraint: false
+[NR-eGR] honorClockSpecNDR      : 0
+[NR-eGR] minRouteLayer          : 2
+[NR-eGR] maxRouteLayer          : 127
+[NR-eGR] numTracksPerClockWire  : 0
+[NR-eGR] Layer1 has no routable track
+[NR-eGR] Layer2 has single uniform track structure
+[NR-eGR] Layer3 has single uniform track structure
+[NR-eGR] Layer4 has single uniform track structure
+[NR-eGR] Layer5 has single uniform track structure
+[NR-eGR] Layer6 has single uniform track structure
+[NR-eGR] Layer7 has single uniform track structure
+[NR-eGR] Layer8 has single uniform track structure
+[NR-eGR] Layer9 has single uniform track structure
+[NR-eGR] Layer10 has single uniform track structure
+[NR-eGR] numRoutingBlks=0 numInstBlks=0 numPGBlocks=25424 numBumpBlks=0 numBoundaryFakeBlks=0
+[NR-eGR] numPreroutedNet = 0  numPreroutedWires = 0
+[NR-eGR] Read numTotalNets=2346  numIgnoredNets=0
+[NR-eGR] There are 1 clock nets ( 0 with NDR ).
+[NR-eGR] ============ Routing rule table ============
+[NR-eGR] Rule id 0. Nets 2346 
+[NR-eGR] id=0  ndrTrackId=0  ndrViaId=-1  extraSpace=0  numShields=0  maxHorDemand=1  maxVerDemand=1
+[NR-eGR] Pitch:  L1=270  L2=380  L3=280  L4=560  L5=560  L6=560  L7=1680  L8=1680  L9=3200  L10=3360
+[NR-eGR] ========================================
+[NR-eGR] 
+[NR-eGR] Layer group 1: route 2346 net(s) in layer range [2, 10]
+[NR-eGR] earlyGlobalRoute overflow of layer group 1: 0.00% H + 0.42% V. EstWL: 2.772840e+04um
+[NR-eGR] 
+[NR-eGR] Overflow after earlyGlobalRoute (GR compatible) 0.00% H + 0.00% V
+[NR-eGR] Overflow after earlyGlobalRoute 0.00% H + 0.00% V
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+Skipped repairing congestion.
+[NR-eGR] Layer1(metal1)(F) length: 0.000000e+00um, number of vias: 7418
+[NR-eGR] Layer2(metal2)(V) length: 1.060253e+04um, number of vias: 10615
+[NR-eGR] Layer3(metal3)(H) length: 1.109385e+04um, number of vias: 3318
+[NR-eGR] Layer4(metal4)(V) length: 7.559440e+03um, number of vias: 79
+[NR-eGR] Layer5(metal5)(H) length: 6.222690e+02um, number of vias: 25
+[NR-eGR] Layer6(metal6)(V) length: 5.929000e+01um, number of vias: 19
+[NR-eGR] Layer7(metal7)(H) length: 4.948000e+01um, number of vias: 20
+[NR-eGR] Layer8(metal8)(V) length: 3.494400e+02um, number of vias: 0
+[NR-eGR] Layer9(metal9)(H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Layer10(metal10)(V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Total length: 3.033629e+04um, number of vias: 21494
+End of congRepair (cpu=0:00:00.0, real=0:00:00.0)
+*** Finishing placeDesign default flow ***
+**placeDesign ... cpu = 0: 0: 3, real = 0: 0: 5, mem = 1138.8M **
+Command spTest is not supported.
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPDC-1629           1  The default delay limit was set to %d. T...
+WARNING   IMPSP-9025           1  No scan chain specified/traced.          
+WARNING   IMPSP-9042           1  Scan chains were not defined, -place_glo...
+*** Message Summary: 3 warning(s), 0 error(s)
+
+<CMD> placeDesign
+*** Starting placeDesign default flow ***
+*** Start deleteBufferTree ***
+Info: Detect buffers to remove automatically.
+Analyzing netlist ...
+Updating netlist
+
+*summary: 0 instances (buffers/inverters) removed
+*** Finish deleteBufferTree (0:00:00.1) ***
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+Effort level <high> specified for reg2reg_tmp.1052671 path_group
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: systolic_array
+# Design Mode: 45nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in Single mode...
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner resistance tables ...
+Total number of fetched objects 2538
+End delay calculation. (MEM=1226.96 CPU=0:00:00.2 REAL=0:00:00.0)
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+**INFO: Pre-place timing setting for timing analysis already disabled
+Deleted 0 physical inst  (cell - / prefix -).
+*** Starting "NanoPlace(TM) placement v#3 (mem=1212.8M)" ...
+*** Build Buffered Sizing Timing Model
+(cpu=0:00:00.2 mem=1212.8M) ***
+*** Build Virtual Sizing Timing Model
+(cpu=0:00:00.3 mem=1212.8M) ***
+Options: timingDriven clkGateAware ignoreScan pinGuide congEffort=auto gpeffort=medium 
+**WARN: (IMPSP-9042):	Scan chains were not defined, -place_global_ignore_scan option will be ignored.
+Define the scan chains before using this option.
+Type 'man IMPSP-9042' for more detail.
+#std cell=1748 (0 fixed + 1748 movable) #block=0 (0 floating + 0 preplaced)
+#ioInst=0 #net=2346 #term=7468 #term/net=3.18, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=230
+stdCell: 1748 single + 0 double + 0 multi
+Total standard cell length = 3.4257 (mm), area = 0.0048 (mm^2)
+Average module density = 0.662.
+Density for the design = 0.662.
+       = stdcell_area 18030 sites (4796 um^2) / alloc_area 27222 sites (7241 um^2).
+Pin Density = 0.2585.
+            = total # of pins 7468 / total area 28892.
+=== lastAutoLevel = 7 
+=== macro end level: 6 ===
+Clock gating cells determined by native netlist tracing.
+Iteration  1: Total net bbox = 2.334e+04 (7.26e+03 1.61e+04)
+              Est.  stn bbox = 2.448e+04 (7.84e+03 1.66e+04)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1227.0M
+Iteration  2: Total net bbox = 2.334e+04 (7.26e+03 1.61e+04)
+              Est.  stn bbox = 2.448e+04 (7.84e+03 1.66e+04)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1227.0M
+Iteration  3: Total net bbox = 1.905e+04 (5.32e+03 1.37e+04)
+              Est.  stn bbox = 2.091e+04 (6.24e+03 1.47e+04)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 1227.0M
+Active setup views:
+    an
+Iteration  4: Total net bbox = 2.066e+04 (6.65e+03 1.40e+04)
+              Est.  stn bbox = 2.297e+04 (7.87e+03 1.51e+04)
+              cpu = 0:00:00.2 real = 0:00:00.0 mem = 1227.0M
+Iteration  5: Total net bbox = 2.250e+04 (7.68e+03 1.48e+04)
+              Est.  stn bbox = 2.500e+04 (9.02e+03 1.60e+04)
+              cpu = 0:00:00.2 real = 0:00:00.0 mem = 1227.0M
+Iteration  6: Total net bbox = 2.423e+04 (9.10e+03 1.51e+04)
+              Est.  stn bbox = 2.690e+04 (1.06e+04 1.63e+04)
+              cpu = 0:00:00.2 real = 0:00:00.0 mem = 1235.0M
+Iteration  7: Total net bbox = 2.470e+04 (9.83e+03 1.49e+04)
+              Est.  stn bbox = 2.777e+04 (1.14e+04 1.63e+04)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1227.0M
+Iteration  8: Total net bbox = 2.470e+04 (9.83e+03 1.49e+04)
+              Est.  stn bbox = 2.777e+04 (1.14e+04 1.63e+04)
+              cpu = 0:00:00.4 real = 0:00:01.0 mem = 1227.0M
+Iteration  9: Total net bbox = 2.508e+04 (9.40e+03 1.57e+04)
+              Est.  stn bbox = 2.778e+04 (1.09e+04 1.69e+04)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 1227.0M
+Iteration 10: Total net bbox = 2.553e+04 (1.01e+04 1.54e+04)
+              Est.  stn bbox = 2.864e+04 (1.17e+04 1.69e+04)
+              cpu = 0:00:00.6 real = 0:00:00.0 mem = 1227.0M
+Iteration 11: Total net bbox = 2.553e+04 (1.01e+04 1.54e+04)
+              Est.  stn bbox = 2.864e+04 (1.17e+04 1.69e+04)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1227.0M
+*** cost = 2.553e+04 (1.01e+04 1.54e+04) (cpu for global=0:00:01.8) real=0:00:02.0***
+Info: 0 clock gating cells identified, 0 (on average) moved
+Solver runtime cpu: 0:00:01.3 real: 0:00:01.5
+Core Placement runtime cpu: 0:00:01.3 real: 0:00:01.0
+**WARN: (IMPSP-9025):	No scan chain specified/traced.
+Type 'man IMPSP-9025' for more detail.
+*** Starting refinePlace (0:00:13.4 mem=1139.8M) ***
+Total net bbox length = 2.553e+04 (1.010e+04 1.543e+04) (ext = 7.584e+03)
+Density distribution unevenness ratio = 8.648%
+Move report: Detail placement moves 1748 insts, mean move: 0.70 um, max move: 8.53 um
+	Max move on inst (PE7_INPUT_out_reg[4]): (12.81, 39.63) --> (8.74, 44.10)
+	Runtime: CPU: 0:00:00.2 REAL: 0:00:00.0 MEM: 1139.8MB
+Summary Report:
+Instances move: 1748 (out of 1748 movable)
+Instances flipped: 0
+Mean displacement: 0.70 um
+Max displacement: 8.53 um (Instance: PE7_INPUT_out_reg[4]) (12.808, 39.6345) -> (8.74, 44.1)
+	Length: 20 sites, height: 1 rows, site name: FreePDK45_38x28_10R_NP_162NW_34O, cell type: DFFR_X1
+Total net bbox length = 2.503e+04 (9.234e+03 1.580e+04) (ext = 7.606e+03)
+Runtime: CPU: 0:00:00.2 REAL: 0:00:00.0 MEM: 1139.8MB
+*** Finished refinePlace (0:00:13.5 mem=1139.8M) ***
+*** End of Placement (cpu=0:00:02.5, real=0:00:03.0, mem=1139.8M) ***
+default core: bins with density >  0.75 = 14.3 % ( 7 / 49 )
+Density distribution unevenness ratio = 8.621%
+*** Free Virtual Timing Model ...(mem=1139.8M)
+Starting congestion repair ...
+[NR-eGR] honorMsvRouteConstraint: false
+[NR-eGR] honorClockSpecNDR      : 0
+[NR-eGR] minRouteLayer          : 2
+[NR-eGR] maxRouteLayer          : 127
+[NR-eGR] numTracksPerClockWire  : 0
+[NR-eGR] Layer1 has no routable track
+[NR-eGR] Layer2 has single uniform track structure
+[NR-eGR] Layer3 has single uniform track structure
+[NR-eGR] Layer4 has single uniform track structure
+[NR-eGR] Layer5 has single uniform track structure
+[NR-eGR] Layer6 has single uniform track structure
+[NR-eGR] Layer7 has single uniform track structure
+[NR-eGR] Layer8 has single uniform track structure
+[NR-eGR] Layer9 has single uniform track structure
+[NR-eGR] Layer10 has single uniform track structure
+[NR-eGR] numRoutingBlks=0 numInstBlks=0 numPGBlocks=25424 numBumpBlks=0 numBoundaryFakeBlks=0
+[NR-eGR] numPreroutedNet = 0  numPreroutedWires = 0
+[NR-eGR] Read numTotalNets=2346  numIgnoredNets=0
+[NR-eGR] There are 1 clock nets ( 0 with NDR ).
+[NR-eGR] ============ Routing rule table ============
+[NR-eGR] Rule id 0. Nets 2346 
+[NR-eGR] id=0  ndrTrackId=0  ndrViaId=-1  extraSpace=0  numShields=0  maxHorDemand=1  maxVerDemand=1
+[NR-eGR] Pitch:  L1=270  L2=380  L3=280  L4=560  L5=560  L6=560  L7=1680  L8=1680  L9=3200  L10=3360
+[NR-eGR] ========================================
+[NR-eGR] 
+[NR-eGR] Layer group 1: route 2346 net(s) in layer range [2, 10]
+[NR-eGR] earlyGlobalRoute overflow of layer group 1: 0.00% H + 0.42% V. EstWL: 2.772840e+04um
+[NR-eGR] 
+[NR-eGR] Overflow after earlyGlobalRoute (GR compatible) 0.00% H + 0.00% V
+[NR-eGR] Overflow after earlyGlobalRoute 0.00% H + 0.00% V
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+Skipped repairing congestion.
+[NR-eGR] Layer1(metal1)(F) length: 0.000000e+00um, number of vias: 7418
+[NR-eGR] Layer2(metal2)(V) length: 1.060253e+04um, number of vias: 10615
+[NR-eGR] Layer3(metal3)(H) length: 1.109385e+04um, number of vias: 3318
+[NR-eGR] Layer4(metal4)(V) length: 7.559440e+03um, number of vias: 79
+[NR-eGR] Layer5(metal5)(H) length: 6.222690e+02um, number of vias: 25
+[NR-eGR] Layer6(metal6)(V) length: 5.929000e+01um, number of vias: 19
+[NR-eGR] Layer7(metal7)(H) length: 4.948000e+01um, number of vias: 20
+[NR-eGR] Layer8(metal8)(V) length: 3.494400e+02um, number of vias: 0
+[NR-eGR] Layer9(metal9)(H) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Layer10(metal10)(V) length: 0.000000e+00um, number of vias: 0
+[NR-eGR] Total length: 3.033629e+04um, number of vias: 21494
+End of congRepair (cpu=0:00:00.1, real=0:00:00.0)
+*** Finishing placeDesign default flow ***
+**placeDesign ... cpu = 0: 0: 3, real = 0: 0: 3, mem = 1139.8M **
+Command spTest is not supported.
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPDC-1629           1  The default delay limit was set to %d. T...
+WARNING   IMPSP-9025           1  No scan chain specified/traced.          
+WARNING   IMPSP-9042           1  Scan chains were not defined, -place_glo...
+*** Message Summary: 3 warning(s), 0 error(s)
+
+
+*** Memory Usage v#1 (Current mem = 1139.793M, initial mem = 183.422M) ***
+*** Message Summary: 26 warning(s), 0 error(s)
+
+--- Ending "Innovus" (totcpu=0:00:14.1, real=0:01:18, mem=1139.8M) ---

@@ -1,0 +1,127 @@
+[06/10 14:53:45      0s] 
+[06/10 14:53:45      0s] Cadence Innovus(TM) Implementation System.
+[06/10 14:53:45      0s] Copyright 2016 Cadence Design Systems, Inc. All rights reserved worldwide.
+[06/10 14:53:45      0s] 
+[06/10 14:53:45      0s] Version:	v16.20-p002_1, built Tue Nov 8 11:31:23 PST 2016
+[06/10 14:53:45      0s] Options:	
+[06/10 14:53:45      0s] Date:		Wed Jun 10 14:53:45 2026
+[06/10 14:53:45      0s] Host:		alfred.ece.northwestern.edu (x86_64 w/Linux 4.18.0-553.125.1.el8_10.x86_64) (8cores*8cpus*Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz 12288KB)
+[06/10 14:53:45      0s] OS:		Red Hat Enterprise Linux release 8.10 (Ootpa)
+[06/10 14:53:45      0s] 
+[06/10 14:53:45      0s] License:
+[06/10 14:53:45      0s] 		invs	Innovus Implementation System	16.2	checkout succeeded
+[06/10 14:53:45      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[06/10 14:53:51      4s] @(#)CDS: Innovus v16.20-p002_1 (64bit) 11/08/2016 11:31 (Linux 2.6.18-194.el5)
+[06/10 14:53:51      4s] @(#)CDS: NanoRoute 16.20-p002_1 NR161103-1425/16_20-UB (database version 2.30, 354.6.1) {superthreading v1.34}
+[06/10 14:53:51      4s] @(#)CDS: AAE 16.20-p004 (64bit) 11/08/2016 (Linux 2.6.18-194.el5)
+[06/10 14:53:51      4s] @(#)CDS: CTE 16.20-p008_1 () Oct 29 2016 08:26:57 ( )
+[06/10 14:53:51      4s] @(#)CDS: SYNTECH 16.20-p001_1 () Oct 27 2016 11:33:00 ( )
+[06/10 14:53:51      4s] @(#)CDS: CPE v16.20-p011
+[06/10 14:53:51      4s] @(#)CDS: IQRC/TQRC 15.2.5-s803 (64bit) Tue Sep 13 18:23:58 PDT 2016 (Linux 2.6.18-194.el5)
+[06/10 14:53:51      4s] @(#)CDS: OA 22.50-p051 Thu Aug  4 00:05:16 2016
+[06/10 14:53:51      4s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[06/10 14:53:51      4s] @(#)CDS: RCDB 11.8
+[06/10 14:53:51      4s] --- Running on alfred.ece.northwestern.edu (x86_64 w/Linux 4.18.0-553.125.1.el8_10.x86_64) (8cores*8cpus*Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz 12288KB) ---
+[06/10 14:53:51      4s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_1102569_alfred.ece.northwestern.edu_qcj9450_dgbatl.
+
+[06/10 14:53:51      4s] 
+[06/10 14:53:51      4s] **INFO:  MMMC transition support version v31-84 
+[06/10 14:53:51      4s] 
+[06/10 14:53:51      4s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[06/10 14:53:51      4s] <CMD> suppressMessage ENCEXT-2799
+[06/10 14:53:51      5s] <CMD> getDrawView
+[06/10 14:53:51      5s] <CMD> loadWorkspace -name Physical
+[06/10 14:53:51      5s] <CMD> win
+[06/10 14:54:12      5s] <CMD> encMessage warning 0
+[06/10 14:54:12      5s] Suppress "**WARN ..." messages.
+[06/10 14:54:12      5s] <CMD> encMessage debug 0
+[06/10 14:54:12      5s] <CMD> encMessage info 0
+[06/10 14:54:12      5s] **WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+[06/10 14:54:12      5s] **WARN: (GLOBAL-100):	Global 'timing_disable_backward_compatible_mmmc_mode' has become obsolete. It will be removed in the next release.
+[06/10 14:54:12      6s] Loading view definition file from /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_final_layout.enc.dat/viewDefinition.tcl
+[06/10 14:54:12      6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:54:12      6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:54:12      6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:54:12      6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:54:12      6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:54:12      6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:54:12      6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:54:12      6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:54:12      6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:54:12      6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:54:12      6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:54:12      6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:54:12      6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:54:12      6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:54:12      6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:54:12      6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:54:12      6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:54:12      6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:54:12      6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:54:12      6s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+[06/10 14:54:12      6s] *** End library_loading (cpu=0.00min, mem=0.0M, fe_cpu=0.10min, fe_real=0.45min, fe_mem=556.3M) ***
+[06/10 14:54:12      6s] *** Netlist is unique.
+[06/10 14:54:12      6s] Loading preference file /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_final_layout.enc.dat/gui.pref.tcl ...
+[06/10 14:54:12      6s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[06/10 14:54:12      6s] **WARN: (IMPEXT-2773):	The via resistance between layers M0 and M1 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[06/10 14:54:12      6s] **WARN: (IMPEXT-2773):	The via resistance between layers M1 and M2 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[06/10 14:54:12      6s] **WARN: (IMPEXT-2773):	The via resistance between layers M2 and M3 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[06/10 14:54:12      6s] **WARN: (IMPEXT-2773):	The via resistance between layers M3 and M4 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[06/10 14:54:12      6s] **WARN: (IMPEXT-2773):	The via resistance between layers M4 and M5 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[06/10 14:54:12      6s] **WARN: (IMPEXT-2773):	The via resistance between layers M5 and M6 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[06/10 14:54:12      6s] **WARN: (IMPEXT-2773):	The via resistance between layers M6 and M7 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[06/10 14:54:12      6s] **WARN: (IMPEXT-2773):	The via resistance between layers M7 and M8 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[06/10 14:54:12      6s] **WARN: (IMPEXT-2773):	The via resistance between layers M8 and M9 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[06/10 14:54:12      6s] **WARN: (IMPEXT-2773):	The via resistance between layers M9 and M10 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[06/10 14:54:12      6s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M1 is not defined in the cap table. Therefore, the LEF value 0.38 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[06/10 14:54:12      6s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M2 is not defined in the cap table. Therefore, the LEF value 0.25 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[06/10 14:54:12      6s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M3 is not defined in the cap table. Therefore, the LEF value 0.25 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[06/10 14:54:12      6s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M4 is not defined in the cap table. Therefore, the LEF value 0.21 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[06/10 14:54:12      6s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M5 is not defined in the cap table. Therefore, the LEF value 0.21 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[06/10 14:54:12      6s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M6 is not defined in the cap table. Therefore, the LEF value 0.21 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[06/10 14:54:12      6s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M7 is not defined in the cap table. Therefore, the LEF value 0.075 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[06/10 14:54:12      6s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M8 is not defined in the cap table. Therefore, the LEF value 0.075 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[06/10 14:54:12      6s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M9 is not defined in the cap table. Therefore, the LEF value 0.03 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[06/10 14:54:12      6s] **WARN: (IMPEXT-2766):	The sheet resistance for layer M10 is not defined in the cap table. Therefore, the LEF value 0.03 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+[06/10 14:54:12      6s] **WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+[06/10 14:54:21      7s] <CMD> uiSetTool ruler
+[06/10 14:54:34      7s] <CMD> pan 20.413 11.187
+[06/10 14:54:35      7s] <CMD> uiSetTool ruler
+[06/10 14:54:37      7s] <CMD> uiSetTool ruler
+[06/10 14:54:44      8s] <CMD> pan 10.059 18.535
+[06/10 14:54:53      9s] <CMD> pan -2.486 -24.750
+[06/10 14:54:54      9s] <CMD> pan 10.736 -0.678
+[06/10 14:55:56     11s] <CMD> pan -34.386 -22.415
+[06/10 14:55:57     11s] <CMD> zoomSelected
+[06/10 14:55:57     11s] <CMD> zoomSelected
+[06/10 14:56:01     11s] <CMD> fit
+[06/10 14:56:05     11s] <CMD> fit
+[06/10 14:56:54     13s] <CMD> panCenter 1.331 31.538
+[06/10 14:56:57     13s] <CMD> pan -34.354 -32.320
+[06/10 14:56:58     13s] <CMD> pan -30.059 0.226
+[06/10 15:00:09     20s] <CMD> pan 36.020 13.627
+[06/10 15:00:10     20s] <CMD> pan 35.191 3.675
+[06/10 15:00:11     20s] <CMD> pan -1.388 16.248
+[06/10 15:00:12     20s] <CMD> pan 4.246 23.597
+[06/10 15:00:13     20s] <CMD> pan -1.062 11.268
+[06/10 15:00:30     21s] <CMD> uiSetTool ruler
+[06/10 15:00:32     21s] <CMD> uiSetTool ruler
+[06/10 15:00:33     21s] <CMD> uiSetTool ruler
+[06/10 15:00:34     21s] <CMD> uiSetTool ruler
+[06/10 15:00:34     21s] <CMD> uiSetTool ruler
+[06/10 15:00:39     22s] <CMD> pan 10.941 -76.544
+[06/10 15:00:52     22s] <CMD> pan -19.157 31.998
+[06/10 15:00:52     22s] <CMD> pan 10.342 25.543
+[06/10 15:00:53     22s] <CMD> pan 1.389 32.206
+[06/10 15:00:58     23s] <CMD> pan -23.817 -47.202
+[06/10 15:53:51    128s] 
+[06/10 15:53:51    128s] *** Memory Usage v#1 (Current mem = 1348.957M, initial mem = 175.422M) ***
+[06/10 15:53:51    128s] 
+[06/10 15:53:51    128s] *** Summary of all messages that are not suppressed in this session:
+[06/10 15:53:51    128s] Severity  ID               Count  Summary                                  
+[06/10 15:53:51    128s] WARNING   IMPEXT-2766         10  The sheet resistance for layer %s is not...
+[06/10 15:53:51    128s] WARNING   IMPEXT-2773         10  The via resistance between layers %s and...
+[06/10 15:53:51    128s] WARNING   IMPTCM-77            1  Option "%s" for command %s is obsolete a...
+[06/10 15:53:51    128s] *** Message Summary: 21 warning(s), 0 error(s)
+[06/10 15:53:51    128s] 
+[06/10 15:53:51    128s] --- Ending "Innovus" (totcpu=0:02:09, real=1:00:06, mem=1349.0M) ---

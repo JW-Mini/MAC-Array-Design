@@ -1,0 +1,514 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2016 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v16.20-p002_1, built Tue Nov 8 11:31:23 PST 2016
+Options:	
+Date:		Wed Jun 10 14:04:21 2026
+Host:		alfred.ece.northwestern.edu (x86_64 w/Linux 4.18.0-553.125.1.el8_10.x86_64) (8cores*8cpus*Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz 12288KB)
+OS:		Red Hat Enterprise Linux release 8.10 (Ootpa)
+
+License:
+		invs	Innovus Implementation System	16.2	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getDrawView
+<CMD> loadWorkspace -name Physical
+<CMD> win
+<CMD> report_area
+**ERROR: (IMPSYC-517):	No top cell was found. Design must be loaded in memory before running 'report_area'.
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+rc
+**WARN: (GLOBAL-100):	Global 'timing_disable_backward_compatible_mmmc_mode' has become obsolete. It will be removed in the next release.
+Loading view definition file from /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_final_layout.enc.dat/viewDefinition.tcl
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+*** End library_loading (cpu=0.00min, mem=0.0M, fe_cpu=1.26min, fe_real=7.83min, fe_mem=536.5M) ***
+*** Netlist is unique.
+Loading preference file /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_final_layout.enc.dat/gui.pref.tcl ...
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+**WARN: (IMPEXT-2773):	The via resistance between layers M0 and M1 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+**WARN: (IMPEXT-2773):	The via resistance between layers M1 and M2 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+**WARN: (IMPEXT-2773):	The via resistance between layers M2 and M3 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+**WARN: (IMPEXT-2773):	The via resistance between layers M3 and M4 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+**WARN: (IMPEXT-2773):	The via resistance between layers M4 and M5 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+**WARN: (IMPEXT-2773):	The via resistance between layers M5 and M6 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+**WARN: (IMPEXT-2773):	The via resistance between layers M6 and M7 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+**WARN: (IMPEXT-2773):	The via resistance between layers M7 and M8 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+**WARN: (IMPEXT-2773):	The via resistance between layers M8 and M9 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+**WARN: (IMPEXT-2773):	The via resistance between layers M9 and M10 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M1 is not defined in the cap table. Therefore, the LEF value 0.38 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M2 is not defined in the cap table. Therefore, the LEF value 0.25 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M3 is not defined in the cap table. Therefore, the LEF value 0.25 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M4 is not defined in the cap table. Therefore, the LEF value 0.21 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M5 is not defined in the cap table. Therefore, the LEF value 0.21 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M6 is not defined in the cap table. Therefore, the LEF value 0.21 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M7 is not defined in the cap table. Therefore, the LEF value 0.075 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M8 is not defined in the cap table. Therefore, the LEF value 0.075 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M9 is not defined in the cap table. Therefore, the LEF value 0.03 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M10 is not defined in the cap table. Therefore, the LEF value 0.03 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+systolic_array
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+'set_default_switching_activity' finished successfully.
+<CMD> report_area
+<CMD> setEdit -layer_horizontal metal1
+<CMD> setEdit -layer_vertical metal1
+<CMD> editDuplicate
+<CMD> editDuplicate
+<CMD> uiSetTool ruler
+<CMD> uiSetTool moveWire
+<CMD> set layerNameNoAbbreviation 0
+<CMD> set layerNameNoAbbreviation 1
+<CMD> uiSetTool moveWire
+<CMD> set layerNameNoAbbreviation 0
+<CMD> set layerNameNoAbbreviation 1
+**ERROR: (IMPSYT-6000):	No Object Selected.
+<CMD> uiSetTool ruler
+<CMD> uiSetTool ruler
+<CMD> uiSetTool ruler
+<CMD> uiSetTool ruler
+<CMD> pan 7.841 30.103
+<CMD> pan -2.708 -14.366
+<CMD> pan 0.028 -15.223
+<CMD> pan -0.277 -17.018
+<CMD> pan 0.000 -21.688
+<CMD> pan -1.823 -17.681
+<CMD> uiSetTool ruler
+<CMD> pan -15.484 2.858
+<CMD> pan -51.327 15.989
+<CMD> uiSetTool ruler
+<CMD> pan 29.349 2.287
+<CMD> pan 49.704 -2.139
+<CMD> pan 1.937 30.378
+<CMD> pan -3.906 9.419
+<CMD> pan -9.764 -0.391
+<CMD> report_timing -late
+AAE DB initialization (MEM=961.355 CPU=0:00:00.0 REAL=0:00:00.0) 
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: systolic_array
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: No SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+**WARN: (IMPEXT-3518):	The lower process node is set (using command 'setDesignMode') but the technology file for tQuantus extraction not specified. Therefore, going for postRoute (effortLevel low) extraction instead of recommended extractor 'tQuantus' for lower nodes. Use command 'set_analysis_view/update_rc_corner' to specify the technology file for tQuantus extraction to take place.
+Extraction called for design 'systolic_array' of instances=5831 and nets=2857 using extraction engine 'postRoute' at effort level 'low' .
+PostRoute (effortLevel low) RC Extraction called for design systolic_array.
+RC Extraction called in multi-corner(1) mode.
+**WARN: (IMPEXT-6197):	The Cap table file is not specified. This will result in lower parasitic accuracy when using preRoute extraction or postRoute extraction with effort level 'low'. It is recommended to generate the Cap table file using the 'generateCapTbl' command and specify it before extraction using 'create_rc_corner/update_rc_corner -cap_table'.
+Type 'man IMPEXT-6197' for more detail.
+**WARN: (IMPEXT-3032):	Because the cap table file was not provided, it will be created internally with the following process info:
+* Layer Id             : 1 - M1
+      Thickness        : 0.13
+      Min Width        : 0.07
+      Layer Dielectric : 4.1
+* Layer Id             : 2 - M2
+      Thickness        : 0.14
+      Min Width        : 0.07
+      Layer Dielectric : 4.1
+* Layer Id             : 3 - M3
+      Thickness        : 0.14
+      Min Width        : 0.07
+      Layer Dielectric : 4.1
+* Layer Id             : 4 - M4
+      Thickness        : 0.28
+      Min Width        : 0.14
+      Layer Dielectric : 4.1
+* Layer Id             : 5 - M5
+      Thickness        : 0.28
+      Min Width        : 0.14
+      Layer Dielectric : 4.1
+* Layer Id             : 6 - M6
+      Thickness        : 0.28
+      Min Width        : 0.14
+      Layer Dielectric : 4.1
+* Layer Id             : 7 - M7
+      Thickness        : 0.8
+      Min Width        : 0.4
+      Layer Dielectric : 4.1
+* Layer Id             : 8 - M8
+      Thickness        : 0.8
+      Min Width        : 0.4
+      Layer Dielectric : 4.1
+* Layer Id             : 9 - M9
+      Thickness        : 2
+      Min Width        : 0.8
+      Layer Dielectric : 4.1
+* Layer Id             : 10 - M10
+      Thickness        : 2
+      Min Width        : 0.8
+      Layer Dielectric : 4.1
+extractDetailRC Option : -outfile /tmp/innovus_temp_1080254_alfred.ece.northwestern.edu_qcj9450_Djbg07/systolic_array_1080254_QBBONn.rcdb.d  -basic
+RC Mode: PostRoute -effortLevel low [Basic CapTable, LEF Resistances]
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Coupling Cap. Scaling Factor : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 1.00000
+Initializing multi-corner resistance tables ...
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 961.4M)
+Extracted 10.0066% (CPU Time= 0:00:00.0  MEM= 985.4M)
+**WARN: (IMPEXT-2882):	Unable to find the resistance for via 'via1_7' in Cap table or LEF or OA files. The default value of 4.0 ohms is being assigned. To avoid this, check the Cap table and LEF and OA files, provide the resistance and read the files again.
+Extracted 20.0063% (CPU Time= 0:00:00.0  MEM= 985.4M)
+Extracted 30.0059% (CPU Time= 0:00:00.0  MEM= 985.4M)
+Extracted 40.0056% (CPU Time= 0:00:00.0  MEM= 985.4M)
+Extracted 50.0052% (CPU Time= 0:00:00.0  MEM= 985.4M)
+Extracted 60.0049% (CPU Time= 0:00:00.0  MEM= 985.4M)
+**WARN: (IMPEXT-2882):	Unable to find the resistance for via 'via2_5' in Cap table or LEF or OA files. The default value of 4.0 ohms is being assigned. To avoid this, check the Cap table and LEF and OA files, provide the resistance and read the files again.
+Extracted 70.0045% (CPU Time= 0:00:00.0  MEM= 985.4M)
+Extracted 80.0042% (CPU Time= 0:00:00.1  MEM= 985.4M)
+Extracted 90.0038% (CPU Time= 0:00:00.1  MEM= 985.4M)
+**WARN: (IMPEXT-2882):	Unable to find the resistance for via 'via3_2' in Cap table or LEF or OA files. The default value of 4.0 ohms is being assigned. To avoid this, check the Cap table and LEF and OA files, provide the resistance and read the files again.
+**WARN: (IMPEXT-2882):	Unable to find the resistance for via 'via4_0' in Cap table or LEF or OA files. The default value of 4.0 ohms is being assigned. To avoid this, check the Cap table and LEF and OA files, provide the resistance and read the files again.
+Extracted 100% (CPU Time= 0:00:00.1  MEM= 985.4M)
+Number of Extracted Resistors     : 45267
+Number of Extracted Ground Cap.   : 47918
+Number of Extracted Coupling Cap. : 92956
+Filtering XCap in 'relativeAndCoupling' mode using values coupling_c_threshold=0.1fF, relative_c_threshold=1, and total_c_threshold=0fF.
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 961.4M)
+PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:00.1  Real Time: 0:00:00.0  MEM: 961.355M)
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Initializing multi-corner resistance tables ...
+Total number of fetched objects 2855
+AAE_INFO-618: Total number of nets in the design is 2857,  100.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1215.95 CPU=0:00:00.6 REAL=0:00:00.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1215.9M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1215.9M)
+Starting SI iteration 2
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Glitch Analysis: View an -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View an -- Total Number of Nets Analyzed = 2855. 
+Total number of fetched objects 2855
+AAE_INFO-618: Total number of nets in the design is 2857,  1.2 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1192 CPU=0:00:00.0 REAL=0:00:00.0)
+Path 1: MET Setup Check with Pin PE6_trueOUT_reg[19]/CK 
+Endpoint:   PE6_trueOUT_reg[19]/SI  (v) checked with  leading edge of 'clk'
+Beginpoint: PE3_WEIGHT_out_reg[3]/Q (^) triggered by  leading edge of 'clk'
+Path Groups: {clk}
+Analysis View: an
+Other End Arrival Time          0.163
+- Setup                         0.079
++ Phase Shift                   2.000
+= Required Time                 2.084
+- Arrival Time                  2.024
+= Slack Time                    0.060
+     Clock Rise Edge                 0.000
+     + Clock Network Latency (Prop)  0.159
+     = Beginpoint Arrival Time       0.159
+     +--------------------------------------------------------------------------------------------------+ 
+     |                 Instance                  |     Arc      |   Cell   | Delay | Arrival | Required | 
+     |                                           |              |          |       |  Time   |   Time   | 
+     |-------------------------------------------+--------------+----------+-------+---------+----------| 
+     | PE3_WEIGHT_out_reg[3]                     | CK ^         |          |       |   0.159 |    0.219 | 
+     | PE3_WEIGHT_out_reg[3]                     | CK ^ -> Q ^  | DFFR_X1  | 0.194 |   0.353 |    0.413 | 
+     | PE6_csa_tree_add_23_36_groupi_g2064__2900 | B ^ -> ZN v  | XNOR2_X1 | 0.076 |   0.430 |    0.490 | 
+     | PE6_csa_tree_add_23_36_groupi_g2035__8757 | A2 v -> ZN ^ | NOR2_X1  | 0.112 |   0.542 |    0.602 | 
+     | PE6_csa_tree_add_23_36_groupi_g2030       | A ^ -> ZN v  | INV_X1   | 0.015 |   0.557 |    0.617 | 
+     | PE6_csa_tree_add_23_36_groupi_g2009__7114 | A1 v -> ZN ^ | OAI22_X1 | 0.040 |   0.597 |    0.657 | 
+     | PE6_csa_tree_add_23_36_groupi_g1981__5019 | A ^ -> S ^   | HA_X1    | 0.067 |   0.664 |    0.724 | 
+     | PE6_csa_tree_add_23_36_groupi_g1973__7114 | CI ^ -> S v  | FA_X1    | 0.103 |   0.767 |    0.827 | 
+     | PE6_csa_tree_add_23_36_groupi_g1961__9682 | A v -> S v   | FA_X1    | 0.107 |   0.873 |    0.933 | 
+     | PE6_csa_tree_add_23_36_groupi_g1949__2703 | B v -> CO v  | FA_X1    | 0.086 |   0.959 |    1.019 | 
+     | PE6_csa_tree_add_23_36_groupi_g1948__6083 | CI v -> CO v | FA_X1    | 0.073 |   1.032 |    1.092 | 
+     | PE6_csa_tree_add_23_36_groupi_g1947__2250 | CI v -> CO v | FA_X1    | 0.072 |   1.104 |    1.164 | 
+     | PE6_csa_tree_add_23_36_groupi_g1946__5266 | CI v -> CO v | FA_X1    | 0.075 |   1.179 |    1.239 | 
+     | PE6_csa_tree_add_23_36_groupi_g1945__7114 | CI v -> CO v | FA_X1    | 0.074 |   1.253 |    1.313 | 
+     | PE6_csa_tree_add_23_36_groupi_g1944__5703 | CI v -> CO v | FA_X1    | 0.073 |   1.326 |    1.386 | 
+     | PE6_csa_tree_add_23_36_groupi_g1943__5953 | CI v -> CO v | FA_X1    | 0.072 |   1.398 |    1.458 | 
+     | PE6_csa_tree_add_23_36_groupi_g1942__1786 | CI v -> CO v | FA_X1    | 0.074 |   1.472 |    1.532 | 
+     | PE6_csa_tree_add_23_36_groupi_g1941__8757 | CI v -> CO v | FA_X1    | 0.074 |   1.546 |    1.606 | 
+     | PE6_csa_tree_add_23_36_groupi_g1940__7118 | CI v -> CO v | FA_X1    | 0.074 |   1.620 |    1.680 | 
+     | PE6_csa_tree_add_23_36_groupi_g1939__7675 | CI v -> CO v | FA_X1    | 0.123 |   1.744 |    1.804 | 
+     | PE6_csa_tree_add_23_36_groupi_g1938__2391 | CI v -> CO v | FA_X1    | 0.098 |   1.842 |    1.901 | 
+     | PE6_csa_tree_add_23_36_groupi_g1937__2900 | CI v -> CO v | FA_X1    | 0.073 |   1.915 |    1.975 | 
+     | PE6_csa_tree_add_23_36_groupi_g1936__6877 | CI v -> CO v | FA_X1    | 0.071 |   1.986 |    2.046 | 
+     | PE6_csa_tree_add_23_36_groupi_g1935__1309 | A v -> ZN v  | XNOR2_X1 | 0.038 |   2.024 |    2.084 | 
+     | PE6_trueOUT_reg[19]                       | SI v         | SDFFR_X1 | 0.000 |   2.024 |    2.084 | 
+     +--------------------------------------------------------------------------------------------------+ 
+
+<CMD> report_timing -late > timing_setup.rpt
+<CMD> report_timing -early > timing_setup.rpt
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: systolic_array
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+Calculate late delays in OCV mode...
+Calculate early delays in OCV mode...
+Total number of fetched objects 2855
+AAE_INFO-618: Total number of nets in the design is 2857,  100.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1215.95 CPU=0:00:00.5 REAL=0:00:00.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1215.9M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1215.9M)
+Starting SI iteration 2
+Calculate late delays in OCV mode...
+Calculate early delays in OCV mode...
+Glitch Analysis: View an -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View an -- Total Number of Nets Analyzed = 180. 
+Total number of fetched objects 2855
+AAE_INFO-618: Total number of nets in the design is 2857,  3.6 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1192 CPU=0:00:00.0 REAL=0:00:00.0)
+<CMD> report_timing -late > timing_setup.rpt
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: systolic_array
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Total number of fetched objects 2855
+AAE_INFO-618: Total number of nets in the design is 2857,  100.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1215.95 CPU=0:00:00.6 REAL=0:00:01.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1215.9M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1215.9M)
+Starting SI iteration 2
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Glitch Analysis: View an -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View an -- Total Number of Nets Analyzed = 2855. 
+Total number of fetched objects 2855
+AAE_INFO-618: Total number of nets in the design is 2857,  1.2 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1192 CPU=0:00:00.0 REAL=0:00:00.0)
+<CMD> report_timing -early > timing_hold.rpt
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: systolic_array
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+Calculate late delays in OCV mode...
+Calculate early delays in OCV mode...
+Total number of fetched objects 2855
+AAE_INFO-618: Total number of nets in the design is 2857,  100.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1215.95 CPU=0:00:00.6 REAL=0:00:01.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1215.9M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1215.9M)
+Starting SI iteration 2
+Calculate late delays in OCV mode...
+Calculate early delays in OCV mode...
+Glitch Analysis: View an -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View an -- Total Number of Nets Analyzed = 180. 
+Total number of fetched objects 2855
+AAE_INFO-618: Total number of nets in the design is 2857,  3.6 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1192 CPU=0:00:00.0 REAL=0:00:00.0)
+<CMD> report_area > backend_area.rpt
+<CMD> set_default_switching_activity -reset
+<CMD> set_default_switching_activity -input_activity 0.2 -period 2.0
+'set_default_switching_activity' finished successfully.
+<CMD> read_activity_file -reset
+<CMD> set_power -reset
+<CMD> set_powerup_analysis -reset
+<CMD> set_dynamic_power_simulation -reset
+<CMD> report_power -rail_analysis_format VS -outfile /systolic_array.rpt
+** WARN:  (VOLTUS_POWR-2020):   Directory '/' is not writable.  Command 'report_power' cannot execute.
+
+**ERROR: (VOLTUS-1007):	.
+<CMD> set_default_switching_activity -reset
+<CMD> set_default_switching_activity -input_activity 0.2 -period 2.0
+'set_default_switching_activity' finished successfully.
+<CMD> read_activity_file -reset
+<CMD> set_power -reset
+<CMD> set_powerup_analysis -reset
+<CMD> set_dynamic_power_simulation -reset
+<CMD> report_power -rail_analysis_format VS -outfile /systolic_array.rpt
+** WARN:  (VOLTUS_POWR-2020):   Directory '/' is not writable.  Command 'report_power' cannot execute.
+
+**ERROR: (VOLTUS-1007):	.
+<CMD> set_power_output_dir -reset
+<CMD> set_power_output_dir backend_power
+<CMD> set_default_switching_activity -reset
+<CMD> set_default_switching_activity -input_activity 0.2 -period 2.0
+'set_default_switching_activity' finished successfully.
+<CMD> read_activity_file -reset
+<CMD> set_power -reset
+<CMD> set_powerup_analysis -reset
+<CMD> set_dynamic_power_simulation -reset
+<CMD> report_power -rail_analysis_format VS -outfile backend_power/systolic_array.rpt
+
+Power Net Detected:
+    Voltage	    Name
+    0.00V	    VSS
+    1.10V	    VDD
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: systolic_array
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Total number of fetched objects 2855
+AAE_INFO-618: Total number of nets in the design is 2857,  100.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1215.95 CPU=0:00:00.6 REAL=0:00:00.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1215.9M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1215.9M)
+Starting SI iteration 2
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Glitch Analysis: View an -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View an -- Total Number of Nets Analyzed = 2855. 
+Total number of fetched objects 2855
+AAE_INFO-618: Total number of nets in the design is 2857,  1.2 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1192 CPU=0:00:00.0 REAL=0:00:00.0)
+
+Begin Power Analysis
+
+    0.00V	    VSS
+    1.10V	    VDD
+
+Begin Processing Timing Library for Power Calculation
+
+Begin Processing Timing Library for Power Calculation
+
+
+
+Begin Processing Power Net/Grid for Power Calculation
+
+Ended Processing Power Net/Grid for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total)=923.09MB/923.09MB)
+
+Begin Processing Timing Window Data for Power Calculation
+
+clk(500MHz) Ended Processing Timing Window Data for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total)=923.52MB/923.52MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=923.52MB/923.52MB)
+
+Begin Processing Signal Activity
+
+
+Starting Levelizing
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT)
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT): 10%
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT): 20%
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT): 30%
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT): 40%
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT): 50%
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT): 60%
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT): 70%
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT): 80%
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT): 90%
+
+Finished Levelizing
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT)
+
+Starting Activity Propagation
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT)
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT): 10%
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT): 20%
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT): 30%
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT): 40%
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT): 50%
+
+Finished Activity Propagation
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT)
+Ended Processing Signal Activity: (cpu=0:00:00, real=0:00:00, mem(process/total)=924.09MB/924.09MB)
+
+Begin Power Computation
+
+      ----------------------------------------------------------
+      # of cell(s) missing both power/leakage table: 0
+      # of cell(s) missing power table: 0
+      # of cell(s) missing leakage table: 0
+      # of MSMV cell(s) missing power_level: 0
+      ----------------------------------------------------------
+
+
+
+Starting Calculating power
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT)
+ ... Calculating switching power
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT): 10%
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT): 20%
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT): 30%
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT): 40%
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT): 50%
+ ... Calculating internal and leakage power
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT): 60%
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT): 70%
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT): 80%
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT): 90%
+
+Finished Calculating power
+2026-Jun-10 14:33:06 (2026-Jun-10 19:33:06 GMT)
+Ended Power Computation: (cpu=0:00:00, real=0:00:00, mem(process/total)=924.84MB/924.84MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total)=924.84MB/924.84MB)
+
+Ended Power Analysis: (cpu=0:00:00, real=0:00:00, mem(process/total)=924.84MB/924.84MB)
+
+Begin Static Power Report Generation
+*
+
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        3.83348286 	   59.1126%
+Total Switching Power:       2.55487097 	   39.3963%
+Total Leakage Power:         0.09669685 	    1.4911%
+Total Power:                 6.48505069
+-----------------------------------------------------------------------------------------
+Ended Static Power Report Generation: (cpu=0:00:00, real=0:00:00,
+mem(process/total)=924.84MB/924.84MB)
+
+
+Output file is backend_power/systolic_array.rpt.
+
+*** Memory Usage v#1 (Current mem = 1093.879M, initial mem = 175.422M) ***
+*** Message Summary: 28 warning(s), 11 error(s)
+
+--- Ending "Innovus" (totcpu=0:02:50, real=0:30:08, mem=1093.9M) ---

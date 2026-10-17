@@ -1,0 +1,20 @@
+# Cadence Genus(TM) Synthesis Solution, Version 18.14-s037_1, built Mar 27 2019 12:19:21
+
+# Date: Wed Jun 10 10:41:31 2026
+# Host: alfred.ece.northwestern.edu (x86_64 w/Linux 4.18.0-553.125.1.el8_10.x86_64) (8cores*8cpus*1physical cpu*Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz 12288KB)
+# OS:   Red Hat Enterprise Linux release 8.10 (Ootpa)
+
+read_hdl ../MAC_Lab3.v
+set_db library /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib
+set_db lef_library /vol/ece303/genus_tutorial/NangateOpenCellLibrary.lef
+elaborate
+current_design MAC_Lab3
+read_sdc ../MAC_Lab3.sdc
+syn_generic
+syn_map
+syn_opt
+report_timing > Genus/timing.rpt
+report_area > Genus/area.rpt
+write_hdl > Genus/MAC_Lab3_syn.v
+write_sdf > Genus/delay.sdf
+quit

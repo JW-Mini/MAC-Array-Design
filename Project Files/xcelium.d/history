@@ -1,0 +1,15 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(10Jun2026:10:19:05):( xrun -64bit -gui -access r MAC_Lab3.v MAC_Lab3_test.v )
+s2::(10Jun2026:10:24:45):( xrun -64bit -gui -access r MAC_Lab3.v MAC_Lab3_test.v )
+s3::(10Jun2026:10:25:54):( xrun -64bit -gui -access r -xmelab_args "-warnmax 0 -delay_mode zero -maxdelays" ./Synthesis/Genus/MAC_Lab3_syn.v MAC_Lab3_test.v /vol/ece303/genus_tutorial/NangateOpenCellLibrary.v )
+s4::(10Jun2026:10:27:13):( xrun -64bit -gui -access r -xmelab_args "-warnmax 0 -delay_mode zero -maxdelays" ./Synthesis/Genus/MAC_Lab3_syn.v MAC_Lab3_test.v /vol/ece303/genus_tutorial/NangateOpenCellLibrary.v )
+s5::(10Jun2026:10:33:00):( xrun -64bit -gui -access r -xmelab_args "-sdfstats temp -sdf_verbose -warnmax 0 -delay_mode none -mindelays" ./Synthesis/Genus/MAC_Lab3_syn.v MAC_Lab3_test.v /vol/ece303/genus_tutorial/NangateOpenCellLibrary.v )
+s6::(10Jun2026:10:36:04):( xrun -64bit -gui -access r -xmelab_args "-sdfstats temp -sdf_verbose -warnmax 0 -delay_mode path -mindelays" ./Synthesis/Genus/MAC_Lab3_syn.v MAC_Lab3_test.v /vol/ece303/genus_tutorial/NangateOpenCellLibrary.v )
+s7::(10Jun2026:10:39:00):( xrun -64bit -gui -access r -xmelab_args "-sdfstats temp -sdf_verbose -warnmax 0 -delay_mode zero -mindelays" ./Synthesis/Genus/MAC_Lab3_syn.v MAC_Lab3_test.v /vol/ece303/genus_tutorial/NangateOpenCellLibrary.v )
+s8::(10Jun2026:10:44:57):( xrun -64bit -gui -access r -xmelab_args "-sdfstats temp -sdf_verbose -warnmax 0 -delay_mode path -mindelays" -sdf_file ./Synthesis/Genus/delay.sdf ./Synthesis/Genus/MAC_Lab3_syn.v MAC_Lab3_test.v /vol/ece303/genus_tutorial/NangateOpenCellLibrary.v )
+s9::(10Jun2026:10:45:25):( xrun -64bit -gui -access r -xmelab_args "-sdfstats temp -sdf_verbose -warnmax 0 -delay_mode path -mindelays" -sdf_file ./Synthesis/Genus/delay.sdf ./Synthesis/Genus/MAC_Lab3_syn.v MAC_Lab3_test.v /vol/ece303/genus_tutorial/NangateOpenCellLibrary.v )
+s10::(10Jun2026:13:53:22):( xrun -64bit -gui -notimingcheck -f MAC_Lab3_tb_gatesim.f -timescale 1ns/10ps -access rwc -xmelab_args "-sdfstats temp -sdf_verbose -warnmax 0 -delay_mode none -mindelays" MAC_Lab3_test.v )
+s11::(10Jun2026:15:57:35):( xrun -64bit -gui -access r -xmelab_args "-warnmax 0 -delay_mode zero -maxdelays" ./Synthesis/Genus/MAC_Lab3_syn.v MAC_Lab3_test.v /vol/ece303/genus_tutorial/NangateOpenCellLibrary.v )

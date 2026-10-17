@@ -1,0 +1,58 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Wed Jun 10 14:53:51 2026                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v16.20-p002_1 (64bit) 11/08/2016 11:31 (Linux 2.6.18-194.el5)
+#@(#)CDS: NanoRoute 16.20-p002_1 NR161103-1425/16_20-UB (database version 2.30, 354.6.1) {superthreading v1.34}
+#@(#)CDS: AAE 16.20-p004 (64bit) 11/08/2016 (Linux 2.6.18-194.el5)
+#@(#)CDS: CTE 16.20-p008_1 () Oct 29 2016 08:26:57 ( )
+#@(#)CDS: SYNTECH 16.20-p001_1 () Oct 27 2016 11:33:00 ( )
+#@(#)CDS: CPE v16.20-p011
+#@(#)CDS: IQRC/TQRC 15.2.5-s803 (64bit) Tue Sep 13 18:23:58 PDT 2016 (Linux 2.6.18-194.el5)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+getDrawView
+loadWorkspace -name Physical
+win
+encMessage warning 0
+encMessage debug 0
+encMessage info 0
+restoreDesign /home/qcj9450/Lab3/Synthesis/Backend/MAC_Lab3_final_layout.enc.dat systolic_array
+setDrawView fplan
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+uiSetTool ruler
+pan 20.413 11.187
+uiSetTool ruler
+uiSetTool ruler
+pan 10.059 18.535
+pan -2.486 -24.750
+pan 10.736 -0.678
+pan -34.386 -22.415
+zoomSelected
+zoomSelected
+fit
+fit
+panCenter 1.331 31.538
+pan -34.354 -32.320
+pan -30.059 0.226
+pan 36.020 13.627
+pan 35.191 3.675
+pan -1.388 16.248
+pan 4.246 23.597
+pan -1.062 11.268
+uiSetTool ruler
+uiSetTool ruler
+uiSetTool ruler
+uiSetTool ruler
+uiSetTool ruler
+pan 10.941 -76.544
+pan -19.157 31.998
+pan 10.342 25.543
+pan 1.389 32.206
+pan -23.817 -47.202

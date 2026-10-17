@@ -1,0 +1,1060 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2016 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v16.20-p002_1, built Tue Nov 8 11:31:23 PST 2016
+Options:	
+Date:		Wed Jun 10 11:23:45 2026
+Host:		alfred.ece.northwestern.edu (x86_64 w/Linux 4.18.0-553.125.1.el8_10.x86_64) (8cores*8cpus*Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz 12288KB)
+OS:		Red Hat Enterprise Linux release 8.10 (Ootpa)
+
+License:
+		invs	Innovus Implementation System	16.2	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getDrawView
+<CMD> loadWorkspace -name Physical
+<CMD> win
+<CMD> set init_gnd_net VSS
+<CMD> set init_lef_file /vol/ece303/genus_tutorial/NangateOpenCellLibrary.lef
+<CMD> set init_design_settop 0
+<CMD> set init_verilog ../Genus/MAC_Lab3_syn.v
+<CMD> set init_mmmc_file float16_multiplier.view
+<CMD> set init_pwr_net VDD
+<CMD> init_design
+#- Begin Load MMMC data ... (date=06/10 11:25:00, mem=497.9M)
+#- End Load MMMC data ... (date=06/10 11:25:00, total cpu=0:00:00.0, real=0:00:00.0, peak res=51.7M, current mem=497.9M)
+rc
+**WARN: (GLOBAL-100):	Global 'timing_disable_backward_compatible_mmmc_mode' has become obsolete. It will be removed in the next release.
+
+Loading LEF file /vol/ece303/genus_tutorial/NangateOpenCellLibrary.lef ...
+Set DBUPerIGU to M2 pitch 380.
+
+viaInitial starts at Wed Jun 10 11:25:00 2026
+viaInitial ends at Wed Jun 10 11:25:00 2026
+Loading view definition file from float16_multiplier.view
+Reading lib timing library '/vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib' ...
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X4' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X1' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X2' is not defined in the library. (File /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib)
+Message <TECHLIB-436> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Read 134 cells in library 'NangateOpenCellLibrary' 
+*** End library_loading (cpu=0.00min, mem=0.0M, fe_cpu=0.13min, fe_real=1.25min, fe_mem=518.5M) ***
+#- Begin Load netlist data ... (date=06/10 11:25:00, mem=518.5M)
+*** Begin netlist parsing (mem=518.5M) ***
+Created 134 new cells from 1 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilog netlist '../Genus/MAC_Lab3_syn.v'
+
+*** Memory Usage v#1 (Current mem = 518.504M, initial mem = 175.422M) ***
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=518.5M) ***
+#- End Load netlist data ... (date=06/10 11:25:00, total cpu=0:00:00.0, real=0:00:00.0, peak res=69.9M, current mem=518.5M)
+Top level cell is systolic_array.
+Hooked 134 DB cells to tlib cells.
+Starting recursive module instantiation check.
+No recursion found.
+Building hierarchical netlist for Cell systolic_array ...
+*** Netlist is unique.
+** info: there are 135 modules.
+** info: there are 1797 stdCell insts.
+
+*** Memory Usage v#1 (Current mem = 548.168M, initial mem = 175.422M) ***
+Generated pitch 1.68 in metal10 is different from 1.6 defined in technology file in preferred direction.
+Generated pitch 0.84 in metal8 is different from 0.8 defined in technology file in preferred direction.
+Generated pitch 0.84 in metal7 is different from 0.8 defined in technology file in preferred direction.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Default Input Pin Transition as 0.1 ps.
+*Info: initialize multi-corner CTS.
+Reading timing constraints file '../Genus/MAC_Lab3.sdc' ...
+Current (total cpu=0:00:08.2, real=0:01:15, peak res=218.5M, current mem=661.2M)
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'IN1,' (File ../Genus/MAC_Lab3.sdc, Line 7).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'IN2,' (File ../Genus/MAC_Lab3.sdc, Line 7).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'IN3,' (File ../Genus/MAC_Lab3.sdc, Line 7).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'W1,' (File ../Genus/MAC_Lab3.sdc, Line 7).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'W2,' (File ../Genus/MAC_Lab3.sdc, Line 7).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'W3,' (File ../Genus/MAC_Lab3.sdc, Line 7).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'IN1,' (File ../Genus/MAC_Lab3.sdc, Line 8).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'IN2,' (File ../Genus/MAC_Lab3.sdc, Line 8).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'IN3,' (File ../Genus/MAC_Lab3.sdc, Line 8).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'W1,' (File ../Genus/MAC_Lab3.sdc, Line 8).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'W2,' (File ../Genus/MAC_Lab3.sdc, Line 8).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'W3,' (File ../Genus/MAC_Lab3.sdc, Line 8).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'OUT1,' (File ../Genus/MAC_Lab3.sdc, Line 12).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'OUT2,' (File ../Genus/MAC_Lab3.sdc, Line 12).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'OUT3,' (File ../Genus/MAC_Lab3.sdc, Line 12).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'OUT4,' (File ../Genus/MAC_Lab3.sdc, Line 12).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'OUT5,' (File ../Genus/MAC_Lab3.sdc, Line 12).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'OUT6,' (File ../Genus/MAC_Lab3.sdc, Line 12).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'OUT7,' (File ../Genus/MAC_Lab3.sdc, Line 12).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'OUT8,' (File ../Genus/MAC_Lab3.sdc, Line 12).
+
+Message <TCLCMD-513> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit. (File ../Genus/MAC_Lab3.sdc, Line 13).
+
+INFO (CTE): Reading of timing constraints file ../Genus/MAC_Lab3.sdc completed, with 20 WARNING
+Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=234.7M, current mem=679.4M)
+Current (total cpu=0:00:08.2, real=0:01:15, peak res=234.7M, current mem=679.4M)
+Total number of combinational cells: 99
+Total number of sequential cells: 29
+Total number of tristate cells: 6
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUF_X1 BUF_X2 BUF_X4 BUF_X8 BUF_X16 BUF_X32 CLKBUF_X1 CLKBUF_X2 CLKBUF_X3
+Total number of usable buffers: 9
+List of unusable buffers:
+Total number of unusable buffers: 0
+List of usable inverters: INV_X1 INV_X2 INV_X4 INV_X8 INV_X16 INV_X32
+Total number of usable inverters: 6
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells:
+Total number of identified usable delay cells: 0
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+No delay cells were detected in the set of buffers. Buffers will be used to fix hold violations.
+Extraction setup Started 
+Initializing multi-corner RC extraction with 1 active RC Corners ...
+**WARN: (IMPEXT-2773):	The via resistance between layers M0 and M1 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+Type 'man IMPEXT-2773' for more detail.
+**WARN: (IMPEXT-2773):	The via resistance between layers M1 and M2 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+Type 'man IMPEXT-2773' for more detail.
+**WARN: (IMPEXT-2773):	The via resistance between layers M2 and M3 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+Type 'man IMPEXT-2773' for more detail.
+**WARN: (IMPEXT-2773):	The via resistance between layers M3 and M4 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+Type 'man IMPEXT-2773' for more detail.
+**WARN: (IMPEXT-2773):	The via resistance between layers M4 and M5 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+Type 'man IMPEXT-2773' for more detail.
+**WARN: (IMPEXT-2773):	The via resistance between layers M5 and M6 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+Type 'man IMPEXT-2773' for more detail.
+**WARN: (IMPEXT-2773):	The via resistance between layers M6 and M7 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+Type 'man IMPEXT-2773' for more detail.
+**WARN: (IMPEXT-2773):	The via resistance between layers M7 and M8 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+Type 'man IMPEXT-2773' for more detail.
+**WARN: (IMPEXT-2773):	The via resistance between layers M8 and M9 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+Type 'man IMPEXT-2773' for more detail.
+**WARN: (IMPEXT-2773):	The via resistance between layers M9 and M10 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+Type 'man IMPEXT-2773' for more detail.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M1 is not defined in the cap table. Therefore, the LEF value 0.38 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M2 is not defined in the cap table. Therefore, the LEF value 0.25 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M3 is not defined in the cap table. Therefore, the LEF value 0.25 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M4 is not defined in the cap table. Therefore, the LEF value 0.21 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M5 is not defined in the cap table. Therefore, the LEF value 0.21 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M6 is not defined in the cap table. Therefore, the LEF value 0.21 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M7 is not defined in the cap table. Therefore, the LEF value 0.075 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M8 is not defined in the cap table. Therefore, the LEF value 0.075 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M9 is not defined in the cap table. Therefore, the LEF value 0.03 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+**WARN: (IMPEXT-2766):	The sheet resistance for layer M10 is not defined in the cap table. Therefore, the LEF value 0.03 will be used instead. To avoid this message, update the relevant cap table to include the sheet resistance for the specified layer and read it back in.
+Summary of Active RC-Corners : 
+ 
+ Analysis View: an
+    RC-Corner Name        : rc
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from Cap Table]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from Cap Table]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPEXT-2766         10  The sheet resistance for layer %s is not...
+WARNING   IMPEXT-2773         10  The via resistance between layers %s and...
+*** Message Summary: 20 warning(s), 0 error(s)
+
+<CMD> setDesignMode -process 45
+Applying the recommended capacitance filtering threshold values for 45nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+	These values will be used by all post-route extraction engines, including tQuantus, IQRC and Quantus QRC extraction.
+	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
+	The accuracy mode for postRoute effortLevel low extraction will be set to 'high'.
+	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+Updating process node dependent CCOpt properties for the 45nm process node.
+<CMD> fit
+<CMD> setDrawView fplan
+<CMD> getIoFlowFlag
+<CMD> floorPlan -r 1.0 0.63 2 2 2 2
+Generated pitch 1.68 in metal10 is different from 1.6 defined in technology file in preferred direction.
+Generated pitch 0.84 in metal8 is different from 0.8 defined in technology file in preferred direction.
+Generated pitch 0.84 in metal7 is different from 0.8 defined in technology file in preferred direction.
+**WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+<CMD> uiSetTool select
+<CMD> getIoFlowFlag
+<CMD> globalNetConnect VDD -type pgpin -pin VDD -inst *
+<CMD> globalNetConnect VSS -type pgpin -pin VSS -inst *
+<CMD> globalNetConnect VDD -type tiehi
+<CMD> globalNetConnect VSS -type tielo
+<CMD> getPinAssignMode -pinEditInBatch -quiet
+<CMD> editPin -side Left -pin {IN1 IN2 IN3} -layer M3 -spreadType FromCenter -spacing 0.56 -use SIGNAL
+
+Usage: editPin [-help] [-end {x y}] [-fixedPin] [-global_location]
+               [-include_rectilinear_edge] [-masterCloneAware]
+               [-offsetEnd <float>] [-offsetStart <float>]
+               -pin {pinName | pinNameList} [-pinDepth <float>]
+               [-pinWidth <float>] [-skipWrappingPins]
+               [-snap {TRACK USERGRID MGRID}]
+               [-spreadDirection {clockwise counterclockwise both}]
+               [-start { x y}] [-use <string>] [ { -layer {layerId | layerIdList} | {[-layerH <layerId>] [-layerV <layerId>]} } [-layer_priority ] [-assign {x y} | -spreadType {START CENTER SIDE EDGE RANGE} | -pattern {fill_track fill_layer fill_optimised fill_diagonal fill_sinusoidal fill_checkerboard}]] [ -side <string> | -edge <integer> ] [ -cell <string> | {-hinst <hinstName> [-refMaster ]} ] [ -fixOverlap  [ -honorConstraint  ]] [ -pattern {fill_track fill_layer fill_optimised fill_diagonal fill_sinusoidal fill_checkerboard} [ -reverse_alternate  ]] [ -spacing <string> [ -unit {MICRON TRACK} ]]
+
+**ERROR: (IMPTCM-23):	"FromCenter" is not a valid enum for "-spreadType", the allowed values are {START CENTER SIDE EDGE RANGE}.
+**ERROR: (IMPPTN-1599):	Invalid syntax of editPin command, errorCode [-2]
+
+<CMD> getPinAssignMode -pinEditInBatch -quiet
+<CMD> setPinAssignMode -pinEditInBatch false
+<CMD> getPinAssignMode -pinEditInBatch -quiet
+<CMD> setPinAssignMode -pinEditInBatch false
+<CMD> editPin -side Left -pin {IN1 IN2 IN3} -layer M3 -spreadType CENTER -spacing 0.56 -use SIGNAL
+**WARN: (IMPPTN-1235):	Cannot find pin IN1 on partition systolic_array
+**WARN: (IMPPTN-1235):	Cannot find pin IN2 on partition systolic_array
+**WARN: (IMPPTN-1235):	Cannot find pin IN3 on partition systolic_array
+**ERROR: (IMPPTN-963):	Either specified pin name for the selected partition does not exist or has status 'cover'. Specify the pin or the list of pins correctly and run the command again.
+
+<CMD> getCTSMode -engine -quiet
+<CMD> getPinAssignMode -pinEditInBatch -quiet
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Left -layer 3 -spreadType center -spacing 0.56 -pin {{IN1[0]} {IN1[1]} {IN1[2]} {IN1[3]} {IN1[4]} {IN1[5]} {IN1[6]} {IN1[7]}}
+Successfully spread [8] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Left -layer 3 -spreadType center -spacing 0.56 -pin {{IN2[0]} {IN2[1]} {IN2[2]} {IN2[3]} {IN2[4]} {IN2[5]} {IN2[6]} {IN2[7]}}
+Successfully spread [8] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Left -layer 3 -spreadType center -spacing 0.56 -pin {{IN3[0]} {IN3[1]} {IN3[2]} {IN3[3]} {IN3[4]} {IN3[5]} {IN3[6]} {IN3[7]}}
+Successfully spread [8] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Top -layer 4 -spreadType center -spacing 0.56 -pin {{W1[0]} {W1[1]} {W1[2]} {W1[3]} {W1[4]} {W1[5]} {W1[6]} {W1[7]}}
+Successfully spread [8] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Top -layer 4 -spreadType center -spacing 0.56 -pin {{W2[0]} {W2[1]} {W2[2]} {W2[3]} {W2[4]} {W2[5]} {W2[6]} {W2[7]}}
+Successfully spread [8] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Top -layer 4 -spreadType center -spacing 0.56 -pin {{W3[0]} {W3[1]} {W3[2]} {W3[3]} {W3[4]} {W3[5]} {W3[6]} {W3[7]}}
+Successfully spread [8] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> pan -61.464 -26.282
+<CMD> pan -0.299 3.140
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -use POWER -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Top -layer 4 -spreadType center -spacing 0.28 -pin VDD
+Successfully spread [1] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 3 -spreadType center -spacing 0.56 -pin {{OUT1[0]} {OUT1[1]} {OUT1[2]} {OUT1[3]} {OUT1[4]} {OUT1[5]} {OUT1[6]} {OUT1[7]} {OUT1[8]} {OUT1[9]} {OUT1[10]} {OUT1[11]} {OUT1[12]} {OUT1[13]} {OUT1[14]} {OUT1[15]} {OUT1[16]} {OUT1[17]} {OUT1[18]} {OUT1[19]} {OUT2[0]} {OUT2[1]} {OUT2[2]} {OUT2[3]} {OUT2[4]} {OUT2[5]} {OUT2[6]} {OUT2[7]} {OUT2[8]} {OUT2[9]} {OUT2[10]} {OUT2[11]} {OUT2[12]} {OUT2[13]} {OUT2[14]} {OUT2[15]} {OUT2[16]} {OUT2[17]} {OUT2[18]} {OUT2[19]} {OUT3[0]} {OUT3[1]} {OUT3[2]} {OUT3[3]} {OUT3[4]} {OUT3[5]} {OUT3[6]} {OUT3[7]} {OUT3[8]} {OUT3[9]} {OUT3[10]} {OUT3[11]} {OUT3[12]} {OUT3[13]} {OUT3[14]} {OUT3[15]} {OUT3[16]} {OUT3[17]} {OUT3[18]} {OUT3[19]} {OUT4[0]} {OUT4[1]} {OUT4[2]} {OUT4[3]} {OUT4[4]} {OUT4[5]} {OUT4[6]} {OUT4[7]} {OUT4[8]} {OUT4[9]} {OUT4[10]} {OUT4[11]} {OUT4[12]} {OUT4[13]} {OUT4[14]} {OUT4[15]} {OUT4[16]} {OUT4[17]} {OUT4[18]} {OUT4[19]} {OUT5[0]} {OUT5[1]} {OUT5[2]} {OUT5[3]} {OUT5[4]} {OUT5[5]} {OUT5[6]} {OUT5[7]} {OUT5[8]} {OUT5[9]} {OUT5[10]} {OUT5[11]} {OUT5[12]} {OUT5[13]} {OUT5[14]} {OUT5[15]} {OUT5[16]} {OUT5[17]} {OUT5[18]} {OUT5[19]} {OUT6[0]} {OUT6[1]} {OUT6[2]} {OUT6[3]} {OUT6[4]} {OUT6[5]} {OUT6[6]} {OUT6[7]} {OUT6[8]} {OUT6[9]} {OUT6[10]} {OUT6[11]} {OUT6[12]} {OUT6[13]} {OUT6[14]} {OUT6[15]} {OUT6[16]} {OUT6[17]} {OUT6[18]} {OUT6[19]} {OUT7[0]} {OUT7[1]} {OUT7[2]} {OUT7[3]} {OUT7[4]} {OUT7[5]} {OUT7[6]} {OUT7[7]} {OUT7[8]} {OUT7[9]} {OUT7[10]} {OUT7[11]} {OUT7[12]} {OUT7[13]} {OUT7[14]} {OUT7[15]} {OUT7[16]} {OUT7[17]} {OUT7[18]} {OUT7[19]} {OUT8[0]} {OUT8[1]} {OUT8[2]} {OUT8[3]} {OUT8[4]} {OUT8[5]} {OUT8[6]} {OUT8[7]} {OUT8[8]} {OUT8[9]} {OUT8[10]} {OUT8[11]} {OUT8[12]} {OUT8[13]} {OUT8[14]} {OUT8[15]} {OUT8[16]} {OUT8[17]} {OUT8[18]} {OUT8[19]} {OUT9[0]} {OUT9[1]} {OUT9[2]} {OUT9[3]} {OUT9[4]} {OUT9[5]} {OUT9[6]} {OUT9[7]} {OUT9[8]} {OUT9[9]} {OUT9[10]} {OUT9[11]} {OUT9[12]} {OUT9[13]} {OUT9[14]} {OUT9[15]} {OUT9[16]} {OUT9[17]} {OUT9[18]} {OUT9[19]}}
+Selected [180] pin for spreading. Could not spread (58 out of 180) pins because of constraints on the selected pins or because of some blockage (pin blockage, routing blockage, power stripes etc.) on the selected region.
+
+Following pins are not spread:
+  OUT1[0]
+  OUT1[1]
+  OUT1[2]
+  OUT1[3]
+  OUT1[4]
+  OUT1[5]
+  OUT1[6]
+  OUT1[7]
+  OUT1[8]
+  OUT1[9]
+  OUT1[10]
+  OUT1[11]
+  OUT1[12]
+  OUT1[13]
+  OUT1[14]
+  OUT1[15]
+  OUT1[16]
+  OUT1[17]
+  OUT1[18]
+  OUT1[19]
+  OUT2[0]
+  OUT2[1]
+  OUT2[2]
+  OUT2[3]
+  OUT2[4]
+  OUT2[5]
+  OUT2[6]
+  OUT2[7]
+  OUT2[8]
+  OUT8[11]
+  OUT8[12]
+  OUT8[13]
+  OUT8[14]
+  OUT8[15]
+  OUT8[16]
+  OUT8[17]
+  OUT8[18]
+  OUT8[19]
+  OUT9[0]
+  OUT9[1]
+  OUT9[2]
+  OUT9[3]
+  OUT9[4]
+  OUT9[5]
+  OUT9[6]
+  OUT9[7]
+  OUT9[8]
+  OUT9[9]
+  OUT9[10]
+  OUT9[11]
+  OUT9[12]
+  OUT9[13]
+  OUT9[14]
+  OUT9[15]
+  OUT9[16]
+  OUT9[17]
+  OUT9[18]
+  OUT9[19]
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 1 -spreadType center -spacing 0.42 -pin {{OUT1[0]} {OUT1[1]} {OUT1[2]} {OUT1[3]} {OUT1[4]} {OUT1[5]} {OUT1[6]} {OUT1[7]} {OUT1[8]} {OUT1[9]} {OUT1[10]} {OUT1[11]} {OUT1[12]} {OUT1[13]} {OUT1[14]} {OUT1[15]} {OUT1[16]} {OUT1[17]} {OUT1[18]} {OUT1[19]} {OUT2[0]} {OUT2[1]} {OUT2[2]} {OUT2[3]} {OUT2[4]} {OUT2[5]} {OUT2[6]} {OUT2[7]} {OUT2[8]} {OUT2[9]} {OUT2[10]} {OUT2[11]} {OUT2[12]} {OUT2[13]} {OUT2[14]} {OUT2[15]} {OUT2[16]} {OUT2[17]} {OUT2[18]} {OUT2[19]} {OUT3[0]} {OUT3[1]} {OUT3[2]} {OUT3[3]} {OUT3[4]} {OUT3[5]} {OUT3[6]} {OUT3[7]} {OUT3[8]} {OUT3[9]} {OUT3[10]} {OUT3[11]} {OUT3[12]} {OUT3[13]} {OUT3[14]} {OUT3[15]} {OUT3[16]} {OUT3[17]} {OUT3[18]} {OUT3[19]} {OUT4[0]} {OUT4[1]} {OUT4[2]} {OUT4[3]} {OUT4[4]} {OUT4[5]} {OUT4[6]} {OUT4[7]} {OUT4[8]} {OUT4[9]} {OUT4[10]} {OUT4[11]} {OUT4[12]} {OUT4[13]} {OUT4[14]} {OUT4[15]} {OUT4[16]} {OUT4[17]} {OUT4[18]} {OUT4[19]} {OUT5[0]} {OUT5[1]} {OUT5[2]} {OUT5[3]} {OUT5[4]} {OUT5[5]} {OUT5[6]} {OUT5[7]} {OUT5[8]} {OUT5[9]} {OUT5[10]} {OUT5[11]} {OUT5[12]} {OUT5[13]} {OUT5[14]} {OUT5[15]} {OUT5[16]} {OUT5[17]} {OUT5[18]} {OUT5[19]} {OUT6[0]} {OUT6[1]} {OUT6[2]} {OUT6[3]} {OUT6[4]} {OUT6[5]} {OUT6[6]} {OUT6[7]} {OUT6[8]} {OUT6[9]} {OUT6[10]} {OUT6[11]} {OUT6[12]} {OUT6[13]} {OUT6[14]} {OUT6[15]} {OUT6[16]} {OUT6[17]} {OUT6[18]} {OUT6[19]} {OUT7[0]} {OUT7[1]} {OUT7[2]} {OUT7[3]} {OUT7[4]} {OUT7[5]} {OUT7[6]} {OUT7[7]} {OUT7[8]} {OUT7[9]} {OUT7[10]} {OUT7[11]} {OUT7[12]} {OUT7[13]} {OUT7[14]} {OUT7[15]} {OUT7[16]} {OUT7[17]} {OUT7[18]} {OUT7[19]} {OUT8[0]} {OUT8[1]} {OUT8[2]} {OUT8[3]} {OUT8[4]} {OUT8[5]} {OUT8[6]} {OUT8[7]} {OUT8[8]} {OUT8[9]} {OUT8[10]} {OUT8[11]} {OUT8[12]} {OUT8[13]} {OUT8[14]} {OUT8[15]} {OUT8[16]} {OUT8[17]} {OUT8[18]} {OUT8[19]} {OUT9[0]} {OUT9[1]} {OUT9[2]} {OUT9[3]} {OUT9[4]} {OUT9[5]} {OUT9[6]} {OUT9[7]} {OUT9[8]} {OUT9[9]} {OUT9[10]} {OUT9[11]} {OUT9[12]} {OUT9[13]} {OUT9[14]} {OUT9[15]} {OUT9[16]} {OUT9[17]} {OUT9[18]} {OUT9[19]}}
+Selected [180] pin for spreading. Could not spread (18 out of 180) pins because of constraints on the selected pins or because of some blockage (pin blockage, routing blockage, power stripes etc.) on the selected region.
+
+Following pins are not spread:
+  OUT1[0]
+  OUT1[1]
+  OUT1[2]
+  OUT1[3]
+  OUT1[4]
+  OUT1[5]
+  OUT1[6]
+  OUT1[7]
+  OUT1[8]
+  OUT9[11]
+  OUT9[12]
+  OUT9[13]
+  OUT9[14]
+  OUT9[15]
+  OUT9[16]
+  OUT9[17]
+  OUT9[18]
+  OUT9[19]
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 3 -spreadType center -spacing 0.42 -pin {{OUT1[0]} {OUT1[1]} {OUT1[2]} {OUT1[3]} {OUT1[4]} {OUT1[5]} {OUT1[6]} {OUT1[7]} {OUT1[8]} {OUT1[9]} {OUT1[10]} {OUT1[11]} {OUT1[12]} {OUT1[13]} {OUT1[14]} {OUT1[15]} {OUT1[16]} {OUT1[17]} {OUT1[18]} {OUT1[19]} {OUT2[0]} {OUT2[1]} {OUT2[2]} {OUT2[3]} {OUT2[4]} {OUT2[5]} {OUT2[6]} {OUT2[7]} {OUT2[8]} {OUT2[9]} {OUT2[10]} {OUT2[11]} {OUT2[12]} {OUT2[13]} {OUT2[14]} {OUT2[15]} {OUT2[16]} {OUT2[17]} {OUT2[18]} {OUT2[19]} {OUT3[0]} {OUT3[1]} {OUT3[2]} {OUT3[3]} {OUT3[4]} {OUT3[5]} {OUT3[6]} {OUT3[7]} {OUT3[8]} {OUT3[9]} {OUT3[10]} {OUT3[11]} {OUT3[12]} {OUT3[13]} {OUT3[14]} {OUT3[15]} {OUT3[16]} {OUT3[17]} {OUT3[18]} {OUT3[19]} {OUT4[0]} {OUT4[1]} {OUT4[2]} {OUT4[3]} {OUT4[4]} {OUT4[5]} {OUT4[6]} {OUT4[7]} {OUT4[8]} {OUT4[9]} {OUT4[10]} {OUT4[11]} {OUT4[12]} {OUT4[13]} {OUT4[14]} {OUT4[15]} {OUT4[16]} {OUT4[17]} {OUT4[18]} {OUT4[19]} {OUT5[0]} {OUT5[1]} {OUT5[2]} {OUT5[3]} {OUT5[4]} {OUT5[5]} {OUT5[6]} {OUT5[7]} {OUT5[8]} {OUT5[9]} {OUT5[10]} {OUT5[11]} {OUT5[12]} {OUT5[13]} {OUT5[14]} {OUT5[15]} {OUT5[16]} {OUT5[17]} {OUT5[18]} {OUT5[19]} {OUT6[0]} {OUT6[1]} {OUT6[2]} {OUT6[3]} {OUT6[4]} {OUT6[5]} {OUT6[6]} {OUT6[7]} {OUT6[8]} {OUT6[9]} {OUT6[10]} {OUT6[11]} {OUT6[12]} {OUT6[13]} {OUT6[14]} {OUT6[15]} {OUT6[16]} {OUT6[17]} {OUT6[18]} {OUT6[19]} {OUT7[0]} {OUT7[1]} {OUT7[2]} {OUT7[3]} {OUT7[4]} {OUT7[5]} {OUT7[6]} {OUT7[7]} {OUT7[8]} {OUT7[9]} {OUT7[10]} {OUT7[11]} {OUT7[12]} {OUT7[13]} {OUT7[14]} {OUT7[15]} {OUT7[16]} {OUT7[17]} {OUT7[18]} {OUT7[19]} {OUT8[0]} {OUT8[1]} {OUT8[2]} {OUT8[3]} {OUT8[4]} {OUT8[5]} {OUT8[6]} {OUT8[7]} {OUT8[8]} {OUT8[9]} {OUT8[10]} {OUT8[11]} {OUT8[12]} {OUT8[13]} {OUT8[14]} {OUT8[15]} {OUT8[16]} {OUT8[17]} {OUT8[18]} {OUT8[19]} {OUT9[0]} {OUT9[1]} {OUT9[2]} {OUT9[3]} {OUT9[4]} {OUT9[5]} {OUT9[6]} {OUT9[7]} {OUT9[8]} {OUT9[9]} {OUT9[10]} {OUT9[11]} {OUT9[12]} {OUT9[13]} {OUT9[14]} {OUT9[15]} {OUT9[16]} {OUT9[17]} {OUT9[18]} {OUT9[19]}}
+Selected [180] pin for spreading. Could not spread (18 out of 180) pins because of constraints on the selected pins or because of some blockage (pin blockage, routing blockage, power stripes etc.) on the selected region.
+
+Following pins are not spread:
+  OUT1[0]
+  OUT1[1]
+  OUT1[2]
+  OUT1[3]
+  OUT1[4]
+  OUT1[5]
+  OUT1[6]
+  OUT1[7]
+  OUT1[8]
+  OUT9[11]
+  OUT9[12]
+  OUT9[13]
+  OUT9[14]
+  OUT9[15]
+  OUT9[16]
+  OUT9[17]
+  OUT9[18]
+  OUT9[19]
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 1 -spreadType center -spacing 0.28 -pin {{OUT1[0]} {OUT1[1]} {OUT1[2]} {OUT1[3]} {OUT1[4]} {OUT1[5]} {OUT1[6]} {OUT1[7]} {OUT1[8]} {OUT1[9]} {OUT1[10]} {OUT1[11]} {OUT1[12]} {OUT1[13]} {OUT1[14]} {OUT1[15]} {OUT1[16]} {OUT1[17]} {OUT1[18]} {OUT1[19]} {OUT2[0]} {OUT2[1]} {OUT2[2]} {OUT2[3]} {OUT2[4]} {OUT2[5]} {OUT2[6]} {OUT2[7]} {OUT2[8]} {OUT2[9]} {OUT2[10]} {OUT2[11]} {OUT2[12]} {OUT2[13]} {OUT2[14]} {OUT2[15]} {OUT2[16]} {OUT2[17]} {OUT2[18]} {OUT2[19]} {OUT3[0]} {OUT3[1]} {OUT3[2]} {OUT3[3]} {OUT3[4]} {OUT3[5]} {OUT3[6]} {OUT3[7]} {OUT3[8]} {OUT3[9]} {OUT3[10]} {OUT3[11]} {OUT3[12]} {OUT3[13]} {OUT3[14]} {OUT3[15]} {OUT3[16]} {OUT3[17]} {OUT3[18]} {OUT3[19]} {OUT4[0]} {OUT4[1]} {OUT4[2]} {OUT4[3]} {OUT4[4]} {OUT4[5]} {OUT4[6]} {OUT4[7]} {OUT4[8]} {OUT4[9]} {OUT4[10]} {OUT4[11]} {OUT4[12]} {OUT4[13]} {OUT4[14]} {OUT4[15]} {OUT4[16]} {OUT4[17]} {OUT4[18]} {OUT4[19]} {OUT5[0]} {OUT5[1]} {OUT5[2]} {OUT5[3]} {OUT5[4]} {OUT5[5]} {OUT5[6]} {OUT5[7]} {OUT5[8]} {OUT5[9]} {OUT5[10]} {OUT5[11]} {OUT5[12]} {OUT5[13]} {OUT5[14]} {OUT5[15]} {OUT5[16]} {OUT5[17]} {OUT5[18]} {OUT5[19]} {OUT6[0]} {OUT6[1]} {OUT6[2]} {OUT6[3]} {OUT6[4]} {OUT6[5]} {OUT6[6]} {OUT6[7]} {OUT6[8]} {OUT6[9]} {OUT6[10]} {OUT6[11]} {OUT6[12]} {OUT6[13]} {OUT6[14]} {OUT6[15]} {OUT6[16]} {OUT6[17]} {OUT6[18]} {OUT6[19]} {OUT7[0]} {OUT7[1]} {OUT7[2]} {OUT7[3]} {OUT7[4]} {OUT7[5]} {OUT7[6]} {OUT7[7]} {OUT7[8]} {OUT7[9]} {OUT7[10]} {OUT7[11]} {OUT7[12]} {OUT7[13]} {OUT7[14]} {OUT7[15]} {OUT7[16]} {OUT7[17]} {OUT7[18]} {OUT7[19]} {OUT8[0]} {OUT8[1]} {OUT8[2]} {OUT8[3]} {OUT8[4]} {OUT8[5]} {OUT8[6]} {OUT8[7]} {OUT8[8]} {OUT8[9]} {OUT8[10]} {OUT8[11]} {OUT8[12]} {OUT8[13]} {OUT8[14]} {OUT8[15]} {OUT8[16]} {OUT8[17]} {OUT8[18]} {OUT8[19]} {OUT9[0]} {OUT9[1]} {OUT9[2]} {OUT9[3]} {OUT9[4]} {OUT9[5]} {OUT9[6]} {OUT9[7]} {OUT9[8]} {OUT9[9]} {OUT9[10]} {OUT9[11]} {OUT9[12]} {OUT9[13]} {OUT9[14]} {OUT9[15]} {OUT9[16]} {OUT9[17]} {OUT9[18]} {OUT9[19]}}
+Successfully spread [180] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -pinWidth 0.07 -pinDepth 0.07 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 1 -spreadType center -spacing 0.28 -pin {{OUT1[0]} {OUT1[1]} {OUT1[2]} {OUT1[3]} {OUT1[4]} {OUT1[5]} {OUT1[6]} {OUT1[7]} {OUT1[8]} {OUT1[9]} {OUT1[10]} {OUT1[11]} {OUT1[12]} {OUT1[13]} {OUT1[14]} {OUT1[15]} {OUT1[16]} {OUT1[17]} {OUT1[18]} {OUT1[19]} {OUT2[0]} {OUT2[1]} {OUT2[2]} {OUT2[3]} {OUT2[4]} {OUT2[5]} {OUT2[6]} {OUT2[7]} {OUT2[8]} {OUT2[9]} {OUT2[10]} {OUT2[11]} {OUT2[12]} {OUT2[13]} {OUT2[14]} {OUT2[15]} {OUT2[16]} {OUT2[17]} {OUT2[18]} {OUT2[19]} {OUT3[0]} {OUT3[1]} {OUT3[2]} {OUT3[3]} {OUT3[4]} {OUT3[5]} {OUT3[6]} {OUT3[7]} {OUT3[8]} {OUT3[9]} {OUT3[10]} {OUT3[11]} {OUT3[12]} {OUT3[13]} {OUT3[14]} {OUT3[15]} {OUT3[16]} {OUT3[17]} {OUT3[18]} {OUT3[19]} {OUT4[0]} {OUT4[1]} {OUT4[2]} {OUT4[3]} {OUT4[4]} {OUT4[5]} {OUT4[6]} {OUT4[7]} {OUT4[8]} {OUT4[9]} {OUT4[10]} {OUT4[11]} {OUT4[12]} {OUT4[13]} {OUT4[14]} {OUT4[15]} {OUT4[16]} {OUT4[17]} {OUT4[18]} {OUT4[19]} {OUT5[0]} {OUT5[1]} {OUT5[2]} {OUT5[3]} {OUT5[4]} {OUT5[5]} {OUT5[6]} {OUT5[7]} {OUT5[8]} {OUT5[9]} {OUT5[10]} {OUT5[11]} {OUT5[12]} {OUT5[13]} {OUT5[14]} {OUT5[15]} {OUT5[16]} {OUT5[17]} {OUT5[18]} {OUT5[19]} {OUT6[0]} {OUT6[1]} {OUT6[2]} {OUT6[3]} {OUT6[4]} {OUT6[5]} {OUT6[6]} {OUT6[7]} {OUT6[8]} {OUT6[9]} {OUT6[10]} {OUT6[11]} {OUT6[12]} {OUT6[13]} {OUT6[14]} {OUT6[15]} {OUT6[16]} {OUT6[17]} {OUT6[18]} {OUT6[19]} {OUT7[0]} {OUT7[1]} {OUT7[2]} {OUT7[3]} {OUT7[4]} {OUT7[5]} {OUT7[6]} {OUT7[7]} {OUT7[8]} {OUT7[9]} {OUT7[10]} {OUT7[11]} {OUT7[12]} {OUT7[13]} {OUT7[14]} {OUT7[15]} {OUT7[16]} {OUT7[17]} {OUT7[18]} {OUT7[19]} {OUT8[0]} {OUT8[1]} {OUT8[2]} {OUT8[3]} {OUT8[4]} {OUT8[5]} {OUT8[6]} {OUT8[7]} {OUT8[8]} {OUT8[9]} {OUT8[10]} {OUT8[11]} {OUT8[12]} {OUT8[13]} {OUT8[14]} {OUT8[15]} {OUT8[16]} {OUT8[17]} {OUT8[18]} {OUT8[19]} {OUT9[0]} {OUT9[1]} {OUT9[2]} {OUT9[3]} {OUT9[4]} {OUT9[5]} {OUT9[6]} {OUT9[7]} {OUT9[8]} {OUT9[9]} {OUT9[10]} {OUT9[11]} {OUT9[12]} {OUT9[13]} {OUT9[14]} {OUT9[15]} {OUT9[16]} {OUT9[17]} {OUT9[18]} {OUT9[19]}}
+Successfully spread [180] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -pinWidth 0.07 -pinDepth 0.07 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 3 -spreadType center -spacing 0.28 -pin {{OUT1[0]} {OUT1[1]} {OUT1[2]} {OUT1[3]} {OUT1[4]} {OUT1[5]} {OUT1[6]} {OUT1[7]} {OUT1[8]} {OUT1[9]} {OUT1[10]} {OUT1[11]} {OUT1[12]} {OUT1[13]} {OUT1[14]} {OUT1[15]} {OUT1[16]} {OUT1[17]} {OUT1[18]} {OUT1[19]} {OUT2[0]} {OUT2[1]} {OUT2[2]} {OUT2[3]} {OUT2[4]} {OUT2[5]} {OUT2[6]} {OUT2[7]} {OUT2[8]} {OUT2[9]} {OUT2[10]} {OUT2[11]} {OUT2[12]} {OUT2[13]} {OUT2[14]} {OUT2[15]} {OUT2[16]} {OUT2[17]} {OUT2[18]} {OUT2[19]} {OUT3[0]} {OUT3[1]} {OUT3[2]} {OUT3[3]} {OUT3[4]} {OUT3[5]} {OUT3[6]} {OUT3[7]} {OUT3[8]} {OUT3[9]} {OUT3[10]} {OUT3[11]} {OUT3[12]} {OUT3[13]} {OUT3[14]} {OUT3[15]} {OUT3[16]} {OUT3[17]} {OUT3[18]} {OUT3[19]} {OUT4[0]} {OUT4[1]} {OUT4[2]} {OUT4[3]} {OUT4[4]} {OUT4[5]} {OUT4[6]} {OUT4[7]} {OUT4[8]} {OUT4[9]} {OUT4[10]} {OUT4[11]} {OUT4[12]} {OUT4[13]} {OUT4[14]} {OUT4[15]} {OUT4[16]} {OUT4[17]} {OUT4[18]} {OUT4[19]} {OUT5[0]} {OUT5[1]} {OUT5[2]} {OUT5[3]} {OUT5[4]} {OUT5[5]} {OUT5[6]} {OUT5[7]} {OUT5[8]} {OUT5[9]} {OUT5[10]} {OUT5[11]} {OUT5[12]} {OUT5[13]} {OUT5[14]} {OUT5[15]} {OUT5[16]} {OUT5[17]} {OUT5[18]} {OUT5[19]} {OUT6[0]} {OUT6[1]} {OUT6[2]} {OUT6[3]} {OUT6[4]} {OUT6[5]} {OUT6[6]} {OUT6[7]} {OUT6[8]} {OUT6[9]} {OUT6[10]} {OUT6[11]} {OUT6[12]} {OUT6[13]} {OUT6[14]} {OUT6[15]} {OUT6[16]} {OUT6[17]} {OUT6[18]} {OUT6[19]} {OUT7[0]} {OUT7[1]} {OUT7[2]} {OUT7[3]} {OUT7[4]} {OUT7[5]} {OUT7[6]} {OUT7[7]} {OUT7[8]} {OUT7[9]} {OUT7[10]} {OUT7[11]} {OUT7[12]} {OUT7[13]} {OUT7[14]} {OUT7[15]} {OUT7[16]} {OUT7[17]} {OUT7[18]} {OUT7[19]} {OUT8[0]} {OUT8[1]} {OUT8[2]} {OUT8[3]} {OUT8[4]} {OUT8[5]} {OUT8[6]} {OUT8[7]} {OUT8[8]} {OUT8[9]} {OUT8[10]} {OUT8[11]} {OUT8[12]} {OUT8[13]} {OUT8[14]} {OUT8[15]} {OUT8[16]} {OUT8[17]} {OUT8[18]} {OUT8[19]} {OUT9[0]} {OUT9[1]} {OUT9[2]} {OUT9[3]} {OUT9[4]} {OUT9[5]} {OUT9[6]} {OUT9[7]} {OUT9[8]} {OUT9[9]} {OUT9[10]} {OUT9[11]} {OUT9[12]} {OUT9[13]} {OUT9[14]} {OUT9[15]} {OUT9[16]} {OUT9[17]} {OUT9[18]} {OUT9[19]}}
+Successfully spread [180] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> pan -1.010 -9.735
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -pinWidth 0.07 -pinDepth 0.07 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 3 -spreadType center -spacing 0.14 -pin {{OUT1[0]} {OUT1[1]} {OUT1[2]} {OUT1[3]} {OUT1[4]} {OUT1[5]} {OUT1[6]} {OUT1[7]} {OUT1[8]} {OUT1[9]} {OUT1[10]} {OUT1[11]} {OUT1[12]} {OUT1[13]} {OUT1[14]} {OUT1[15]} {OUT1[16]} {OUT1[17]} {OUT1[18]} {OUT1[19]} {OUT2[0]} {OUT2[1]} {OUT2[2]} {OUT2[3]} {OUT2[4]} {OUT2[5]} {OUT2[6]} {OUT2[7]} {OUT2[8]} {OUT2[9]} {OUT2[10]} {OUT2[11]} {OUT2[12]} {OUT2[13]} {OUT2[14]} {OUT2[15]} {OUT2[16]} {OUT2[17]} {OUT2[18]} {OUT2[19]} {OUT3[0]} {OUT3[1]} {OUT3[2]} {OUT3[3]} {OUT3[4]} {OUT3[5]} {OUT3[6]} {OUT3[7]} {OUT3[8]} {OUT3[9]} {OUT3[10]} {OUT3[11]} {OUT3[12]} {OUT3[13]} {OUT3[14]} {OUT3[15]} {OUT3[16]} {OUT3[17]} {OUT3[18]} {OUT3[19]} {OUT4[0]} {OUT4[1]} {OUT4[2]} {OUT4[3]} {OUT4[4]} {OUT4[5]} {OUT4[6]} {OUT4[7]} {OUT4[8]} {OUT4[9]} {OUT4[10]} {OUT4[11]} {OUT4[12]} {OUT4[13]} {OUT4[14]} {OUT4[15]} {OUT4[16]} {OUT4[17]} {OUT4[18]} {OUT4[19]} {OUT5[0]} {OUT5[1]} {OUT5[2]} {OUT5[3]} {OUT5[4]} {OUT5[5]} {OUT5[6]} {OUT5[7]} {OUT5[8]} {OUT5[9]} {OUT5[10]} {OUT5[11]} {OUT5[12]} {OUT5[13]} {OUT5[14]} {OUT5[15]} {OUT5[16]} {OUT5[17]} {OUT5[18]} {OUT5[19]} {OUT6[0]} {OUT6[1]} {OUT6[2]} {OUT6[3]} {OUT6[4]} {OUT6[5]} {OUT6[6]} {OUT6[7]} {OUT6[8]} {OUT6[9]} {OUT6[10]} {OUT6[11]} {OUT6[12]} {OUT6[13]} {OUT6[14]} {OUT6[15]} {OUT6[16]} {OUT6[17]} {OUT6[18]} {OUT6[19]} {OUT7[0]} {OUT7[1]} {OUT7[2]} {OUT7[3]} {OUT7[4]} {OUT7[5]} {OUT7[6]} {OUT7[7]} {OUT7[8]} {OUT7[9]} {OUT7[10]} {OUT7[11]} {OUT7[12]} {OUT7[13]} {OUT7[14]} {OUT7[15]} {OUT7[16]} {OUT7[17]} {OUT7[18]} {OUT7[19]} {OUT8[0]} {OUT8[1]} {OUT8[2]} {OUT8[3]} {OUT8[4]} {OUT8[5]} {OUT8[6]} {OUT8[7]} {OUT8[8]} {OUT8[9]} {OUT8[10]} {OUT8[11]} {OUT8[12]} {OUT8[13]} {OUT8[14]} {OUT8[15]} {OUT8[16]} {OUT8[17]} {OUT8[18]} {OUT8[19]} {OUT9[0]} {OUT9[1]} {OUT9[2]} {OUT9[3]} {OUT9[4]} {OUT9[5]} {OUT9[6]} {OUT9[7]} {OUT9[8]} {OUT9[9]} {OUT9[10]} {OUT9[11]} {OUT9[12]} {OUT9[13]} {OUT9[14]} {OUT9[15]} {OUT9[16]} {OUT9[17]} {OUT9[18]} {OUT9[19]}}
+Successfully spread [180] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -pinWidth 0.07 -pinDepth 0.07 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 3 -spreadType center -spacing 0 -pin {{OUT1[0]} {OUT1[1]} {OUT1[2]} {OUT1[3]} {OUT1[4]} {OUT1[5]} {OUT1[6]} {OUT1[7]} {OUT1[8]} {OUT1[9]} {OUT1[10]} {OUT1[11]} {OUT1[12]} {OUT1[13]} {OUT1[14]} {OUT1[15]} {OUT1[16]} {OUT1[17]} {OUT1[18]} {OUT1[19]} {OUT2[0]} {OUT2[1]} {OUT2[2]} {OUT2[3]} {OUT2[4]} {OUT2[5]} {OUT2[6]} {OUT2[7]} {OUT2[8]} {OUT2[9]} {OUT2[10]} {OUT2[11]} {OUT2[12]} {OUT2[13]} {OUT2[14]} {OUT2[15]} {OUT2[16]} {OUT2[17]} {OUT2[18]} {OUT2[19]} {OUT3[0]} {OUT3[1]} {OUT3[2]} {OUT3[3]} {OUT3[4]} {OUT3[5]} {OUT3[6]} {OUT3[7]} {OUT3[8]} {OUT3[9]} {OUT3[10]} {OUT3[11]} {OUT3[12]} {OUT3[13]} {OUT3[14]} {OUT3[15]} {OUT3[16]} {OUT3[17]} {OUT3[18]} {OUT3[19]} {OUT4[0]} {OUT4[1]} {OUT4[2]} {OUT4[3]} {OUT4[4]} {OUT4[5]} {OUT4[6]} {OUT4[7]} {OUT4[8]} {OUT4[9]} {OUT4[10]} {OUT4[11]} {OUT4[12]} {OUT4[13]} {OUT4[14]} {OUT4[15]} {OUT4[16]} {OUT4[17]} {OUT4[18]} {OUT4[19]} {OUT5[0]} {OUT5[1]} {OUT5[2]} {OUT5[3]} {OUT5[4]} {OUT5[5]} {OUT5[6]} {OUT5[7]} {OUT5[8]} {OUT5[9]} {OUT5[10]} {OUT5[11]} {OUT5[12]} {OUT5[13]} {OUT5[14]} {OUT5[15]} {OUT5[16]} {OUT5[17]} {OUT5[18]} {OUT5[19]} {OUT6[0]} {OUT6[1]} {OUT6[2]} {OUT6[3]} {OUT6[4]} {OUT6[5]} {OUT6[6]} {OUT6[7]} {OUT6[8]} {OUT6[9]} {OUT6[10]} {OUT6[11]} {OUT6[12]} {OUT6[13]} {OUT6[14]} {OUT6[15]} {OUT6[16]} {OUT6[17]} {OUT6[18]} {OUT6[19]} {OUT7[0]} {OUT7[1]} {OUT7[2]} {OUT7[3]} {OUT7[4]} {OUT7[5]} {OUT7[6]} {OUT7[7]} {OUT7[8]} {OUT7[9]} {OUT7[10]} {OUT7[11]} {OUT7[12]} {OUT7[13]} {OUT7[14]} {OUT7[15]} {OUT7[16]} {OUT7[17]} {OUT7[18]} {OUT7[19]} {OUT8[0]} {OUT8[1]} {OUT8[2]} {OUT8[3]} {OUT8[4]} {OUT8[5]} {OUT8[6]} {OUT8[7]} {OUT8[8]} {OUT8[9]} {OUT8[10]} {OUT8[11]} {OUT8[12]} {OUT8[13]} {OUT8[14]} {OUT8[15]} {OUT8[16]} {OUT8[17]} {OUT8[18]} {OUT8[19]} {OUT9[0]} {OUT9[1]} {OUT9[2]} {OUT9[3]} {OUT9[4]} {OUT9[5]} {OUT9[6]} {OUT9[7]} {OUT9[8]} {OUT9[9]} {OUT9[10]} {OUT9[11]} {OUT9[12]} {OUT9[13]} {OUT9[14]} {OUT9[15]} {OUT9[16]} {OUT9[17]} {OUT9[18]} {OUT9[19]}}
+Successfully spread [180] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -pinWidth 0.07 -pinDepth 0.07 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 3 -spreadType center -spacing 0.56 -pin {{OUT1[0]} {OUT1[1]} {OUT1[2]} {OUT1[3]} {OUT1[4]} {OUT1[5]} {OUT1[6]} {OUT1[7]} {OUT1[8]} {OUT1[9]} {OUT1[10]} {OUT1[11]} {OUT1[12]} {OUT1[13]} {OUT1[14]} {OUT1[15]} {OUT1[16]} {OUT1[17]} {OUT1[18]} {OUT1[19]}}
+Successfully spread [20] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> pan -12.609 30.660
+<CMD> pan -10.619 8.428
+<CMD> pan -14.238 -4.133
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -pinWidth 0.07 -pinDepth 0.07 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 3 -spreadType center -spacing 0.14 -pin {{OUT1[0]} {OUT1[1]} {OUT1[2]} {OUT1[3]} {OUT1[4]} {OUT1[5]} {OUT1[6]} {OUT1[7]} {OUT1[8]} {OUT1[9]} {OUT1[10]} {OUT1[11]} {OUT1[12]} {OUT1[13]} {OUT1[14]} {OUT1[15]} {OUT1[16]} {OUT1[17]} {OUT1[18]} {OUT1[19]}}
+Successfully spread [20] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -pinWidth 0.07 -pinDepth 0.07 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 3 -spreadType center -spacing 0.14 -pin {{OUT2[0]} {OUT2[1]} {OUT2[2]} {OUT2[3]} {OUT2[4]} {OUT2[5]} {OUT2[6]} {OUT2[7]} {OUT2[8]} {OUT2[9]} {OUT2[10]} {OUT2[11]} {OUT2[12]} {OUT2[13]} {OUT2[14]} {OUT2[15]} {OUT2[16]} {OUT2[17]} {OUT2[18]} {OUT2[19]}}
+Successfully spread [20] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -pinWidth 0.07 -pinDepth 0.07 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 3 -spreadType center -spacing 0.14 -pin {{OUT3[0]} {OUT3[1]} {OUT3[2]} {OUT3[3]} {OUT3[4]} {OUT3[5]} {OUT3[6]} {OUT3[7]} {OUT3[8]} {OUT3[9]} {OUT3[10]} {OUT3[11]} {OUT3[12]} {OUT3[13]} {OUT3[14]} {OUT3[15]} {OUT3[16]} {OUT3[17]} {OUT3[18]} {OUT3[19]}}
+Successfully spread [20] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -pinWidth 0.07 -pinDepth 0.07 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 3 -spreadType center -spacing 0.14 -pin {{OUT4[0]} {OUT4[1]} {OUT4[2]} {OUT4[3]} {OUT4[4]} {OUT4[5]} {OUT4[6]} {OUT4[7]} {OUT4[8]} {OUT4[9]} {OUT4[10]} {OUT4[11]} {OUT4[12]} {OUT4[13]} {OUT4[14]} {OUT4[15]} {OUT4[16]} {OUT4[17]} {OUT4[18]} {OUT4[19]}}
+Successfully spread [20] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -pinWidth 0.07 -pinDepth 0.07 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 3 -spreadType center -spacing 0.14 -pin {{OUT5[0]} {OUT5[1]} {OUT5[2]} {OUT5[3]} {OUT5[4]} {OUT5[5]} {OUT5[6]} {OUT5[7]} {OUT5[8]} {OUT5[9]} {OUT5[10]} {OUT5[11]} {OUT5[12]} {OUT5[13]} {OUT5[14]} {OUT5[15]} {OUT5[16]} {OUT5[17]} {OUT5[18]} {OUT5[19]}}
+Successfully spread [20] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -pinWidth 0.07 -pinDepth 0.07 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 3 -spreadType center -spacing 0.07 -pin {{OUT1[0]} {OUT1[1]} {OUT1[2]} {OUT1[3]} {OUT1[4]} {OUT1[5]} {OUT1[6]} {OUT1[7]} {OUT1[8]} {OUT1[9]} {OUT1[10]} {OUT1[11]} {OUT1[12]} {OUT1[13]} {OUT1[14]} {OUT1[15]} {OUT1[16]} {OUT1[17]} {OUT1[18]} {OUT1[19]}}
+Successfully spread [20] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -pinWidth 0.07 -pinDepth 0.07 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 3 -spreadType center -spacing 0.07 -pin {{OUT1[0]} {OUT1[1]} {OUT1[2]} {OUT1[3]} {OUT1[4]} {OUT1[5]} {OUT1[6]} {OUT1[7]} {OUT1[8]} {OUT1[9]} {OUT1[10]} {OUT1[11]} {OUT1[12]} {OUT1[13]} {OUT1[14]} {OUT1[15]} {OUT1[16]} {OUT1[17]} {OUT1[18]} {OUT1[19]} {OUT2[0]} {OUT2[1]} {OUT2[2]} {OUT2[3]} {OUT2[4]} {OUT2[5]} {OUT2[6]} {OUT2[7]} {OUT2[8]} {OUT2[9]} {OUT2[10]} {OUT2[11]} {OUT2[12]} {OUT2[13]} {OUT2[14]} {OUT2[15]} {OUT2[16]} {OUT2[17]} {OUT2[18]} {OUT2[19]} {OUT3[0]} {OUT3[1]} {OUT3[2]} {OUT3[3]} {OUT3[4]} {OUT3[5]} {OUT3[6]} {OUT3[7]} {OUT3[8]} {OUT3[9]} {OUT3[10]} {OUT3[11]} {OUT3[12]} {OUT3[13]} {OUT3[14]} {OUT3[15]} {OUT3[16]} {OUT3[17]} {OUT3[18]} {OUT3[19]} {OUT4[0]} {OUT4[1]} {OUT4[2]} {OUT4[3]} {OUT4[4]} {OUT4[5]} {OUT4[6]} {OUT4[7]} {OUT4[8]} {OUT4[9]} {OUT4[10]} {OUT4[11]} {OUT4[12]} {OUT4[13]} {OUT4[14]} {OUT4[15]} {OUT4[16]} {OUT4[17]} {OUT4[18]} {OUT4[19]} {OUT5[0]} {OUT5[1]} {OUT5[2]} {OUT5[3]} {OUT5[4]} {OUT5[5]} {OUT5[6]} {OUT5[7]} {OUT5[8]} {OUT5[9]} {OUT5[10]} {OUT5[11]} {OUT5[12]} {OUT5[13]} {OUT5[14]} {OUT5[15]} {OUT5[16]} {OUT5[17]} {OUT5[18]} {OUT5[19]} {OUT6[0]} {OUT6[1]} {OUT6[2]} {OUT6[3]} {OUT6[4]} {OUT6[5]} {OUT6[6]} {OUT6[7]} {OUT6[8]} {OUT6[9]} {OUT6[10]} {OUT6[11]} {OUT6[12]} {OUT6[13]} {OUT6[14]} {OUT6[15]} {OUT6[16]} {OUT6[17]} {OUT6[18]} {OUT6[19]} {OUT7[0]} {OUT7[1]} {OUT7[2]} {OUT7[3]} {OUT7[4]} {OUT7[5]} {OUT7[6]} {OUT7[7]} {OUT7[8]} {OUT7[9]} {OUT7[10]} {OUT7[11]} {OUT7[12]} {OUT7[13]} {OUT7[14]} {OUT7[15]} {OUT7[16]} {OUT7[17]} {OUT7[18]} {OUT7[19]} {OUT8[0]} {OUT8[1]} {OUT8[2]} {OUT8[3]} {OUT8[4]} {OUT8[5]} {OUT8[6]} {OUT8[7]} {OUT8[8]} {OUT8[9]} {OUT8[10]} {OUT8[11]} {OUT8[12]} {OUT8[13]} {OUT8[14]} {OUT8[15]} {OUT8[16]} {OUT8[17]} {OUT8[18]} {OUT8[19]} {OUT9[0]} {OUT9[1]} {OUT9[2]} {OUT9[3]} {OUT9[4]} {OUT9[5]} {OUT9[6]} {OUT9[7]} {OUT9[8]} {OUT9[9]} {OUT9[10]} {OUT9[11]} {OUT9[12]} {OUT9[13]} {OUT9[14]} {OUT9[15]} {OUT9[16]} {OUT9[17]} {OUT9[18]} {OUT9[19]}}
+Successfully spread [180] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+**ERROR: (IMPSYT-16269):	Need to specify 'space'.
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -pinWidth 0.07 -pinDepth 0.07 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 3 -spreadType center -spacing 0 -pin {{OUT1[0]} {OUT1[1]} {OUT1[2]} {OUT1[3]} {OUT1[4]} {OUT1[5]} {OUT1[6]} {OUT1[7]} {OUT1[8]} {OUT1[9]} {OUT1[10]} {OUT1[11]} {OUT1[12]} {OUT1[13]} {OUT1[14]} {OUT1[15]} {OUT1[16]} {OUT1[17]} {OUT1[18]} {OUT1[19]} {OUT2[0]} {OUT2[1]} {OUT2[2]} {OUT2[3]} {OUT2[4]} {OUT2[5]} {OUT2[6]} {OUT2[7]} {OUT2[8]} {OUT2[9]} {OUT2[10]} {OUT2[11]} {OUT2[12]} {OUT2[13]} {OUT2[14]} {OUT2[15]} {OUT2[16]} {OUT2[17]} {OUT2[18]} {OUT2[19]} {OUT3[0]} {OUT3[1]} {OUT3[2]} {OUT3[3]} {OUT3[4]} {OUT3[5]} {OUT3[6]} {OUT3[7]} {OUT3[8]} {OUT3[9]} {OUT3[10]} {OUT3[11]} {OUT3[12]} {OUT3[13]} {OUT3[14]} {OUT3[15]} {OUT3[16]} {OUT3[17]} {OUT3[18]} {OUT3[19]} {OUT4[0]} {OUT4[1]} {OUT4[2]} {OUT4[3]} {OUT4[4]} {OUT4[5]} {OUT4[6]} {OUT4[7]} {OUT4[8]} {OUT4[9]} {OUT4[10]} {OUT4[11]} {OUT4[12]} {OUT4[13]} {OUT4[14]} {OUT4[15]} {OUT4[16]} {OUT4[17]} {OUT4[18]} {OUT4[19]} {OUT5[0]} {OUT5[1]} {OUT5[2]} {OUT5[3]} {OUT5[4]} {OUT5[5]} {OUT5[6]} {OUT5[7]} {OUT5[8]} {OUT5[9]} {OUT5[10]} {OUT5[11]} {OUT5[12]} {OUT5[13]} {OUT5[14]} {OUT5[15]} {OUT5[16]} {OUT5[17]} {OUT5[18]} {OUT5[19]} {OUT6[0]} {OUT6[1]} {OUT6[2]} {OUT6[3]} {OUT6[4]} {OUT6[5]} {OUT6[6]} {OUT6[7]} {OUT6[8]} {OUT6[9]} {OUT6[10]} {OUT6[11]} {OUT6[12]} {OUT6[13]} {OUT6[14]} {OUT6[15]} {OUT6[16]} {OUT6[17]} {OUT6[18]} {OUT6[19]} {OUT7[0]} {OUT7[1]} {OUT7[2]} {OUT7[3]} {OUT7[4]} {OUT7[5]} {OUT7[6]} {OUT7[7]} {OUT7[8]} {OUT7[9]} {OUT7[10]} {OUT7[11]} {OUT7[12]} {OUT7[13]} {OUT7[14]} {OUT7[15]} {OUT7[16]} {OUT7[17]} {OUT7[18]} {OUT7[19]} {OUT8[0]} {OUT8[1]} {OUT8[2]} {OUT8[3]} {OUT8[4]} {OUT8[5]} {OUT8[6]} {OUT8[7]} {OUT8[8]} {OUT8[9]} {OUT8[10]} {OUT8[11]} {OUT8[12]} {OUT8[13]} {OUT8[14]} {OUT8[15]} {OUT8[16]} {OUT8[17]} {OUT8[18]} {OUT8[19]} {OUT9[0]} {OUT9[1]} {OUT9[2]} {OUT9[3]} {OUT9[4]} {OUT9[5]} {OUT9[6]} {OUT9[7]} {OUT9[8]} {OUT9[9]} {OUT9[10]} {OUT9[11]} {OUT9[12]} {OUT9[13]} {OUT9[14]} {OUT9[15]} {OUT9[16]} {OUT9[17]} {OUT9[18]} {OUT9[19]}}
+Successfully spread [180] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -pinWidth 0.07 -pinDepth 0.07 -fixOverlap 1 -spreadDirection clockwise -side Bottom -layer 3 -spreadType side -pin {{OUT1[0]} {OUT1[1]} {OUT1[2]} {OUT1[3]} {OUT1[4]} {OUT1[5]} {OUT1[6]} {OUT1[7]} {OUT1[8]} {OUT1[9]} {OUT1[10]} {OUT1[11]} {OUT1[12]} {OUT1[13]} {OUT1[14]} {OUT1[15]} {OUT1[16]} {OUT1[17]} {OUT1[18]} {OUT1[19]} {OUT2[0]} {OUT2[1]} {OUT2[2]} {OUT2[3]} {OUT2[4]} {OUT2[5]} {OUT2[6]} {OUT2[7]} {OUT2[8]} {OUT2[9]} {OUT2[10]} {OUT2[11]} {OUT2[12]} {OUT2[13]} {OUT2[14]} {OUT2[15]} {OUT2[16]} {OUT2[17]} {OUT2[18]} {OUT2[19]} {OUT3[0]} {OUT3[1]} {OUT3[2]} {OUT3[3]} {OUT3[4]} {OUT3[5]} {OUT3[6]} {OUT3[7]} {OUT3[8]} {OUT3[9]} {OUT3[10]} {OUT3[11]} {OUT3[12]} {OUT3[13]} {OUT3[14]} {OUT3[15]} {OUT3[16]} {OUT3[17]} {OUT3[18]} {OUT3[19]} {OUT4[0]} {OUT4[1]} {OUT4[2]} {OUT4[3]} {OUT4[4]} {OUT4[5]} {OUT4[6]} {OUT4[7]} {OUT4[8]} {OUT4[9]} {OUT4[10]} {OUT4[11]} {OUT4[12]} {OUT4[13]} {OUT4[14]} {OUT4[15]} {OUT4[16]} {OUT4[17]} {OUT4[18]} {OUT4[19]} {OUT5[0]} {OUT5[1]} {OUT5[2]} {OUT5[3]} {OUT5[4]} {OUT5[5]} {OUT5[6]} {OUT5[7]} {OUT5[8]} {OUT5[9]} {OUT5[10]} {OUT5[11]} {OUT5[12]} {OUT5[13]} {OUT5[14]} {OUT5[15]} {OUT5[16]} {OUT5[17]} {OUT5[18]} {OUT5[19]} {OUT6[0]} {OUT6[1]} {OUT6[2]} {OUT6[3]} {OUT6[4]} {OUT6[5]} {OUT6[6]} {OUT6[7]} {OUT6[8]} {OUT6[9]} {OUT6[10]} {OUT6[11]} {OUT6[12]} {OUT6[13]} {OUT6[14]} {OUT6[15]} {OUT6[16]} {OUT6[17]} {OUT6[18]} {OUT6[19]} {OUT7[0]} {OUT7[1]} {OUT7[2]} {OUT7[3]} {OUT7[4]} {OUT7[5]} {OUT7[6]} {OUT7[7]} {OUT7[8]} {OUT7[9]} {OUT7[10]} {OUT7[11]} {OUT7[12]} {OUT7[13]} {OUT7[14]} {OUT7[15]} {OUT7[16]} {OUT7[17]} {OUT7[18]} {OUT7[19]} {OUT8[0]} {OUT8[1]} {OUT8[2]} {OUT8[3]} {OUT8[4]} {OUT8[5]} {OUT8[6]} {OUT8[7]} {OUT8[8]} {OUT8[9]} {OUT8[10]} {OUT8[11]} {OUT8[12]} {OUT8[13]} {OUT8[14]} {OUT8[15]} {OUT8[16]} {OUT8[17]} {OUT8[18]} {OUT8[19]} {OUT9[0]} {OUT9[1]} {OUT9[2]} {OUT9[3]} {OUT9[4]} {OUT9[5]} {OUT9[6]} {OUT9[7]} {OUT9[8]} {OUT9[9]} {OUT9[10]} {OUT9[11]} {OUT9[12]} {OUT9[13]} {OUT9[14]} {OUT9[15]} {OUT9[16]} {OUT9[17]} {OUT9[18]} {OUT9[19]}}
+Successfully spread [180] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> set ptngSprNoRefreshPins 1
+<CMD> setPtnPinStatus -cell systolic_array -pin VSS -status unplaced -silent
+<CMD> set ptngSprNoRefreshPins 0
+<CMD_INTERNAL> ptnSprRefreshPinsAndBlockages
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -pinWidth 0.07 -pinDepth 0.07 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 3 -spreadType center -spacing 0.14 -pin {{OUT1[0]} {OUT1[1]} {OUT1[2]} {OUT1[3]} {OUT1[4]} {OUT1[5]} {OUT1[6]} {OUT1[7]} {OUT1[8]} {OUT1[9]} {OUT1[10]} {OUT1[11]} {OUT1[12]} {OUT1[13]} {OUT1[14]} {OUT1[15]} {OUT1[16]} {OUT1[17]} {OUT1[18]} {OUT1[19]} {OUT2[0]} {OUT2[1]} {OUT2[2]} {OUT2[3]} {OUT2[4]} {OUT2[5]} {OUT2[6]} {OUT2[7]} {OUT2[8]} {OUT2[9]} {OUT2[10]} {OUT2[11]} {OUT2[12]} {OUT2[13]} {OUT2[14]} {OUT2[15]} {OUT2[16]} {OUT2[17]} {OUT2[18]} {OUT2[19]} {OUT3[0]} {OUT3[1]} {OUT3[2]} {OUT3[3]} {OUT3[4]} {OUT3[5]} {OUT3[6]} {OUT3[7]} {OUT3[8]} {OUT3[9]} {OUT3[10]} {OUT3[11]} {OUT3[12]} {OUT3[13]} {OUT3[14]} {OUT3[15]} {OUT3[16]} {OUT3[17]} {OUT3[18]} {OUT3[19]} {OUT4[0]} {OUT4[1]} {OUT4[2]} {OUT4[3]} {OUT4[4]} {OUT4[5]} {OUT4[6]} {OUT4[7]} {OUT4[8]} {OUT4[9]} {OUT4[10]} {OUT4[11]} {OUT4[12]} {OUT4[13]} {OUT4[14]} {OUT4[15]} {OUT4[16]} {OUT4[17]} {OUT4[18]} {OUT4[19]} {OUT5[0]} {OUT5[1]} {OUT5[2]} {OUT5[3]} {OUT5[4]} {OUT5[5]} {OUT5[6]} {OUT5[7]} {OUT5[8]} {OUT5[9]} {OUT5[10]} {OUT5[11]} {OUT5[12]} {OUT5[13]} {OUT5[14]} {OUT5[15]} {OUT5[16]} {OUT5[17]} {OUT5[18]} {OUT5[19]} {OUT6[0]} {OUT6[1]} {OUT6[2]} {OUT6[3]} {OUT6[4]} {OUT6[5]} {OUT6[6]} {OUT6[7]} {OUT6[8]} {OUT6[9]} {OUT6[10]} {OUT6[11]} {OUT6[12]} {OUT6[13]} {OUT6[14]} {OUT6[15]} {OUT6[16]} {OUT6[17]} {OUT6[18]} {OUT6[19]} {OUT7[0]} {OUT7[1]} {OUT7[2]} {OUT7[3]} {OUT7[4]} {OUT7[5]} {OUT7[6]} {OUT7[7]} {OUT7[8]} {OUT7[9]} {OUT7[10]} {OUT7[11]} {OUT7[12]} {OUT7[13]} {OUT7[14]} {OUT7[15]} {OUT7[16]} {OUT7[17]} {OUT7[18]} {OUT7[19]} {OUT8[0]} {OUT8[1]} {OUT8[2]} {OUT8[3]} {OUT8[4]} {OUT8[5]} {OUT8[6]} {OUT8[7]} {OUT8[8]} {OUT8[9]} {OUT8[10]} {OUT8[11]} {OUT8[12]} {OUT8[13]} {OUT8[14]} {OUT8[15]} {OUT8[16]} {OUT8[17]} {OUT8[18]} {OUT8[19]} {OUT9[0]} {OUT9[1]} {OUT9[2]} {OUT9[3]} {OUT9[4]} {OUT9[5]} {OUT9[6]} {OUT9[7]} {OUT9[8]} {OUT9[9]} {OUT9[10]} {OUT9[11]} {OUT9[12]} {OUT9[13]} {OUT9[14]} {OUT9[15]} {OUT9[16]} {OUT9[17]} {OUT9[18]} {OUT9[19]}}
+Successfully spread [180] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -pinWidth 0.07 -pinDepth 0.07 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 3 -spreadType center -spacing 0.2 -pin {{OUT1[0]} {OUT1[1]} {OUT1[2]} {OUT1[3]} {OUT1[4]} {OUT1[5]} {OUT1[6]} {OUT1[7]} {OUT1[8]} {OUT1[9]} {OUT1[10]} {OUT1[11]} {OUT1[12]} {OUT1[13]} {OUT1[14]} {OUT1[15]} {OUT1[16]} {OUT1[17]} {OUT1[18]} {OUT1[19]} {OUT2[0]} {OUT2[1]} {OUT2[2]} {OUT2[3]} {OUT2[4]} {OUT2[5]} {OUT2[6]} {OUT2[7]} {OUT2[8]} {OUT2[9]} {OUT2[10]} {OUT2[11]} {OUT2[12]} {OUT2[13]} {OUT2[14]} {OUT2[15]} {OUT2[16]} {OUT2[17]} {OUT2[18]} {OUT2[19]} {OUT3[0]} {OUT3[1]} {OUT3[2]} {OUT3[3]} {OUT3[4]} {OUT3[5]} {OUT3[6]} {OUT3[7]} {OUT3[8]} {OUT3[9]} {OUT3[10]} {OUT3[11]} {OUT3[12]} {OUT3[13]} {OUT3[14]} {OUT3[15]} {OUT3[16]} {OUT3[17]} {OUT3[18]} {OUT3[19]} {OUT4[0]} {OUT4[1]} {OUT4[2]} {OUT4[3]} {OUT4[4]} {OUT4[5]} {OUT4[6]} {OUT4[7]} {OUT4[8]} {OUT4[9]} {OUT4[10]} {OUT4[11]} {OUT4[12]} {OUT4[13]} {OUT4[14]} {OUT4[15]} {OUT4[16]} {OUT4[17]} {OUT4[18]} {OUT4[19]} {OUT5[0]} {OUT5[1]} {OUT5[2]} {OUT5[3]} {OUT5[4]} {OUT5[5]} {OUT5[6]} {OUT5[7]} {OUT5[8]} {OUT5[9]} {OUT5[10]} {OUT5[11]} {OUT5[12]} {OUT5[13]} {OUT5[14]} {OUT5[15]} {OUT5[16]} {OUT5[17]} {OUT5[18]} {OUT5[19]} {OUT6[0]} {OUT6[1]} {OUT6[2]} {OUT6[3]} {OUT6[4]} {OUT6[5]} {OUT6[6]} {OUT6[7]} {OUT6[8]} {OUT6[9]} {OUT6[10]} {OUT6[11]} {OUT6[12]} {OUT6[13]} {OUT6[14]} {OUT6[15]} {OUT6[16]} {OUT6[17]} {OUT6[18]} {OUT6[19]} {OUT7[0]} {OUT7[1]} {OUT7[2]} {OUT7[3]} {OUT7[4]} {OUT7[5]} {OUT7[6]} {OUT7[7]} {OUT7[8]} {OUT7[9]} {OUT7[10]} {OUT7[11]} {OUT7[12]} {OUT7[13]} {OUT7[14]} {OUT7[15]} {OUT7[16]} {OUT7[17]} {OUT7[18]} {OUT7[19]} {OUT8[0]} {OUT8[1]} {OUT8[2]} {OUT8[3]} {OUT8[4]} {OUT8[5]} {OUT8[6]} {OUT8[7]} {OUT8[8]} {OUT8[9]} {OUT8[10]} {OUT8[11]} {OUT8[12]} {OUT8[13]} {OUT8[14]} {OUT8[15]} {OUT8[16]} {OUT8[17]} {OUT8[18]} {OUT8[19]} {OUT9[0]} {OUT9[1]} {OUT9[2]} {OUT9[3]} {OUT9[4]} {OUT9[5]} {OUT9[6]} {OUT9[7]} {OUT9[8]} {OUT9[9]} {OUT9[10]} {OUT9[11]} {OUT9[12]} {OUT9[13]} {OUT9[14]} {OUT9[15]} {OUT9[16]} {OUT9[17]} {OUT9[18]} {OUT9[19]}}
+Successfully spread [180] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> set ptngSprNoRefreshPins 1
+<CMD> setPtnPinStatus -cell systolic_array -pin VSS -status unplaced -silent
+<CMD> set ptngSprNoRefreshPins 0
+<CMD_INTERNAL> ptnSprRefreshPinsAndBlockages
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -use GROUND -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 3 -spreadType center -spacing 0.28 -pin VSS
+Successfully spread [1] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> getPinAssignMode -pinEditInBatch -quiet
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Right -layer 4 -spreadType center -spacing 0.56 -pin {RSTB CLK}
+Successfully spread [2] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> pan -51.559 -11.803
+<CMD> pan 27.457 6.162
+<CMD> pan 4.973 9.513
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -pinWidth 0.14 -pinDepth 0.14 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Right -layer 3 -spreadType center -spacing 0.56 -pin {RSTB CLK}
+Successfully spread [2] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> pan -6.308 -11.757
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -pinWidth 0.07 -pinDepth 0.07 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 4 -spreadType center -spacing 0.2 -pin {{OUT1[0]} {OUT1[1]} {OUT1[2]} {OUT1[3]} {OUT1[4]} {OUT1[5]} {OUT1[6]} {OUT1[7]} {OUT1[8]} {OUT1[9]} {OUT1[10]} {OUT1[11]} {OUT1[12]} {OUT1[13]} {OUT1[14]} {OUT1[15]} {OUT1[16]} {OUT1[17]} {OUT1[18]} {OUT1[19]} {OUT2[0]} {OUT2[1]} {OUT2[2]} {OUT2[3]} {OUT2[4]} {OUT2[5]} {OUT2[6]} {OUT2[7]} {OUT2[8]} {OUT2[9]} {OUT2[10]} {OUT2[11]} {OUT2[12]} {OUT2[13]} {OUT2[14]} {OUT2[15]} {OUT2[16]} {OUT2[17]} {OUT2[18]} {OUT2[19]} {OUT3[0]} {OUT3[1]} {OUT3[2]} {OUT3[3]} {OUT3[4]} {OUT3[5]} {OUT3[6]} {OUT3[7]} {OUT3[8]} {OUT3[9]} {OUT3[10]} {OUT3[11]} {OUT3[12]} {OUT3[13]} {OUT3[14]} {OUT3[15]} {OUT3[16]} {OUT3[17]} {OUT3[18]} {OUT3[19]} {OUT4[0]} {OUT4[1]} {OUT4[2]} {OUT4[3]} {OUT4[4]} {OUT4[5]} {OUT4[6]} {OUT4[7]} {OUT4[8]} {OUT4[9]} {OUT4[10]} {OUT4[11]} {OUT4[12]} {OUT4[13]} {OUT4[14]} {OUT4[15]} {OUT4[16]} {OUT4[17]} {OUT4[18]} {OUT4[19]} {OUT5[0]} {OUT5[1]} {OUT5[2]} {OUT5[3]} {OUT5[4]} {OUT5[5]} {OUT5[6]} {OUT5[7]} {OUT5[8]} {OUT5[9]} {OUT5[10]} {OUT5[11]} {OUT5[12]} {OUT5[13]} {OUT5[14]} {OUT5[15]} {OUT5[16]} {OUT5[17]} {OUT5[18]} {OUT5[19]} {OUT6[0]} {OUT6[1]} {OUT6[2]} {OUT6[3]} {OUT6[4]} {OUT6[5]} {OUT6[6]} {OUT6[7]} {OUT6[8]} {OUT6[9]} {OUT6[10]} {OUT6[11]} {OUT6[12]} {OUT6[13]} {OUT6[14]} {OUT6[15]} {OUT6[16]} {OUT6[17]} {OUT6[18]} {OUT6[19]} {OUT7[0]} {OUT7[1]} {OUT7[2]} {OUT7[3]} {OUT7[4]} {OUT7[5]} {OUT7[6]} {OUT7[7]} {OUT7[8]} {OUT7[9]} {OUT7[10]} {OUT7[11]} {OUT7[12]} {OUT7[13]} {OUT7[14]} {OUT7[15]} {OUT7[16]} {OUT7[17]} {OUT7[18]} {OUT7[19]} {OUT8[0]} {OUT8[1]} {OUT8[2]} {OUT8[3]} {OUT8[4]} {OUT8[5]} {OUT8[6]} {OUT8[7]} {OUT8[8]} {OUT8[9]} {OUT8[10]} {OUT8[11]} {OUT8[12]} {OUT8[13]} {OUT8[14]} {OUT8[15]} {OUT8[16]} {OUT8[17]} {OUT8[18]} {OUT8[19]} {OUT9[0]} {OUT9[1]} {OUT9[2]} {OUT9[3]} {OUT9[4]} {OUT9[5]} {OUT9[6]} {OUT9[7]} {OUT9[8]} {OUT9[9]} {OUT9[10]} {OUT9[11]} {OUT9[12]} {OUT9[13]} {OUT9[14]} {OUT9[15]} {OUT9[16]} {OUT9[17]} {OUT9[18]} {OUT9[19]}}
+Successfully spread [180] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -pinWidth 0.14 -pinDepth 0.14 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 4 -spreadType center -spacing 0.28 -pin {{OUT1[0]} {OUT1[1]} {OUT1[2]} {OUT1[3]} {OUT1[4]} {OUT1[5]} {OUT1[6]} {OUT1[7]} {OUT1[8]} {OUT1[9]} {OUT1[10]} {OUT1[11]} {OUT1[12]} {OUT1[13]} {OUT1[14]} {OUT1[15]} {OUT1[16]} {OUT1[17]} {OUT1[18]} {OUT1[19]} {OUT2[0]} {OUT2[1]} {OUT2[2]} {OUT2[3]} {OUT2[4]} {OUT2[5]} {OUT2[6]} {OUT2[7]} {OUT2[8]} {OUT2[9]} {OUT2[10]} {OUT2[11]} {OUT2[12]} {OUT2[13]} {OUT2[14]} {OUT2[15]} {OUT2[16]} {OUT2[17]} {OUT2[18]} {OUT2[19]} {OUT3[0]} {OUT3[1]} {OUT3[2]} {OUT3[3]} {OUT3[4]} {OUT3[5]} {OUT3[6]} {OUT3[7]} {OUT3[8]} {OUT3[9]} {OUT3[10]} {OUT3[11]} {OUT3[12]} {OUT3[13]} {OUT3[14]} {OUT3[15]} {OUT3[16]} {OUT3[17]} {OUT3[18]} {OUT3[19]} {OUT4[0]} {OUT4[1]} {OUT4[2]} {OUT4[3]} {OUT4[4]} {OUT4[5]} {OUT4[6]} {OUT4[7]} {OUT4[8]} {OUT4[9]} {OUT4[10]} {OUT4[11]} {OUT4[12]} {OUT4[13]} {OUT4[14]} {OUT4[15]} {OUT4[16]} {OUT4[17]} {OUT4[18]} {OUT4[19]} {OUT5[0]} {OUT5[1]} {OUT5[2]} {OUT5[3]} {OUT5[4]} {OUT5[5]} {OUT5[6]} {OUT5[7]} {OUT5[8]} {OUT5[9]} {OUT5[10]} {OUT5[11]} {OUT5[12]} {OUT5[13]} {OUT5[14]} {OUT5[15]} {OUT5[16]} {OUT5[17]} {OUT5[18]} {OUT5[19]} {OUT6[0]} {OUT6[1]} {OUT6[2]} {OUT6[3]} {OUT6[4]} {OUT6[5]} {OUT6[6]} {OUT6[7]} {OUT6[8]} {OUT6[9]} {OUT6[10]} {OUT6[11]} {OUT6[12]} {OUT6[13]} {OUT6[14]} {OUT6[15]} {OUT6[16]} {OUT6[17]} {OUT6[18]} {OUT6[19]} {OUT7[0]} {OUT7[1]} {OUT7[2]} {OUT7[3]} {OUT7[4]} {OUT7[5]} {OUT7[6]} {OUT7[7]} {OUT7[8]} {OUT7[9]} {OUT7[10]} {OUT7[11]} {OUT7[12]} {OUT7[13]} {OUT7[14]} {OUT7[15]} {OUT7[16]} {OUT7[17]} {OUT7[18]} {OUT7[19]} {OUT8[0]} {OUT8[1]} {OUT8[2]} {OUT8[3]} {OUT8[4]} {OUT8[5]} {OUT8[6]} {OUT8[7]} {OUT8[8]} {OUT8[9]} {OUT8[10]} {OUT8[11]} {OUT8[12]} {OUT8[13]} {OUT8[14]} {OUT8[15]} {OUT8[16]} {OUT8[17]} {OUT8[18]} {OUT8[19]} {OUT9[0]} {OUT9[1]} {OUT9[2]} {OUT9[3]} {OUT9[4]} {OUT9[5]} {OUT9[6]} {OUT9[7]} {OUT9[8]} {OUT9[9]} {OUT9[10]} {OUT9[11]} {OUT9[12]} {OUT9[13]} {OUT9[14]} {OUT9[15]} {OUT9[16]} {OUT9[17]} {OUT9[18]} {OUT9[19]}}
+Successfully spread [180] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -use GROUND -pinWidth 0.07 -pinDepth 0.07 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 4 -spreadType center -spacing 0.28 -pin VSS
+Successfully spread [1] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> pan -26.062 -36.803
+<CMD> pan 17.819 14.504
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -use GROUND -pinWidth 0.14 -pinDepth 0.14 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 4 -spreadType center -spacing 0.28 -pin {{OUT1[0]} {OUT1[1]} {OUT1[2]} {OUT1[3]} {OUT1[4]} {OUT1[5]} {OUT1[6]} {OUT1[7]} {OUT1[8]} {OUT1[9]} {OUT1[10]} {OUT1[11]} {OUT1[12]} {OUT1[13]} {OUT1[14]} {OUT1[15]} {OUT1[16]} {OUT1[17]} {OUT1[18]} {OUT1[19]} {OUT2[0]} {OUT2[1]} {OUT2[2]} {OUT2[3]} {OUT2[4]} {OUT2[5]} {OUT2[6]} {OUT2[7]} {OUT2[8]} {OUT2[9]} {OUT2[10]} {OUT2[11]} {OUT2[12]} {OUT2[13]} {OUT2[14]} {OUT2[15]} {OUT2[16]} {OUT2[17]} {OUT2[18]} {OUT2[19]} {OUT3[0]} {OUT3[1]} {OUT3[2]} {OUT3[3]} {OUT3[4]} {OUT3[5]} {OUT3[6]} {OUT3[7]} {OUT3[8]} {OUT3[9]} {OUT3[10]} {OUT3[11]} {OUT3[12]} {OUT3[13]} {OUT3[14]} {OUT3[15]} {OUT3[16]} {OUT3[17]} {OUT3[18]} {OUT3[19]} {OUT4[0]} {OUT4[1]} {OUT4[2]} {OUT4[3]} {OUT4[4]} {OUT4[5]} {OUT4[6]} {OUT4[7]} {OUT4[8]} {OUT4[9]} {OUT4[10]} {OUT4[11]} {OUT4[12]} {OUT4[13]} {OUT4[14]} {OUT4[15]} {OUT4[16]} {OUT4[17]} {OUT4[18]} {OUT4[19]} {OUT5[0]} {OUT5[1]} {OUT5[2]} {OUT5[3]} {OUT5[4]} {OUT5[5]} {OUT5[6]} {OUT5[7]} {OUT5[8]} {OUT5[9]} {OUT5[10]} {OUT5[11]} {OUT5[12]} {OUT5[13]} {OUT5[14]} {OUT5[15]} {OUT5[16]} {OUT5[17]} {OUT5[18]} {OUT5[19]} {OUT6[0]} {OUT6[1]} {OUT6[2]} {OUT6[3]} {OUT6[4]} {OUT6[5]} {OUT6[6]} {OUT6[7]} {OUT6[8]} {OUT6[9]} {OUT6[10]} {OUT6[11]} {OUT6[12]} {OUT6[13]} {OUT6[14]} {OUT6[15]} {OUT6[16]} {OUT6[17]} {OUT6[18]} {OUT6[19]} {OUT7[0]} {OUT7[1]} {OUT7[2]} {OUT7[3]} {OUT7[4]} {OUT7[5]} {OUT7[6]} {OUT7[7]} {OUT7[8]} {OUT7[9]} {OUT7[10]} {OUT7[11]} {OUT7[12]} {OUT7[13]} {OUT7[14]} {OUT7[15]} {OUT7[16]} {OUT7[17]} {OUT7[18]} {OUT7[19]} {OUT8[0]} {OUT8[1]} {OUT8[2]} {OUT8[3]} {OUT8[4]} {OUT8[5]} {OUT8[6]} {OUT8[7]} {OUT8[8]} {OUT8[9]} {OUT8[10]} {OUT8[11]} {OUT8[12]} {OUT8[13]} {OUT8[14]} {OUT8[15]} {OUT8[16]} {OUT8[17]} {OUT8[18]} {OUT8[19]} {OUT9[0]} {OUT9[1]} {OUT9[2]} {OUT9[3]} {OUT9[4]} {OUT9[5]} {OUT9[6]} {OUT9[7]} {OUT9[8]} {OUT9[9]} {OUT9[10]} {OUT9[11]} {OUT9[12]} {OUT9[13]} {OUT9[14]} {OUT9[15]} {OUT9[16]} {OUT9[17]} {OUT9[18]} {OUT9[19]} VSS}
+Successfully spread [181] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> set ptngSprNoRefreshPins 1
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT9[0]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT9[1]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT9[2]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT9[3]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT9[4]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT9[5]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT9[6]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT9[7]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT9[8]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT9[9]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT9[10]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT9[11]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT9[12]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT9[13]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT9[14]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT9[15]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT9[16]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT9[17]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT9[18]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT9[19]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT1[0]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT1[1]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT1[2]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT1[3]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT1[4]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT1[5]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT1[6]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT1[7]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT1[8]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT1[9]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT1[10]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT1[11]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT1[12]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT1[13]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT1[14]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT1[15]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT1[16]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT1[17]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT1[18]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT1[19]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT2[0]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT2[1]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT2[2]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT2[3]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT2[4]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT2[5]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT2[6]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT2[7]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT2[8]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT2[9]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT2[10]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT2[11]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT2[12]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT2[13]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT2[14]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT2[15]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT2[16]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT2[17]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT2[18]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT2[19]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT3[0]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT3[1]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT3[2]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT3[3]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT3[4]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT3[5]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT3[6]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT3[7]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT3[8]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT3[9]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT3[10]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT3[11]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT3[12]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT3[13]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT3[14]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT3[15]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT3[16]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT3[17]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT3[18]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT3[19]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT4[0]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT4[1]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT4[2]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT4[3]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT4[4]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT4[5]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT4[6]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT4[7]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT4[8]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT4[9]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT4[10]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT4[11]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT4[12]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT4[13]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT4[14]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT4[15]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT4[16]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT4[17]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT4[18]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT4[19]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT5[0]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT5[1]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT5[2]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT5[3]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT5[4]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT5[5]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT5[6]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT5[7]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT5[8]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT5[9]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT5[10]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT5[11]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT5[12]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT5[13]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT5[14]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT5[15]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT5[16]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT5[17]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT5[18]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT5[19]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT6[0]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT6[1]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT6[2]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT6[3]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT6[4]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT6[5]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT6[6]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT6[7]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT6[8]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT6[9]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT6[10]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT6[11]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT6[12]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT6[13]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT6[14]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT6[15]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT6[16]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT6[17]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT6[18]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT6[19]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT7[0]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT7[1]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT7[2]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT7[3]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT7[4]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT7[5]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT7[6]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT7[7]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT7[8]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT7[9]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT7[10]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT7[11]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT7[12]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT7[13]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT7[14]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT7[15]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT7[16]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT7[17]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT7[18]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT7[19]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT8[0]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT8[1]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT8[2]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT8[3]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT8[4]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT8[5]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT8[6]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT8[7]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT8[8]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT8[9]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT8[10]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT8[11]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT8[12]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT8[13]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT8[14]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT8[15]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT8[16]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT8[17]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT8[18]} -status unplaced -silent
+<CMD> setPtnPinStatus -cell systolic_array -pin {OUT8[19]} -status unplaced -silent
+<CMD> set ptngSprNoRefreshPins 0
+<CMD_INTERNAL> ptnSprRefreshPinsAndBlockages
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -use GROUND -pinWidth 0.14 -pinDepth 0.14 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 4 -spreadType center -spacing 0.28 -pin VSS
+Successfully spread [1] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -use GROUND -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 1 -spreadType center -spacing 0.28 -pin {{OUT9[0]} {OUT9[1]} {OUT9[2]} {OUT9[3]} {OUT9[4]} {OUT9[5]} {OUT9[6]} {OUT9[7]} {OUT9[8]} {OUT9[9]} {OUT9[10]} {OUT9[11]} {OUT9[12]} {OUT9[13]} {OUT9[14]} {OUT9[15]} {OUT9[16]} {OUT9[17]} {OUT9[18]} {OUT9[19]} {OUT1[0]} {OUT1[1]} {OUT1[2]} {OUT1[3]} {OUT1[4]} {OUT1[5]} {OUT1[6]} {OUT1[7]} {OUT1[8]} {OUT1[9]} {OUT1[10]} {OUT1[11]} {OUT1[12]} {OUT1[13]} {OUT1[14]} {OUT1[15]} {OUT1[16]} {OUT1[17]} {OUT1[18]} {OUT1[19]} {OUT2[0]} {OUT2[1]} {OUT2[2]} {OUT2[3]} {OUT2[4]} {OUT2[5]} {OUT2[6]} {OUT2[7]} {OUT2[8]} {OUT2[9]} {OUT2[10]} {OUT2[11]} {OUT2[12]} {OUT2[13]} {OUT2[14]} {OUT2[15]} {OUT2[16]} {OUT2[17]} {OUT2[18]} {OUT2[19]} {OUT3[0]} {OUT3[1]} {OUT3[2]} {OUT3[3]} {OUT3[4]} {OUT3[5]} {OUT3[6]} {OUT3[7]} {OUT3[8]} {OUT3[9]} {OUT3[10]} {OUT3[11]} {OUT3[12]} {OUT3[13]} {OUT3[14]} {OUT3[15]} {OUT3[16]} {OUT3[17]} {OUT3[18]} {OUT3[19]} {OUT4[0]} {OUT4[1]} {OUT4[2]} {OUT4[3]} {OUT4[4]} {OUT4[5]} {OUT4[6]} {OUT4[7]} {OUT4[8]} {OUT4[9]} {OUT4[10]} {OUT4[11]} {OUT4[12]} {OUT4[13]} {OUT4[14]} {OUT4[15]} {OUT4[16]} {OUT4[17]} {OUT4[18]} {OUT4[19]} {OUT5[0]} {OUT5[1]} {OUT5[2]} {OUT5[3]} {OUT5[4]} {OUT5[5]} {OUT5[6]} {OUT5[7]} {OUT5[8]} {OUT5[9]} {OUT5[10]} {OUT5[11]} {OUT5[12]} {OUT5[13]} {OUT5[14]} {OUT5[15]} {OUT5[16]} {OUT5[17]} {OUT5[18]} {OUT5[19]} {OUT6[0]} {OUT6[1]} {OUT6[2]} {OUT6[3]} {OUT6[4]} {OUT6[5]} {OUT6[6]} {OUT6[7]} {OUT6[8]} {OUT6[9]} {OUT6[10]} {OUT6[11]} {OUT6[12]} {OUT6[13]} {OUT6[14]} {OUT6[15]} {OUT6[16]} {OUT6[17]} {OUT6[18]} {OUT6[19]} {OUT7[0]} {OUT7[1]} {OUT7[2]} {OUT7[3]} {OUT7[4]} {OUT7[5]} {OUT7[6]} {OUT7[7]} {OUT7[8]} {OUT7[9]} {OUT7[10]} {OUT7[11]} {OUT7[12]} {OUT7[13]} {OUT7[14]} {OUT7[15]} {OUT7[16]} {OUT7[17]} {OUT7[18]} {OUT7[19]} {OUT8[0]} {OUT8[1]} {OUT8[2]} {OUT8[3]} {OUT8[4]} {OUT8[5]} {OUT8[6]} {OUT8[7]} {OUT8[8]} {OUT8[9]} {OUT8[10]} {OUT8[11]} {OUT8[12]} {OUT8[13]} {OUT8[14]} {OUT8[15]} {OUT8[16]} {OUT8[17]} {OUT8[18]} {OUT8[19]}}
+Successfully spread [180] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> pan -8.351 -0.240
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -use GROUND -pinWidth 0.07 -pinDepth 0.07 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 1 -spreadType center -spacing 0.2 -pin {{OUT9[0]} {OUT9[1]} {OUT9[2]} {OUT9[3]} {OUT9[4]} {OUT9[5]} {OUT9[6]} {OUT9[7]} {OUT9[8]} {OUT9[9]} {OUT9[10]} {OUT9[11]} {OUT9[12]} {OUT9[13]} {OUT9[14]} {OUT9[15]} {OUT9[16]} {OUT9[17]} {OUT9[18]} {OUT9[19]} {OUT1[0]} {OUT1[1]} {OUT1[2]} {OUT1[3]} {OUT1[4]} {OUT1[5]} {OUT1[6]} {OUT1[7]} {OUT1[8]} {OUT1[9]} {OUT1[10]} {OUT1[11]} {OUT1[12]} {OUT1[13]} {OUT1[14]} {OUT1[15]} {OUT1[16]} {OUT1[17]} {OUT1[18]} {OUT1[19]} {OUT2[0]} {OUT2[1]} {OUT2[2]} {OUT2[3]} {OUT2[4]} {OUT2[5]} {OUT2[6]} {OUT2[7]} {OUT2[8]} {OUT2[9]} {OUT2[10]} {OUT2[11]} {OUT2[12]} {OUT2[13]} {OUT2[14]} {OUT2[15]} {OUT2[16]} {OUT2[17]} {OUT2[18]} {OUT2[19]} {OUT3[0]} {OUT3[1]} {OUT3[2]} {OUT3[3]} {OUT3[4]} {OUT3[5]} {OUT3[6]} {OUT3[7]} {OUT3[8]} {OUT3[9]} {OUT3[10]} {OUT3[11]} {OUT3[12]} {OUT3[13]} {OUT3[14]} {OUT3[15]} {OUT3[16]} {OUT3[17]} {OUT3[18]} {OUT3[19]} {OUT4[0]} {OUT4[1]} {OUT4[2]} {OUT4[3]} {OUT4[4]} {OUT4[5]} {OUT4[6]} {OUT4[7]} {OUT4[8]} {OUT4[9]} {OUT4[10]} {OUT4[11]} {OUT4[12]} {OUT4[13]} {OUT4[14]} {OUT4[15]} {OUT4[16]} {OUT4[17]} {OUT4[18]} {OUT4[19]} {OUT5[0]} {OUT5[1]} {OUT5[2]} {OUT5[3]} {OUT5[4]} {OUT5[5]} {OUT5[6]} {OUT5[7]} {OUT5[8]} {OUT5[9]} {OUT5[10]} {OUT5[11]} {OUT5[12]} {OUT5[13]} {OUT5[14]} {OUT5[15]} {OUT5[16]} {OUT5[17]} {OUT5[18]} {OUT5[19]} {OUT6[0]} {OUT6[1]} {OUT6[2]} {OUT6[3]} {OUT6[4]} {OUT6[5]} {OUT6[6]} {OUT6[7]} {OUT6[8]} {OUT6[9]} {OUT6[10]} {OUT6[11]} {OUT6[12]} {OUT6[13]} {OUT6[14]} {OUT6[15]} {OUT6[16]} {OUT6[17]} {OUT6[18]} {OUT6[19]} {OUT7[0]} {OUT7[1]} {OUT7[2]} {OUT7[3]} {OUT7[4]} {OUT7[5]} {OUT7[6]} {OUT7[7]} {OUT7[8]} {OUT7[9]} {OUT7[10]} {OUT7[11]} {OUT7[12]} {OUT7[13]} {OUT7[14]} {OUT7[15]} {OUT7[16]} {OUT7[17]} {OUT7[18]} {OUT7[19]} {OUT8[0]} {OUT8[1]} {OUT8[2]} {OUT8[3]} {OUT8[4]} {OUT8[5]} {OUT8[6]} {OUT8[7]} {OUT8[8]} {OUT8[9]} {OUT8[10]} {OUT8[11]} {OUT8[12]} {OUT8[13]} {OUT8[14]} {OUT8[15]} {OUT8[16]} {OUT8[17]} {OUT8[18]} {OUT8[19]}}
+Successfully spread [180] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -use GROUND -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 1 -spreadType center -spacing 0.2 -pin {{OUT9[0]} {OUT9[1]} {OUT9[2]} {OUT9[3]} {OUT9[4]} {OUT9[5]} {OUT9[6]} {OUT9[7]} {OUT9[8]} {OUT9[9]} {OUT9[10]} {OUT9[11]} {OUT9[12]} {OUT9[13]} {OUT9[14]} {OUT9[15]} {OUT9[16]} {OUT9[17]} {OUT9[18]} {OUT9[19]} {OUT1[0]} {OUT1[1]} {OUT1[2]} {OUT1[3]} {OUT1[4]} {OUT1[5]} {OUT1[6]} {OUT1[7]} {OUT1[8]} {OUT1[9]} {OUT1[10]} {OUT1[11]} {OUT1[12]} {OUT1[13]} {OUT1[14]} {OUT1[15]} {OUT1[16]} {OUT1[17]} {OUT1[18]} {OUT1[19]} {OUT2[0]} {OUT2[1]} {OUT2[2]} {OUT2[3]} {OUT2[4]} {OUT2[5]} {OUT2[6]} {OUT2[7]} {OUT2[8]} {OUT2[9]} {OUT2[10]} {OUT2[11]} {OUT2[12]} {OUT2[13]} {OUT2[14]} {OUT2[15]} {OUT2[16]} {OUT2[17]} {OUT2[18]} {OUT2[19]} {OUT3[0]} {OUT3[1]} {OUT3[2]} {OUT3[3]} {OUT3[4]} {OUT3[5]} {OUT3[6]} {OUT3[7]} {OUT3[8]} {OUT3[9]} {OUT3[10]} {OUT3[11]} {OUT3[12]} {OUT3[13]} {OUT3[14]} {OUT3[15]} {OUT3[16]} {OUT3[17]} {OUT3[18]} {OUT3[19]} {OUT4[0]} {OUT4[1]} {OUT4[2]} {OUT4[3]} {OUT4[4]} {OUT4[5]} {OUT4[6]} {OUT4[7]} {OUT4[8]} {OUT4[9]} {OUT4[10]} {OUT4[11]} {OUT4[12]} {OUT4[13]} {OUT4[14]} {OUT4[15]} {OUT4[16]} {OUT4[17]} {OUT4[18]} {OUT4[19]} {OUT5[0]} {OUT5[1]} {OUT5[2]} {OUT5[3]} {OUT5[4]} {OUT5[5]} {OUT5[6]} {OUT5[7]} {OUT5[8]} {OUT5[9]} {OUT5[10]} {OUT5[11]} {OUT5[12]} {OUT5[13]} {OUT5[14]} {OUT5[15]} {OUT5[16]} {OUT5[17]} {OUT5[18]} {OUT5[19]} {OUT6[0]} {OUT6[1]} {OUT6[2]} {OUT6[3]} {OUT6[4]} {OUT6[5]} {OUT6[6]} {OUT6[7]} {OUT6[8]} {OUT6[9]} {OUT6[10]} {OUT6[11]} {OUT6[12]} {OUT6[13]} {OUT6[14]} {OUT6[15]} {OUT6[16]} {OUT6[17]} {OUT6[18]} {OUT6[19]} {OUT7[0]} {OUT7[1]} {OUT7[2]} {OUT7[3]} {OUT7[4]} {OUT7[5]} {OUT7[6]} {OUT7[7]} {OUT7[8]} {OUT7[9]} {OUT7[10]} {OUT7[11]} {OUT7[12]} {OUT7[13]} {OUT7[14]} {OUT7[15]} {OUT7[16]} {OUT7[17]} {OUT7[18]} {OUT7[19]} {OUT8[0]} {OUT8[1]} {OUT8[2]} {OUT8[3]} {OUT8[4]} {OUT8[5]} {OUT8[6]} {OUT8[7]} {OUT8[8]} {OUT8[9]} {OUT8[10]} {OUT8[11]} {OUT8[12]} {OUT8[13]} {OUT8[14]} {OUT8[15]} {OUT8[16]} {OUT8[17]} {OUT8[18]} {OUT8[19]} VSS}
+Successfully spread [181] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1102.4M).
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -use GROUND -pinWidth 0.07 -pinDepth 0.07 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 1 -spreadType center -spacing -0.38 -pin {{OUT9[0]} {OUT9[1]} {OUT9[2]} {OUT9[3]} {OUT9[4]} {OUT9[5]} {OUT9[6]} {OUT9[7]} {OUT9[8]} {OUT9[9]} {OUT9[10]} {OUT9[11]} {OUT9[12]} {OUT9[13]} {OUT9[14]} {OUT9[15]} {OUT9[16]} {OUT9[17]} {OUT9[18]} {OUT9[19]} {OUT1[0]} {OUT1[1]} {OUT1[2]} {OUT1[3]} {OUT1[4]} {OUT1[5]} {OUT1[6]} {OUT1[7]} {OUT1[8]} {OUT1[9]} {OUT1[10]} {OUT1[11]} {OUT1[12]} {OUT1[13]} {OUT1[14]} {OUT1[15]} {OUT1[16]} {OUT1[17]} {OUT1[18]} {OUT1[19]} {OUT2[0]} {OUT2[1]} {OUT2[2]} {OUT2[3]} {OUT2[4]} {OUT2[5]} {OUT2[6]} {OUT2[7]} {OUT2[8]} {OUT2[9]} {OUT2[10]} {OUT2[11]} {OUT2[12]} {OUT2[13]} {OUT2[14]} {OUT2[15]} {OUT2[16]} {OUT2[17]} {OUT2[18]} {OUT2[19]} {OUT3[0]} {OUT3[1]} {OUT3[2]} {OUT3[3]} {OUT3[4]} {OUT3[5]} {OUT3[6]} {OUT3[7]} {OUT3[8]} {OUT3[9]} {OUT3[10]} {OUT3[11]} {OUT3[12]} {OUT3[13]} {OUT3[14]} {OUT3[15]} {OUT3[16]} {OUT3[17]} {OUT3[18]} {OUT3[19]} {OUT4[0]} {OUT4[1]} {OUT4[2]} {OUT4[3]} {OUT4[4]} {OUT4[5]} {OUT4[6]} {OUT4[7]} {OUT4[8]} {OUT4[9]} {OUT4[10]} {OUT4[11]} {OUT4[12]} {OUT4[13]} {OUT4[14]} {OUT4[15]} {OUT4[16]} {OUT4[17]} {OUT4[18]} {OUT4[19]} {OUT5[0]} {OUT5[1]} {OUT5[2]} {OUT5[3]} {OUT5[4]} {OUT5[5]} {OUT5[6]} {OUT5[7]} {OUT5[8]} {OUT5[9]} {OUT5[10]} {OUT5[11]} {OUT5[12]} {OUT5[13]} {OUT5[14]} {OUT5[15]} {OUT5[16]} {OUT5[17]} {OUT5[18]} {OUT5[19]} {OUT6[0]} {OUT6[1]} {OUT6[2]} {OUT6[3]} {OUT6[4]} {OUT6[5]} {OUT6[6]} {OUT6[7]} {OUT6[8]} {OUT6[9]} {OUT6[10]} {OUT6[11]} {OUT6[12]} {OUT6[13]} {OUT6[14]} {OUT6[15]} {OUT6[16]} {OUT6[17]} {OUT6[18]} {OUT6[19]} {OUT7[0]} {OUT7[1]} {OUT7[2]} {OUT7[3]} {OUT7[4]} {OUT7[5]} {OUT7[6]} {OUT7[7]} {OUT7[8]} {OUT7[9]} {OUT7[10]} {OUT7[11]} {OUT7[12]} {OUT7[13]} {OUT7[14]} {OUT7[15]} {OUT7[16]} {OUT7[17]} {OUT7[18]} {OUT7[19]} {OUT8[0]} {OUT8[1]} {OUT8[2]} {OUT8[3]} {OUT8[4]} {OUT8[5]} {OUT8[6]} {OUT8[7]} {OUT8[8]} {OUT8[9]} {OUT8[10]} {OUT8[11]} {OUT8[12]} {OUT8[13]} {OUT8[14]} {OUT8[15]} {OUT8[16]} {OUT8[17]} {OUT8[18]} {OUT8[19]} VSS}
+**ERROR: (IMPPTN-1668):	Specifying negative spacing value to spread the pins along the partition fence in anti-clockwise direction is obsolete. Use [-spreadDirection counterclockwise] option to specify the spreading direction.
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -use GROUND -pinWidth 0.07 -pinDepth 0.07 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -side Bottom -layer 1 -spreadType center -spacing -0.38 -pin {{OUT9[0]} {OUT9[1]} {OUT9[2]} {OUT9[3]} {OUT9[4]} {OUT9[5]} {OUT9[6]} {OUT9[7]} {OUT9[8]} {OUT9[9]} {OUT9[10]} {OUT9[11]} {OUT9[12]} {OUT9[13]} {OUT9[14]} {OUT9[15]} {OUT9[16]} {OUT9[17]} {OUT9[18]} {OUT9[19]} {OUT1[0]} {OUT1[1]} {OUT1[2]} {OUT1[3]} {OUT1[4]} {OUT1[5]} {OUT1[6]} {OUT1[7]} {OUT1[8]} {OUT1[9]} {OUT1[10]} {OUT1[11]} {OUT1[12]} {OUT1[13]} {OUT1[14]} {OUT1[15]} {OUT1[16]} {OUT1[17]} {OUT1[18]} {OUT1[19]} {OUT2[0]} {OUT2[1]} {OUT2[2]} {OUT2[3]} {OUT2[4]} {OUT2[5]} {OUT2[6]} {OUT2[7]} {OUT2[8]} {OUT2[9]} {OUT2[10]} {OUT2[11]} {OUT2[12]} {OUT2[13]} {OUT2[14]} {OUT2[15]} {OUT2[16]} {OUT2[17]} {OUT2[18]} {OUT2[19]} {OUT3[0]} {OUT3[1]} {OUT3[2]} {OUT3[3]} {OUT3[4]} {OUT3[5]} {OUT3[6]} {OUT3[7]} {OUT3[8]} {OUT3[9]} {OUT3[10]} {OUT3[11]} {OUT3[12]} {OUT3[13]} {OUT3[14]} {OUT3[15]} {OUT3[16]} {OUT3[17]} {OUT3[18]} {OUT3[19]} {OUT4[0]} {OUT4[1]} {OUT4[2]} {OUT4[3]} {OUT4[4]} {OUT4[5]} {OUT4[6]} {OUT4[7]} {OUT4[8]} {OUT4[9]} {OUT4[10]} {OUT4[11]} {OUT4[12]} {OUT4[13]} {OUT4[14]} {OUT4[15]} {OUT4[16]} {OUT4[17]} {OUT4[18]} {OUT4[19]} {OUT5[0]} {OUT5[1]} {OUT5[2]} {OUT5[3]} {OUT5[4]} {OUT5[5]} {OUT5[6]} {OUT5[7]} {OUT5[8]} {OUT5[9]} {OUT5[10]} {OUT5[11]} {OUT5[12]} {OUT5[13]} {OUT5[14]} {OUT5[15]} {OUT5[16]} {OUT5[17]} {OUT5[18]} {OUT5[19]} {OUT6[0]} {OUT6[1]} {OUT6[2]} {OUT6[3]} {OUT6[4]} {OUT6[5]} {OUT6[6]} {OUT6[7]} {OUT6[8]} {OUT6[9]} {OUT6[10]} {OUT6[11]} {OUT6[12]} {OUT6[13]} {OUT6[14]} {OUT6[15]} {OUT6[16]} {OUT6[17]} {OUT6[18]} {OUT6[19]} {OUT7[0]} {OUT7[1]} {OUT7[2]} {OUT7[3]} {OUT7[4]} {OUT7[5]} {OUT7[6]} {OUT7[7]} {OUT7[8]} {OUT7[9]} {OUT7[10]} {OUT7[11]} {OUT7[12]} {OUT7[13]} {OUT7[14]} {OUT7[15]} {OUT7[16]} {OUT7[17]} {OUT7[18]} {OUT7[19]} {OUT8[0]} {OUT8[1]} {OUT8[2]} {OUT8[3]} {OUT8[4]} {OUT8[5]} {OUT8[6]} {OUT8[7]} {OUT8[8]} {OUT8[9]} {OUT8[10]} {OUT8[11]} {OUT8[12]} {OUT8[13]} {OUT8[14]} {OUT8[15]} {OUT8[16]} {OUT8[17]} {OUT8[18]} {OUT8[19]} VSS}
+**ERROR: (IMPPTN-1668):	Specifying negative spacing value to spread the pins along the partition fence in anti-clockwise direction is obsolete. Use [-spreadDirection counterclockwise] option to specify the spreading direction.
+<CMD> setPinAssignMode -pinEditInBatch false
+<CMD> pan -44.225 -44.049
+<CMD> saveDesign float16_multiplier_fl.enc
+#- Begin Save netlist data ... (date=06/10 12:16:35, mem=1102.4M)
+Writing Binary DB to float16_multiplier_fl.enc.dat/systolic_array.v.bin ...
+#- End Save netlist data ... (date=06/10 12:16:35, total cpu=0:00:00.0, real=0:00:00.0, peak res=396.8M, current mem=1367.1M)
+#- Begin Save AAE data ... (date=06/10 12:16:35, mem=1367.1M)
+Saving AAE Data ...
+#- End Save AAE data ... (date=06/10 12:16:35, total cpu=0:00:00.0, real=0:00:00.0, peak res=395.0M, current mem=1367.1M)
+#- Begin Save clock tree data ... (date=06/10 12:16:35, mem=1367.1M)
+#- End Save clock tree data ... (date=06/10 12:16:35, total cpu=0:00:00.0, real=0:00:00.0, peak res=395.2M, current mem=1367.1M)
+Saving preference file float16_multiplier_fl.enc.dat/gui.pref.tcl ...
+Saving mode setting ...
+Saving global file ...
+#- Begin Save floorplan data ... (date=06/10 12:16:35, mem=1367.1M)
+Saving floorplan file ...
+#- End Save floorplan data ... (date=06/10 12:16:35, total cpu=0:00:00.0, real=0:00:00.0, peak res=396.3M, current mem=1367.1M)
+Saving Drc markers ...
+... No Drc file written since there is no markers found.
+#- Begin Save placement data ... (date=06/10 12:16:35, mem=1367.1M)
+** Saving stdCellPlacement_binary (version# 1) ...
+#- End Save placement data ... (date=06/10 12:16:35, total cpu=0:00:00.0, real=0:00:00.0, peak res=396.4M, current mem=1367.1M)
+#- Begin Save routing data ... (date=06/10 12:16:35, mem=1367.1M)
+Saving route file ...
+*** Completed saveRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1367.1M) ***
+#- End Save routing data ... (date=06/10 12:16:35, total cpu=0:00:00.0, real=0:00:00.0, peak res=397.4M, current mem=1367.1M)
+Saving property file float16_multiplier_fl.enc.dat/systolic_array.prop
+*** Completed saveProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1367.1M) ***
+#- Begin Save power constraints data ... (date=06/10 12:16:35, mem=1367.1M)
+#- End Save power constraints data ... (date=06/10 12:16:35, total cpu=0:00:00.0, real=0:00:00.0, peak res=399.4M, current mem=1367.1M)
+No integration constraint in the design.
+rc
+Generated self-contained design float16_multiplier_fl.enc.dat
+*** Message Summary: 0 warning(s), 0 error(s)
+
+<CMD> addRing -nets {VSS VDD} -type core_rings -follow io -layer {top metal7 bottom metal7 left metal6 right metal6} -width
+#- Begin addRing (date=06/10 12:16:35, mem=869.2M)
+
+Usage: addRing [-help]
+               [-around {each_block each_reef power_domain default_power_domain selected cluster shared_cluster user_defined}]
+               [-center <0|1>] [-exclude_selected <0|1>]
+               [-extend_corner {tl tr bl br lt lb rt rb}] [-follow {core io}]
+               [-jog_distance <real_value>] -nets <name-or-value>
+               [-offset_adjustment {automatic fixed}] [-rectangle <0|1>]
+               [-skip_side {top bottom left right}]
+               [-snap_wire_center_to_grid {None Grid Half_Grid Either}]
+               [-threshold {value|auto}] [-type {core_rings block_rings}]
+               [-uda <subclass_string>] [-use_interleaving_wire_group <0|1>]
+               [-use_wire_group <0|1>] [-use_wire_group_bits <value>]
+               [-use_wire_group_reinforcement <0|1>]
+               [-use_wire_group_reinforcement_group_via <0|1>]
+               [-use_wire_group_reinforcement_spacing_width {spacing width}]
+               [-user_defined_region <x1 y1 x2 y2 ...>] {-layer {layer | {top top_layer bottom bottom_layer left left_layer right right_layer}} } {-width {value | {top top_width bottom bottom_width left left_width right right_width}} } {-spacing {value | {top top_spacing bottom bottom_spacing left left_spacing right right_spacing}} } [-offset {value | {top top_offset bottom bottom_offset left left_offset right right_offset}} ]
+
+**ERROR: (IMPTCM-6):	Missing string value for option "-width".  
+#- End addRing (date=06/10 12:16:35, total cpu=0:00:00.0, real=0:00:00.0, peak res=400.4M, current mem=869.2M)
+  
+invalid command name "top 1 bottom 1 left 1 right 1"
+invalid command name "extend_corner"
+<CMD> addStripe -block_ring_top_layer_limit metal7 -max_same_layer_jog_length 1.6 -padcore_ring_bottom_layer_limit metal3
+#- Begin addStripe (date=06/10 12:16:35, mem=869.2M)
+
+Usage: addStripe [-help] [-all_blocks <0|1>] [-area <x1 y1 x2 y2 ...>]
+                 [-area_blockage < {x1 y1 x2 y2}... {x1 y1 x2 y2 x3 y3 x4 y4 ...} ...>]
+                 [-between_bumps <0|1>] [-block_ring_bottom_layer_limit <layer>]
+                 [-block_ring_top_layer_limit <layer>] [-create_pins <0|1>]
+                 [-direction {horizontal vertical}]
+                 [-extend_to {design_boundary first_padring last_padring all_domains}]
+                 -layer <layer> [-master <master_cell>]
+                 [-max_same_layer_jog_length <real_value>]
+                 [-merge_stripes_value <auto|value>] [-narrow_channel <0|1>]
+                 -nets <list_of_nets> [-number_of_sets <integer_value>]
+                 [-over_bumps <0|1>] [-over_physical_pins <0|1>]
+                 [-over_pins <0|1>] [-over_power_domain <0|1>]
+                 [-padcore_ring_bottom_layer_limit <layer>]
+                 [-padcore_ring_top_layer_limit <layer>] [-pin_layer <layer>]
+                 [-pin_offset <real_value>] [-pin_width <min_value max_value>]
+                 [-report_cut_stripe <log name>] [-same_layer_target_only <0|1>]
+                 [-set_to_set_distance <real_value>]
+                 [-snap_wire_center_to_grid {None Grid Mask1_Grid Mask2_Grid Half_Grid Either}]
+                 [-spacing <name_or_value>]
+                 [-stapling <stripe_length>|auto {<ref_offeset ref_pitch:pitch_num> | <ref_layer1>} [ref_layer2]>]
+                 [-start <real_value>] [-start_from {left right bottom top}]
+                 [-start_offset <real_value>] [-stop <real_value>]
+                 [-stop_offset <real_value>] [-switch_layer_over_obs <0|1>]
+                 [-uda <subclass_string>] [-use_interleaving_wire_group <0|1>]
+                 [-use_wire_group {-1 0 1}]
+                 [-use_wire_group_bits <integer_value>] -width <name_or_value>
+
+**ERROR: (IMPTCM-46):	Argument "-layer" is required for command "addStripe", either this option is not specified or an option prior to it is not specified correctly.
+#- End addStripe (date=06/10 12:16:35, total cpu=0:00:00.0, real=0:00:00.0, peak res=400.4M, current mem=869.2M)
+  
+invalid command name "-set_to_set_distance"
+invalid command name "merge_stripes_value"
+invalid command name "stacked_via_bottom_layer"
+<CMD> sroute -connect { blockPin padPin padRing corePin floatingStripe } -layerChangeRange { 1 10 } -blockPinTarget {
+nearestRingStripe nearestTarget } -padPinPortConnect { allPort oneGeom } -checkAlignedSecondaryPin 1 -blockPin
+#- Begin sroute (date=06/10 12:16:35, mem=869.2M)
+
+Usage: sroute [-help] [-allowJogging <0|1>] [-allowLayerChange <0|1>]
+              [-area {x1 y1 x2 y2}]
+              [-blockPin {useLef all onBoundary leftBoundary rightBoundary topBoundary bottomBoundary abutPins}]
+              [-blockPinLayerRange {minLayerName maxLayerName}]
+              [-blockPinTarget {nearestTarget boundaryWithPin farthestPadRing blockring ring stripe padring ringpin blockpin}]
+              [-blockPinWidthRange {min max}]
+              [-connect {blockPin corePin padPin padRing floatingStripe secondaryPowerPin}]
+              [-connectAlignedBlockAndPadPin {padPinAsTarget blockPinAsTarget}]
+              [-connectInsideArea] [-corePinCheckStdcellGeoms]
+              [-corePinLayer <layerNameList>]
+              [-corePinTarget {firstAfterRowEnd boundaryWithPin farthestPadRing none blockring ring stripe padring ringpin blockpin}]
+              [-corePinWidth <real>] [-crossoverViaLayerRange <bot top>]
+              [-deleteExistingRoutes] [-detailed_log]
+              [-floatingStripeTarget {blockring ring stripe padring ringpin blockpin followpin}]
+              [-inst {block/pad insts}]
+              [-layerChangeRange {bottomLayerName topLayerName}]
+              [-nets {net_list}] [-noBlockPinOneAmongOverlappedPins]
+              [-padCellSkipRoutingOnPadSide {top bottom left right}]
+              [-padPinLayerRange {minLayerName maxLayerName}]
+              [-padPinPortConnect {onePort allPort oneGeom allGeom preferLayer}]
+              [-padPinTarget {nearestTarget blockring ring stripe ringpin blockpin followpin}]
+              [-padPinWidth <real>] [-padRingLayer {layerNameList}]
+              [-padRingWidth <real>] [-powerDomains <powerDomainName>]
+              [-secondaryPinNet <net>+] [-secondaryPinRailLayer <layerName>]
+              [-secondaryPinRailVerticalStripeGrid {layerName width pitch}]
+              [-targetObjListFile <objectListFileName>+]
+              [-targetViaLayerRange <bot top>] [-uda <subclass_string>]
+
+**ERROR: (IMPTCM-6):	Missing enum_list value for option "-blockPin". The allowed values are {useLef all onBoundary leftBoundary rightBoundary topBoundary bottomBoundary abutPins}
+#- End sroute (date=06/10 12:16:35, total cpu=0:00:00.0, real=0:00:00.0, peak res=400.6M, current mem=869.2M)
+  
+invalid command name "useLef"
+invalid command name "10"
+<CMD> saveDesign MAC_Lab3.enc
+#- Begin Save netlist data ... (date=06/10 12:19:44, mem=869.2M)
+Writing Binary DB to MAC_Lab3.enc.dat/systolic_array.v.bin ...
+#- End Save netlist data ... (date=06/10 12:19:44, total cpu=0:00:00.0, real=0:00:00.0, peak res=545.5M, current mem=1385.2M)
+#- Begin Save AAE data ... (date=06/10 12:19:44, mem=1385.2M)
+Saving AAE Data ...
+#- End Save AAE data ... (date=06/10 12:19:44, total cpu=0:00:00.0, real=0:00:00.0, peak res=545.5M, current mem=1385.2M)
+#- Begin Save clock tree data ... (date=06/10 12:19:44, mem=1385.2M)
+#- End Save clock tree data ... (date=06/10 12:19:44, total cpu=0:00:00.0, real=0:00:00.0, peak res=545.5M, current mem=1385.2M)
+Saving preference file MAC_Lab3.enc.dat/gui.pref.tcl ...
+Saving mode setting ...
+Saving global file ...
+#- Begin Save floorplan data ... (date=06/10 12:19:44, mem=1385.2M)
+Saving floorplan file ...
+#- End Save floorplan data ... (date=06/10 12:19:44, total cpu=0:00:00.0, real=0:00:00.0, peak res=545.5M, current mem=1385.2M)
+Saving Drc markers ...
+... No Drc file written since there is no markers found.
+#- Begin Save placement data ... (date=06/10 12:19:44, mem=1385.2M)
+** Saving stdCellPlacement_binary (version# 1) ...
+#- End Save placement data ... (date=06/10 12:19:44, total cpu=0:00:00.0, real=0:00:00.0, peak res=545.5M, current mem=1385.2M)
+#- Begin Save routing data ... (date=06/10 12:19:44, mem=1385.2M)
+Saving route file ...
+*** Completed saveRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1385.2M) ***
+#- End Save routing data ... (date=06/10 12:19:44, total cpu=0:00:00.0, real=0:00:00.0, peak res=546.5M, current mem=1385.2M)
+Saving property file MAC_Lab3.enc.dat/systolic_array.prop
+*** Completed saveProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1385.2M) ***
+#- Begin Save power constraints data ... (date=06/10 12:19:44, mem=1385.2M)
+#- End Save power constraints data ... (date=06/10 12:19:44, total cpu=0:00:00.0, real=0:00:00.0, peak res=546.5M, current mem=1385.2M)
+No integration constraint in the design.
+rc
+Generated self-contained design MAC_Lab3.enc.dat
+*** Message Summary: 0 warning(s), 0 error(s)
+
+<CMD> addRing -nets {VSS VDD} -type core_rings -follow io -layer {top metal7 bottom metal7 left metal6 right metal6} -width {top 1 bottom 1 left 1 right 1} -spacing {top 1 bottom 1 left 1 right 1} -offset {top 0 bottom 0 left 0 right 0} -center 0 -extend_corner {} -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+#- Begin addRing (date=06/10 12:19:44, mem=870.2M)
+
+The power planner will calculate offsets from I/O rows.
+Ring generation is complete.
+vias are now being generated.
+addRing created 8 wires.
+ViaGen created 14 vias and deleted 0 via to avoid violation.
++--------+----------------+----------------+
+|  Layer |     Created    |     Deleted    |
++--------+----------------+----------------+
+|  via1  |        1       |        0       |
+|  via2  |        1       |        0       |
+|  via3  |        1       |        0       |
+|  via4  |        1       |        0       |
+|  via5  |        1       |        0       |
+| metal6 |        4       |       NA       |
+|  via6  |        9       |        0       |
+| metal7 |        4       |       NA       |
++--------+----------------+----------------+
+#- End addRing (date=06/10 12:19:44, total cpu=0:00:00.0, real=0:00:00.0, peak res=545.6M, current mem=870.2M)
+<CMD> addStripe -block_ring_top_layer_limit metal7 -max_same_layer_jog_length 1.6 -padcore_ring_bottom_layer_limit metal3 -set_to_set_distance 5 -stacked_via_top_layer metal10 -padcore_ring_top_layer_limit metal7 -spacing 1 -xleft_offset 1 -merge_stripes_value 0.095 -layer metal6 -block_ring_bottom_layer_limit metal3 -width 1 -nets {VSS VDD } -stacked_via_bottom_layer metal1
+#- Begin addStripe (date=06/10 12:19:44, mem=870.2M)
+**WARN: (IMPPP-4022):	Option "-stacked_via_top_layer" is obsolete and has been replaced by "setAddStripeMode -stacked_via_top_layer". The obsolete option still works in this release, but to avoid this warning and to ensure compatibility with future releases, update your script to use "setAddStripeMode -stacked_via_top_layer layerName"..
+**WARN: (IMPPP-4022):	Option "-xleft_offset" is obsolete and has been replaced by "-start_offset". The obsolete option still works in this release, but to avoid this warning and to ensure compatibility with future releases, update your script to use "-start_offset"..
+**WARN: (IMPPP-4022):	Option "-stacked_via_bottom_layer" is obsolete and has been replaced by "setAddStripeMode -stacked_via_bottom_layer". The obsolete option still works in this release, but to avoid this warning and to ensure compatibility with future releases, update your script to use "setAddStripeMode -stacked_via_bottom_layer layerName"..
+
+Starting stripe generation ...
+Non-Default setAddStripeOption Settings :
+  NONE
+**WARN: (IMPPP-354):	The power planner did not generate vertical stripe at 3.590 0.000 3.590 90.000 with width 1.000 either because the stripe would merge with rings, or because stripe could not be connected to any legal targets, or because stripe would break design rule. 
+**WARN: (IMPPP-354):	The power planner did not generate vertical stripe at 88.590 0.000 88.590 90.000 with width 1.000 either because the stripe would merge with rings, or because stripe could not be connected to any legal targets, or because stripe would break design rule. 
+Stripe generation is complete.
+vias are now being generated.
+addStripe created 33 wires.
+ViaGen created 66 vias and deleted 0 via to avoid violation.
++--------+----------------+----------------+
+|  Layer |     Created    |     Deleted    |
++--------+----------------+----------------+
+| metal6 |       33       |       NA       |
+|  via6  |       66       |        0       |
++--------+----------------+----------------+
+#- End addStripe (date=06/10 12:19:44, total cpu=0:00:00.0, real=0:00:00.0, peak res=545.7M, current mem=871.2M)
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer metal10 -stacked_via_bottom_layer metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+The ring targets are set to core/block ring wires.
+addRing command will consider rows while creating rings.
+addRing command will disallow rings to go over rows.
+addRing command will ignore shorts while creating rings.
+<CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top metal7 bottom metal7 left metal6 right metal6} -width {top 1 bottom 1 left 1 right 1} -spacing {top 1 bottom 1 left 1 right 1} -offset {top 0 bottom 0 left 0 right 0} -center 0 -extend_corner {} -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+
+Ring generation is complete.
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+extra characters after close-brace
+<CMD> addStripe -block_ring_top_layer_limit metal7 -max_same_layer_jog_length 1.6 -padcore_ring_bottom_layer_limit metal3 -set_to_set_distance 2 -stacked_via_top_layer metal10 -padcore_ring_top_layer_limit metal7 -spacing 0.4 -xleft_offset 1 -merge_stripes_value 0.095 -layer metal6 -block_ring_bottom_layer_limit metal3 -width 0.4 -nets {VSS VDD } -stacked_via_bottom_layer metal1
+#- Begin addStripe (date=06/10 12:32:43, mem=894.6M)
+**WARN: (IMPPP-4022):	Option "-stacked_via_top_layer" is obsolete and has been replaced by "setAddStripeMode -stacked_via_top_layer". The obsolete option still works in this release, but to avoid this warning and to ensure compatibility with future releases, update your script to use "setAddStripeMode -stacked_via_top_layer layerName"..
+**WARN: (IMPPP-4022):	Option "-xleft_offset" is obsolete and has been replaced by "-start_offset". The obsolete option still works in this release, but to avoid this warning and to ensure compatibility with future releases, update your script to use "-start_offset"..
+**WARN: (IMPPP-4022):	Option "-stacked_via_bottom_layer" is obsolete and has been replaced by "setAddStripeMode -stacked_via_bottom_layer". The obsolete option still works in this release, but to avoid this warning and to ensure compatibility with future releases, update your script to use "setAddStripeMode -stacked_via_bottom_layer layerName"..
+
+Starting stripe generation ...
+Non-Default setAddStripeOption Settings :
+  NONE
+**WARN: (IMPPP-354):	The power planner did not generate vertical stripe at 3.290 0.000 3.290 90.000 with width 0.400 either because the stripe would merge with rings, or because stripe could not be connected to any legal targets, or because stripe would break design rule. 
+**WARN: (IMPPP-354):	The power planner did not generate vertical stripe at 5.290 0.000 5.290 90.000 with width 0.400 either because the stripe would merge with rings, or because stripe could not be connected to any legal targets, or because stripe would break design rule. 
+**WARN: (IMPPP-354):	The power planner did not generate vertical stripe at 7.290 0.000 7.290 90.000 with width 0.400 either because the stripe would merge with rings, or because stripe could not be connected to any legal targets, or because stripe would break design rule. 
+**WARN: (IMPPP-531):	ViaGen Warning: SPACING rule violation, no via created on layer via6 at (8.29, 2.00) (8.29, 3.00).
+**WARN: (IMPPP-531):	ViaGen Warning: SPACING rule violation, no via created on layer via6 at (8.29, 88.00) (8.29, 89.00).
+**WARN: (IMPPP-354):	The power planner did not generate vertical stripe at 8.090 2.000 8.090 88.000 with width 0.400 either because the stripe would merge with rings, or because stripe could not be connected to any legal targets, or because stripe would break design rule. 
+**WARN: (IMPPP-354):	The power planner did not generate vertical stripe at 9.290 0.000 9.290 90.000 with width 0.400 either because the stripe would merge with rings, or because stripe could not be connected to any legal targets, or because stripe would break design rule. 
+**WARN: (IMPPP-354):	The power planner did not generate vertical stripe at 10.090 2.000 10.090 88.000 with width 0.400 either because the stripe would merge with rings, or because stripe could not be connected to any legal targets, or because stripe would break design rule. 
+**WARN: (IMPPP-354):	The power planner did not generate vertical stripe at 11.290 0.000 11.290 90.000 with width 0.400 either because the stripe would merge with rings, or because stripe could not be connected to any legal targets, or because stripe would break design rule. 
+**WARN: (IMPPP-354):	The power planner did not generate vertical stripe at 12.090 2.000 12.090 88.000 with width 0.400 either because the stripe would merge with rings, or because stripe could not be connected to any legal targets, or because stripe would break design rule. 
+**WARN: (IMPPP-531):	ViaGen Warning: SPACING rule violation, no via created on layer via6 at (14.29, 2.00) (14.29, 3.00).
+**WARN: (IMPPP-531):	ViaGen Warning: SPACING rule violation, no via created on layer via6 at (14.29, 88.00) (14.29, 89.00).
+**WARN: (IMPPP-354):	The power planner did not generate vertical stripe at 14.090 2.000 14.090 88.000 with width 0.400 either because the stripe would merge with rings, or because stripe could not be connected to any legal targets, or because stripe would break design rule. 
+**WARN: (IMPPP-354):	The power planner did not generate vertical stripe at 15.290 0.000 15.290 90.000 with width 0.400 either because the stripe would merge with rings, or because stripe could not be connected to any legal targets, or because stripe would break design rule. 
+**WARN: (IMPPP-354):	The power planner did not generate vertical stripe at 17.290 0.000 17.290 90.000 with width 0.400 either because the stripe would merge with rings, or because stripe could not be connected to any legal targets, or because stripe would break design rule. 
+**WARN: (IMPPP-531):	ViaGen Warning: SPACING rule violation, no via created on layer via6 at (18.29, 2.00) (18.29, 3.00).
+**WARN: (IMPPP-531):	ViaGen Warning: SPACING rule violation, no via created on layer via6 at (18.29, 88.00) (18.29, 89.00).
+**WARN: (IMPPP-354):	The power planner did not generate vertical stripe at 18.090 2.000 18.090 88.000 with width 0.400 either because the stripe would merge with rings, or because stripe could not be connected to any legal targets, or because stripe would break design rule. 
+**WARN: (IMPPP-354):	The power planner did not generate vertical stripe at 19.290 0.000 19.290 90.000 with width 0.400 either because the stripe would merge with rings, or because stripe could not be connected to any legal targets, or because stripe would break design rule. 
+**WARN: (IMPPP-354):	The power planner did not generate vertical stripe at 20.090 2.000 20.090 88.000 with width 0.400 either because the stripe would merge with rings, or because stripe could not be connected to any legal targets, or because stripe would break design rule. 
+**WARN: (IMPPP-354):	The power planner did not generate vertical stripe at 21.290 0.000 21.290 90.000 with width 0.400 either because the stripe would merge with rings, or because stripe could not be connected to any legal targets, or because stripe would break design rule. 
+**WARN: (IMPPP-354):	The power planner did not generate vertical stripe at 22.090 2.000 22.090 88.000 with width 0.400 either because the stripe would merge with rings, or because stripe could not be connected to any legal targets, or because stripe would break design rule. 
+**WARN: (IMPPP-531):	ViaGen Warning: SPACING rule violation, no via created on layer via6 at (24.29, 2.00) (24.29, 3.00).
+**WARN: (IMPPP-531):	ViaGen Warning: SPACING rule violation, no via created on layer via6 at (24.29, 88.00) (24.29, 89.00).
+**WARN: (IMPPP-354):	The power planner did not generate vertical stripe at 24.090 2.000 24.090 88.000 with width 0.400 either because the stripe would merge with rings, or because stripe could not be connected to any legal targets, or because stripe would break design rule. 
+**WARN: (IMPPP-354):	The power planner did not generate vertical stripe at 25.290 0.000 25.290 90.000 with width 0.400 either because the stripe would merge with rings, or because stripe could not be connected to any legal targets, or because stripe would break design rule. 
+**WARN: (IMPPP-354):	The power planner did not generate vertical stripe at 27.290 0.000 27.290 90.000 with width 0.400 either because the stripe would merge with rings, or because stripe could not be connected to any legal targets, or because stripe would break design rule. 
+**WARN: (IMPPP-531):	ViaGen Warning: SPACING rule violation, no via created on layer via6 at (28.29, 2.00) (28.29, 3.00).
+**WARN: (IMPPP-531):	ViaGen Warning: SPACING rule violation, no via created on layer via6 at (28.29, 88.00) (28.29, 89.00).
+**WARN: (IMPPP-354):	The power planner did not generate vertical stripe at 28.090 2.000 28.090 88.000 with width 0.400 either because the stripe would merge with rings, or because stripe could not be connected to any legal targets, or because stripe would break design rule. 
+**WARN: (EMS-27):	Message (IMPPP-354) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+**WARN: (IMPPP-531):	ViaGen Warning: SPACING rule violation, no via created on layer via6 at (34.29, 2.00) (34.29, 3.00).
+**WARN: (IMPPP-531):	ViaGen Warning: SPACING rule violation, no via created on layer via6 at (34.29, 88.00) (34.29, 89.00).
+**WARN: (IMPPP-531):	ViaGen Warning: SPACING rule violation, no via created on layer via6 at (38.29, 2.00) (38.29, 3.00).
+**WARN: (IMPPP-531):	ViaGen Warning: SPACING rule violation, no via created on layer via6 at (38.29, 88.00) (38.29, 89.00).
+**WARN: (IMPPP-531):	ViaGen Warning: SPACING rule violation, no via created on layer via6 at (44.29, 2.00) (44.29, 3.00).
+**WARN: (IMPPP-531):	ViaGen Warning: SPACING rule violation, no via created on layer via6 at (44.29, 88.00) (44.29, 89.00).
+**WARN: (IMPPP-531):	ViaGen Warning: SPACING rule violation, no via created on layer via6 at (48.29, 2.00) (48.29, 3.00).
+**WARN: (IMPPP-531):	ViaGen Warning: SPACING rule violation, no via created on layer via6 at (48.29, 88.00) (48.29, 89.00).
+**WARN: (IMPPP-531):	ViaGen Warning: SPACING rule violation, no via created on layer via6 at (54.29, 2.00) (54.29, 3.00).
+**WARN: (IMPPP-531):	ViaGen Warning: SPACING rule violation, no via created on layer via6 at (54.29, 88.00) (54.29, 89.00).
+**WARN: (EMS-27):	Message (IMPPP-531) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+Stripe generation is complete.
+vias are now being generated.
+addStripe created 19 wires.
+ViaGen created 21 vias and deleted 18 vias to avoid violation.
++--------+----------------+----------------+
+|  Layer |     Created    |     Deleted    |
++--------+----------------+----------------+
+| metal6 |       19       |       NA       |
+|  via6  |       21       |       18       |
++--------+----------------+----------------+
+#- End addStripe (date=06/10 12:32:43, total cpu=0:00:00.0, real=0:00:00.0, peak res=609.1M, current mem=894.6M)
+<CMD> selectWire 75.0900 2.0000 76.0900 89.0000 6 VDD
+<CMD> deselectAll
+<CMD> zoomSelected
+<CMD> zoomSelected
+<CMD> zoomSelected
+<CMD> zoomSelected
+<CMD> zoomSelected
+<CMD> zoomSelected
+<CMD> zoomSelected
+<CMD> undo
+<CMD> selectWire 2.0000 2.0000 90.7200 3.0000 7 VDD
+
+*** Memory Usage v#1 (Current mem = 894.559M, initial mem = 175.422M) ***
+*** Message Summary: 133 warning(s), 10 error(s)
+
+--- Ending "Innovus" (totcpu=0:02:36, real=1:10:15, mem=894.6M) ---
